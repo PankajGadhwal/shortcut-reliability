@@ -41,11 +41,11 @@ import torch
 import torch.nn.functional as F
 
 from .cache import DeviceImageBank, ImageCache
-from .constants import N_GROUPS, SEALED_SETS
+from .constants import MINORITY_GROUPS, N_GROUPS, SEALED_SETS
 from .data import load_splits, resolve_sets
 from .metrics import summarize
 from .models import build_model, forward_with_features
-from .objectives import make_objective
+from .objectives import METHOD_HPARAMS, make_objective
 from .samplers import make_stream
 from .utils import (configure_determinism, env_info, load_json, rho_key, save_json,
                     set_global_seeds, sha256_json)
@@ -60,8 +60,11 @@ class TrainConfig:
     rho: float | None = 0.95
     data_seed: int = 0
     seed: int | None = None            # training seed; None -> data_seed (paired design)
-    # method
-    method: str = "erm"
+    # method and its hyperparameters (only the active method's enter the run hash)
+    method: str = "erm"                # "erm", "rwg", "gdro" or "jtt" (DFR: scripts/dfr.py)
+    eta_q: float = 0.01                # gdro: step size of the group-weight update
+    jtt_T: int = 50                    # jtt: step of the ERM run whose errors define the error set
+    jtt_lambda: int = 20               # jtt: upsampling factor of the error set
     # model
     arch: str = "resnet50"
     pretrained: bool = True
@@ -100,8 +103,15 @@ def train_seed(cfg: TrainConfig) -> int:
     return cfg.data_seed if cfg.seed is None else cfg.seed
 
 
+# Method hyperparameters enter the hash only for their own method, so adding a
+# method never changes the identity (and run name) of existing runs.
+_ALL_METHOD_HPARAMS = {h for hs in METHOD_HPARAMS.values() for h in hs}
+
+
 def config_hash(cfg: TrainConfig, data_fingerprints: dict) -> str:
-    fields = {k: v for k, v in asdict(cfg).items() if k not in _NON_RESULT_FIELDS}
+    own = set(METHOD_HPARAMS.get(cfg.method, ()))
+    fields = {k: v for k, v in asdict(cfg).items()
+              if k not in _NON_RESULT_FIELDS and (k not in _ALL_METHOD_HPARAMS or k in own)}
     fields["seed"] = train_seed(cfg)
     if cfg.split != "controlled":
         fields["rho"] = None
@@ -116,6 +126,37 @@ def run_name(cfg: TrainConfig, h: str) -> str:
     if cfg.tag:
         parts.append(cfg.tag)
     return "_".join(parts)
+
+
+def jtt_error_set(cfg: TrainConfig, fingerprints: dict, train_ids: np.ndarray,
+                  train_g: np.ndarray) -> tuple[np.ndarray, dict]:
+    """JTT stage 1, read from the logged training-set logits of the ERM run with
+    exactly this configuration but method="erm" and no tag. With a constant
+    learning rate, that run's state at step T is an ERM model trained T steps."""
+    ref_cfg = dataclasses.replace(cfg, method="erm", tag="")
+    ref_dir = Path(cfg.out_dir) / run_name(ref_cfg, config_hash(ref_cfg, fingerprints))
+    if not (ref_dir / "DONE").exists():
+        raise FileNotFoundError(
+            f"JTT needs the finished ERM run {ref_dir.name} (same settings, --method erm). "
+            "Train it first.")
+    sets = np.load(ref_dir / "sets.npz")
+    if not np.array_equal(sets["train_img_id"], train_ids):
+        raise RuntimeError(f"{ref_dir.name} was trained on a different training set")
+    steps = np.load(ref_dir / "logits" / "eval_steps.npy").tolist()
+    if cfg.jtt_T not in steps:
+        raise ValueError(f"jtt_T={cfg.jtt_T} is not a logged step of {ref_dir.name}; "
+                         f"logged steps: {steps}")
+    logits = np.load(ref_dir / "logits" / "train.npy")[steps.index(cfg.jtt_T)]
+    errors = logits.astype(np.float32).argmax(axis=1) != sets["train_y"]
+    minority = np.isin(train_g, MINORITY_GROUPS)
+    n_err, n_hit, n_min = int(errors.sum()), int((errors & minority).sum()), int(minority.sum())
+    info = {"reference_run": ref_dir.name, "jtt_T": cfg.jtt_T, "jtt_lambda": cfg.jtt_lambda,
+            "error_set_size": n_err, "minority_in_train": n_min, "minority_in_error_set": n_hit,
+            "precision_minority": n_hit / n_err if n_err else float("nan"),
+            "recall_minority": n_hit / n_min if n_min else float("nan"),
+            "error_counts_by_group": np.bincount(train_g[errors], minlength=N_GROUPS).tolist(),
+            "error_indices": np.flatnonzero(errors).tolist()}
+    return errors, info
 
 
 def make_eval_steps(total: int, every: int, dense_every: int, dense_until: int) -> list[int]:
@@ -217,9 +258,18 @@ def train(cfg: TrainConfig) -> Path:
     opt = torch.optim.SGD(model.parameters(), lr=cfg.lr, momentum=cfg.momentum,
                           weight_decay=cfg.weight_decay)
     scaler = _make_scaler(use_amp)
-    objective = make_objective(cfg.method, y_tr, g_tr)
+    hparams = {h: getattr(cfg, h) for h in METHOD_HPARAMS.get(cfg.method, ())}
+    if cfg.method == "jtt":
+        hparams["error_mask"], jtt_info = jtt_error_set(cfg, fingerprints, sets.train, g_tr)
+        save_json(run_dir / "jtt_error_set.json", jtt_info)
+        print(f"[jtt] error set from {jtt_info['reference_run']} at step {cfg.jtt_T}: "
+              f"{jtt_info['error_set_size']} examples, by group "
+              f"{jtt_info['error_counts_by_group']}; minority precision "
+              f"{jtt_info['precision_minority']:.2f}, recall {jtt_info['recall_minority']:.2f}")
+    objective = make_objective(cfg.method, y_tr, g_tr, **hparams)
     gen = torch.Generator().manual_seed(seed)          # data order and augmentation only
-    stream = make_stream(objective.sampler, n_train, g_tr, cfg.batch_size, gen)
+    stream = make_stream(objective.sampler, n_train, g_tr, cfg.batch_size, gen,
+                         objective.multiplicity)
 
     eval_steps = make_eval_steps(cfg.steps, cfg.eval_every, cfg.dense_eval_every,
                                  cfg.dense_eval_until)

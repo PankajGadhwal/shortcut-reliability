@@ -1,3 +1,7 @@
+#!/usr/bin/env bash
+# Method pilot at rho = 0.95 on data seeds 0-2. Validation only: its purpose is
+# to fix the step budget and hyperparameter grids before the preregistration.
+# About 25 minutes on an RTX 4090. Safe to rerun: finished runs are skipped.
 set -euo pipefail
 SPLITS="${SPLITS:-splits/controlled_v2.json}"
 COMMON=(--cache_dir cache_256 --splits_path "$SPLITS" --rho 0.95)

@@ -75,10 +75,55 @@ class GroupBalancedStream:
             s.load_state_dict(st)
 
 
+class PoolStream:
+    """Shuffled passes over an index pool that may contain repeats (JTT's
+    upsampled training set). With pool = arange(n) it yields exactly the
+    batches of UniformStream(n) under the same generator."""
+
+    def __init__(self, pool: np.ndarray, batch_size: int, generator: torch.Generator):
+        self.pool = torch.as_tensor(np.asarray(pool, dtype=np.int64))
+        self.inner = UniformStream(len(self.pool), batch_size, generator)
+
+    def next_batch(self) -> torch.Tensor:
+        return self.pool[self.inner.next_batch()]
+
+    def state_dict(self) -> dict:
+        return self.inner.state_dict()
+
+    def load_state_dict(self, state: dict) -> None:
+        self.inner.load_state_dict(state)
+
+
+class UpsampleStream:
+    """Uniform passes over a training set in which example i appears
+    multiplicity[i] times (JTT's upsampling of its error set). With every
+    multiplicity equal to 1 it yields exactly the batches of UniformStream."""
+
+    def __init__(self, multiplicity: np.ndarray, batch_size: int, generator: torch.Generator):
+        multiplicity = np.asarray(multiplicity, dtype=np.int64)
+        if multiplicity.min() < 1:
+            raise ValueError("multiplicities must be >= 1")
+        self.index = torch.from_numpy(np.repeat(np.arange(len(multiplicity)), multiplicity))
+        self.inner = UniformStream(len(self.index), batch_size, generator)
+
+    def next_batch(self) -> torch.Tensor:
+        return self.index[self.inner.next_batch()]
+
+    def state_dict(self) -> dict:
+        return self.inner.state_dict()
+
+    def load_state_dict(self, state: dict) -> None:
+        self.inner.load_state_dict(state)
+
+
 def make_stream(kind: str, n: int, groups: np.ndarray, batch_size: int,
-                generator: torch.Generator):
+                generator: torch.Generator, multiplicity: np.ndarray | None = None):
     if kind == "uniform":
         return UniformStream(n, batch_size, generator)
     if kind == "group_balanced":
         return GroupBalancedStream(groups, batch_size, generator)
+    if kind == "upsample":
+        if multiplicity is None or len(multiplicity) != n:
+            raise ValueError("the upsample sampler needs one multiplicity per training example")
+        return UpsampleStream(multiplicity, batch_size, generator)
     raise ValueError(f"unknown sampler {kind!r}")

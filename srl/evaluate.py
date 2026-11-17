@@ -23,8 +23,9 @@ def evaluate_run(run_dir: str | Path, protocols=None, unseal: bool = False) -> l
     run_dir = Path(run_dir)
     if not (run_dir / "DONE").exists():
         raise RuntimeError(f"{run_dir.name} is not complete")
-    protocols = protocols or available_protocols(run_dir)
     cfg = load_json(run_dir / "config.json")
+    # DFR runs declare their protocols: they need group-labelled data by design.
+    protocols = protocols or cfg.get("protocols") or available_protocols(run_dir)
     summary = load_json(run_dir / "summary.json")
     rows = []
     for p in protocols:

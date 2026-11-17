@@ -5,9 +5,9 @@ code for a controlled study of whether shortcut-mitigation methods reliably
 improve worst-group accuracy on Waterbirds as the strength of the spurious
 correlation (rho) varies.
 
-**Status:** data pipeline, image cache, EDA, ERM training with logit logging,
-model selection (S1 to S4) and sealed final evaluation. RWG, Group DRO, JTT and
-DFR come next and plug into `srl/objectives.py` without changing the loop.
+**Status:** data pipeline, image cache, EDA, training for ERM, RWG, Group DRO
+and JTT with logit logging, DFR on saved embeddings, model selection (S1 to S4)
+and sealed final evaluation.
 No experimental results are included anywhere in this repository yet.
 
 ## Layout
@@ -19,15 +19,17 @@ srl/                    the package
   cache.py              uint8 image cache, GPU image bank, GPU augmentation
   samplers.py           resumable uniform and group-balanced batch streams
   models.py             torchvision ResNets with a fresh head; logits + features
-  objectives.py         per-method loss aggregation (ERM now; others next)
+  objectives.py         ERM, RWG, Group DRO, JTT (per-method loss and sampler)
+  dfr.py                DFR last-layer retraining on saved embeddings
   metrics.py            group accuracies, WGA, Acc(rho'), shortcut gap, ECE/NLL/Brier
   train.py              training loop, logging, checkpoints, CLI config
   selection.py          selection protocols S1 to S4 from validation logits
   evaluate.py           final evaluation; the only code that reads sealed test logits
   testing.py            synthetic data for tests only
 scripts/                check_env, download, make_splits, build_cache, eda, train,
-                        inspect_run, final_eval
-tests/                  pytest suite (CPU, about a minute)
+                        inspect_run, dfr, summarize_validation, pilot_methods.sh,
+                        final_eval
+tests/                  pytest suite (CPU, under a minute)
 notebooks/              Colab driver notebook
 splits/                 controlled_v1.json goes here; commit it
 ```
@@ -81,6 +83,19 @@ Every field of `TrainConfig` in `srl/train.py` is a flag. Rerunning an
 interrupted command resumes from its checkpoint; rerunning a finished one is a
 no-op. `notebooks/00_setup_eda_pilot.ipynb` is an equivalent Colab driver if
 you ever need to run on Colab instead.
+
+## Methods
+
+| Method | How to run | Group labels used | Notes |
+|---|---|---|---|
+| ERM | `--method erm` | none | uniform batches |
+| RWG | `--method rwg` | training | group-balanced batches, equal group weights |
+| Group DRO | `--method gdro --eta_q 0.01` | training | online group weights; `eta_q 0` is exactly RWG |
+| JTT | `--method jtt --jtt_T 50 --jtt_lambda 20` | validation (tuning) | error set read from the matching ERM run at step T; train that ERM run first; `jtt_lambda 1` is exactly ERM |
+| DFR | `python scripts/dfr.py --runs "runs/..._erm_..."` | held-out set (val_bal) | L1 logistic head on saved ERM embeddings; selection protocol S1 only |
+
+`bash scripts/pilot_methods.sh` runs the method pilot at rho = 0.95 (seeds 0 to 2) and
+`scripts/summarize_validation.py` compares runs on validation data only.
 
 ## Controlled splits (defaults)
 
