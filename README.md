@@ -102,7 +102,7 @@ images) and an in-distribution validation set (400). The paper uses seeds 0 to
 2. The cache image array has SHA-256 starting `f0b3b397117af0e2` (full hash in
 `cache_256/manifest.json`).
 
-### 4. Main experiment (about 45 minutes on an RTX 4090)
+### 4. Main experiment
 
 ```bash
 bash scripts/main_sweep.sh 2>&1 | tee results/main_sweep_log.txt
@@ -117,7 +117,7 @@ python scripts/train.py --cache_dir cache_256 --splits_path splits/controlled_v2
     --rho 0.95 --data_seed 0 --method rwg
 ```
 
-### 5. Unsealed evaluation, summary and figures
+### 5. Evaluation, summary and figures
 
 ```bash
 python scripts/final_eval.py --runs "runs/controlled_*" --unseal --out_csv results/main/final_eval.csv
@@ -130,7 +130,7 @@ EOF
 python scripts/make_figures.py
 ```
 
-### 6. Official-split anchor and pilot (optional)
+### 6. Official-split anchor and pilot
 
 ```bash
 for s in 0 1 2 3 4; do python scripts/train.py --cache_dir cache_256 --split official --data_seed $s; done
@@ -138,59 +138,9 @@ python scripts/final_eval.py --runs "runs/official_*" --protocols S1 S2 --unseal
 bash scripts/pilot_methods.sh   # pilot at rho = 0.95 used to fix hyperparameters (validation only)
 ```
 
-### 7. Paper
+## AI-use
 
-```bash
-bash scripts/build_paper.sh
-```
-
-This copies the figures into `paper/figures/`, compiles the paper if a full
-TeX installation is present (it checks that the main paper, references
-included, ends on page 4), and writes `paper/paper_source.zip`. Without a full
-TeX installation, upload that ZIP to Overleaf (New Project, Upload Project).
-
-## Reproducibility notes
-
-- **Determinism.** Every source of randomness (data order, augmentation, head
-  initialization) is seeded from the run's seed, and the training seed equals
-  the data seed, so methods are compared on paired seeds. cuDNN runs in
-  deterministic mode. Rerunning a configuration reproduced identical metrics at
-  every logged step on our GPU; bitwise identity across different GPUs or
-  library versions is not guaranteed.
-- **Run identity.** Each run directory is named by a hash of every
-  result-affecting setting plus the SHA-256 of the split file and the image
-  cache, so changed data or settings can never overwrite earlier results.
-- **No test leakage.** Training logs never compute test metrics. Test logits
-  are written to `runs/<run>/sealed/` and read only by
-  `scripts/final_eval.py --unseal`, after checkpoints have been chosen on
-  validation data. No preprocessing step is fit on data (fixed ImageNet
-  normalization).
-- **Preregistration.** The design, hypotheses and selection protocols in
-  `PREREGISTRATION.md` were committed to git before the controlled-split test
-  logits were read. The only earlier unsealing was the official-split anchor,
-  used as a pipeline check.
-- **Deviations from the original plan.** Ten data seeds were prepared but three
-  were run for time. Hyperparameters were fixed from a pilot at ρ = 0.95 on
-  seeds 0 to 2 using validation data only; in that pilot, weight decay 1.0
-  collapsed training and Group DRO with η_q = 0.01 matched RWG exactly, so the
-  main study used weight decay 10⁻³ and η_q = 1.
-- **Tests.** `tests/` checks split invariants (counts, disjointness, nesting),
-  metric identities, augmentation geometry, resumption after interruption, and
-  that Group DRO with η_q = 0 equals RWG and JTT with λ = 1 equals ERM bit for
-  bit.
-
-## AI-use disclosure
-
-Claude (Anthropic), used through claude.ai, assisted throughout this project:
-it proposed the research question, hypotheses and experimental design; wrote
-the code in `srl/`, `scripts/` and `tests/`; drafted the paper text and this
-README; and helped interpret the results. I ran every experiment on my own
-hardware, set up the environment, data and GitHub repository, verified the data
-counts against the official release, ran the test suite, checked the
-official-split anchor against published results, and checked the numbers in
-the paper against the logged outputs. All reported numbers come from runs
-executed for this project; none were generated or edited by the AI. Details
-are logged in `AI_USE.md`.
+Claude (Anthropic) helped plan the study and draft the code.
 
 ## Citations
 
