@@ -1,0 +1,28 @@
+config,rho,seed,run,S1_wga,S1_step,S4_val_id,final_wga,err_size,err_precision,err_recall
+dfr wd=0.001,0.95,0,controlled_rho0.95_ds0_ts0_dfr_resnet50_36de2d23,0.86,,,,,,
+erm wd=0.001,0.95,0,controlled_rho0.95_ds0_ts0_erm_resnet50_36de2d23,0.65,900.0,0.9675,0.59,,,
+gdro wd=0.001 eta_q=0.01,0.95,0,controlled_rho0.95_ds0_ts0_gdro_resnet50_e067b6ce,0.87,50.0,0.9575,0.68,,,
+gdro wd=1 eta_q=0.01,0.95,0,controlled_rho0.95_ds0_ts0_gdro_resnet50_fd7d5b55,0.09,200.0,0.7725,0.0,,,
+jtt wd=0.001 T=25 lam=20,0.95,0,controlled_rho0.95_ds0_ts0_jtt_resnet50_a2cc8599,0.7,150.0,0.965,0.44,87.0,0.3563218390804598,0.5166666666666667
+jtt wd=0.001 T=100 lam=20,0.95,0,controlled_rho0.95_ds0_ts0_jtt_resnet50_a336bbf8,0.65,600.0,0.965,0.62,18.0,0.4444444444444444,0.13333333333333333
+jtt wd=0.001 T=50 lam=20,0.95,0,controlled_rho0.95_ds0_ts0_jtt_resnet50_e32c8889,0.67,1900.0,0.965,0.65,66.0,0.3939393939393939,0.43333333333333335
+rwg wd=0.001,0.95,0,controlled_rho0.95_ds0_ts0_rwg_resnet50_41d0d465,0.87,50.0,0.96,0.67,,,
+rwg wd=1,0.95,0,controlled_rho0.95_ds0_ts0_rwg_resnet50_dc909715,0.01,175.0,0.5825,0.0,,,
+dfr wd=0.001,0.95,1,controlled_rho0.95_ds1_ts1_dfr_resnet50_2f7ad784,0.86,,,,,,
+erm wd=0.001,0.95,1,controlled_rho0.95_ds1_ts1_erm_resnet50_2f7ad784,0.6,1500.0,0.97,0.53,,,
+gdro wd=1 eta_q=0.01,0.95,1,controlled_rho0.95_ds1_ts1_gdro_resnet50_6adc07ce,0.16,25.0,0.7175,0.0,,,
+gdro wd=0.001 eta_q=0.01,0.95,1,controlled_rho0.95_ds1_ts1_gdro_resnet50_6e8378b6,0.82,50.0,0.97,0.58,,,
+jtt wd=0.001 T=50 lam=20,0.95,1,controlled_rho0.95_ds1_ts1_jtt_resnet50_5b60f29d,0.61,2000.0,0.9725,0.61,49.0,0.46938775510204084,0.38333333333333336
+jtt wd=0.001 T=25 lam=20,0.95,1,controlled_rho0.95_ds1_ts1_jtt_resnet50_a5e28eb5,0.72,25.0,0.9725,0.56,78.0,0.4230769230769231,0.55
+jtt wd=0.001 T=100 lam=20,0.95,1,controlled_rho0.95_ds1_ts1_jtt_resnet50_aadeff86,0.6,300.0,0.965,0.55,23.0,0.4782608695652174,0.18333333333333332
+rwg wd=0.001,0.95,1,controlled_rho0.95_ds1_ts1_rwg_resnet50_1477d02e,0.82,50.0,0.97,0.59,,,
+rwg wd=1,0.95,1,controlled_rho0.95_ds1_ts1_rwg_resnet50_7a143eff,0.2,200.0,0.6725,0.0,,,
+dfr wd=0.001,0.95,2,controlled_rho0.95_ds2_ts2_dfr_resnet50_247afa97,0.9,,,,,,
+erm wd=0.001,0.95,2,controlled_rho0.95_ds2_ts2_erm_resnet50_247afa97,0.59,150.0,0.9775,0.48,,,
+gdro wd=1 eta_q=0.01,0.95,2,controlled_rho0.95_ds2_ts2_gdro_resnet50_154dcb83,0.17,25.0,0.695,0.0,,,
+gdro wd=0.001 eta_q=0.01,0.95,2,controlled_rho0.95_ds2_ts2_gdro_resnet50_b8b82f51,0.85,50.0,0.97,0.57,,,
+jtt wd=0.001 T=100 lam=20,0.95,2,controlled_rho0.95_ds2_ts2_jtt_resnet50_242f5e34,0.65,500.0,0.975,0.61,21.0,0.5238095238095238,0.18333333333333332
+jtt wd=0.001 T=25 lam=20,0.95,2,controlled_rho0.95_ds2_ts2_jtt_resnet50_89869df3,0.79,25.0,0.9725,0.53,72.0,0.5,0.6
+jtt wd=0.001 T=50 lam=20,0.95,2,controlled_rho0.95_ds2_ts2_jtt_resnet50_ff2165d6,0.62,900.0,0.98,0.55,53.0,0.4528301886792453,0.4
+rwg wd=0.001,0.95,2,controlled_rho0.95_ds2_ts2_rwg_resnet50_c47a39cf,0.85,50.0,0.97,0.58,,,
+rwg wd=1,0.95,2,controlled_rho0.95_ds2_ts2_rwg_resnet50_f76c6ab4,0.17,25.0,0.6925,0.0,,,
