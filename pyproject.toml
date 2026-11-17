@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "srl"
+version = "0.1.0"
+description = "Reliability of shortcut mitigation under spurious correlations (ES 678)"
+requires-python = ">=3.9"
+dependencies = []  # torch, torchvision, numpy, pandas, pillow: see requirements.txt
+
+[tool.setuptools]
+packages = ["srl"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

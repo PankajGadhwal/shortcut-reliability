@@ -1,0 +1,10 @@
+# Colab already provides all of these; pin exact versions in your paper's
+# reproducibility section from the env.json of your runs.
+torch>=2.1
+torchvision>=0.16
+numpy>=1.24
+pandas>=1.5
+pillow>=9.0
+matplotlib>=3.6
+scikit-learn>=1.2
+pytest>=7.0
