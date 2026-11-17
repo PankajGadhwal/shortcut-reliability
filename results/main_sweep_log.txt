@@ -1,0 +1,1518 @@
+[run] controlled_rho0.95_ds0_ts0_erm_resnet50_36de2d23
+[run] controlled rho=0.95 data_seed=0; device=cuda, amp=True; train=1200, val_bal=400, val_id=400, test=1200
+step     0 | ep   0.0 | train acc 0.482 wga 0.049 | val_bal acc 0.517 wga 0.040 | val_id acc 0.490 wga 0.058
+step    25 | ep   0.7 | loss 0.4508 | train acc 0.927 wga 0.200 | val_bal acc 0.693 wga 0.140 | val_id acc 0.917 wga 0.200
+step    50 | ep   1.3 | loss 0.2055 | train acc 0.945 wga 0.267 | val_bal acc 0.708 wga 0.170 | val_id acc 0.948 wga 0.100
+step    75 | ep   2.0 | loss 0.1497 | train acc 0.976 wga 0.700 | val_bal acc 0.767 wga 0.430 | val_id acc 0.953 wga 0.600
+step   100 | ep   2.7 | loss 0.0957 | train acc 0.985 wga 0.833 | val_bal acc 0.767 wga 0.420 | val_id acc 0.955 wga 0.500
+step   125 | ep   3.3 | loss 0.0807 | train acc 0.993 wga 0.900 | val_bal acc 0.777 wga 0.420 | val_id acc 0.955 wga 0.500
+step   150 | ep   4.0 | loss 0.0697 | train acc 0.993 wga 0.900 | val_bal acc 0.802 wga 0.620 | val_id acc 0.953 wga 0.600
+step   175 | ep   4.7 | loss 0.0411 | train acc 0.998 wga 0.967 | val_bal acc 0.770 wga 0.380 | val_id acc 0.963 wga 0.500
+step   200 | ep   5.3 | loss 0.0436 | train acc 0.998 wga 0.967 | val_bal acc 0.800 wga 0.570 | val_id acc 0.960 wga 0.500
+step   300 | ep   8.0 | loss 0.0260 | train acc 0.999 wga 0.998 | val_bal acc 0.805 wga 0.500 | val_id acc 0.955 wga 0.500
+step   400 | ep  10.7 | loss 0.0194 | train acc 1.000 wga 1.000 | val_bal acc 0.790 wga 0.560 | val_id acc 0.958 wga 0.500
+step   500 | ep  13.3 | loss 0.0133 | train acc 1.000 wga 1.000 | val_bal acc 0.807 wga 0.580 | val_id acc 0.960 wga 0.500
+step   600 | ep  16.0 | loss 0.0067 | train acc 1.000 wga 1.000 | val_bal acc 0.835 wga 0.640 | val_id acc 0.963 wga 0.500
+step   700 | ep  18.7 | loss 0.0067 | train acc 1.000 wga 1.000 | val_bal acc 0.802 wga 0.490 | val_id acc 0.968 wga 0.500
+step   800 | ep  21.3 | loss 0.0039 | train acc 1.000 wga 1.000 | val_bal acc 0.828 wga 0.630 | val_id acc 0.963 wga 0.600
+step   900 | ep  24.0 | loss 0.0063 | train acc 1.000 wga 1.000 | val_bal acc 0.843 wga 0.650 | val_id acc 0.960 wga 0.600
+step  1000 | ep  26.7 | loss 0.0032 | train acc 1.000 wga 1.000 | val_bal acc 0.812 wga 0.550 | val_id acc 0.963 wga 0.500
+step  1100 | ep  29.3 | loss 0.0031 | train acc 1.000 wga 1.000 | val_bal acc 0.833 wga 0.630 | val_id acc 0.963 wga 0.600
+step  1200 | ep  32.0 | loss 0.0035 | train acc 1.000 wga 1.000 | val_bal acc 0.812 wga 0.540 | val_id acc 0.965 wga 0.500
+step  1300 | ep  34.7 | loss 0.0021 | train acc 1.000 wga 1.000 | val_bal acc 0.818 wga 0.560 | val_id acc 0.968 wga 0.500
+step  1400 | ep  37.3 | loss 0.0037 | train acc 1.000 wga 1.000 | val_bal acc 0.807 wga 0.570 | val_id acc 0.963 wga 0.500
+step  1500 | ep  40.0 | loss 0.0034 | train acc 1.000 wga 1.000 | val_bal acc 0.820 wga 0.630 | val_id acc 0.960 wga 0.500
+step  1600 | ep  42.7 | loss 0.0015 | train acc 1.000 wga 1.000 | val_bal acc 0.830 wga 0.610 | val_id acc 0.963 wga 0.500
+step  1700 | ep  45.3 | loss 0.0029 | train acc 1.000 wga 1.000 | val_bal acc 0.830 wga 0.590 | val_id acc 0.968 wga 0.600
+step  1800 | ep  48.0 | loss 0.0017 | train acc 1.000 wga 1.000 | val_bal acc 0.820 wga 0.540 | val_id acc 0.963 wga 0.500
+step  1900 | ep  50.7 | loss 0.0016 | train acc 1.000 wga 1.000 | val_bal acc 0.825 wga 0.640 | val_id acc 0.958 wga 0.500
+step  2000 | ep  53.3 | loss 0.0026 | train acc 1.000 wga 1.000 | val_bal acc 0.830 wga 0.590 | val_id acc 0.965 wga 0.500
+[time] training 36s (1799 img/s), evaluation 18s
+[done] runs/controlled_rho0.95_ds0_ts0_erm_resnet50_36de2d23
+[run] controlled_rho0.95_ds0_ts0_rwg_resnet50_41d0d465
+[run] controlled rho=0.95 data_seed=0; device=cuda, amp=True; train=1200, val_bal=400, val_id=400, test=1200
+step     0 | ep   0.0 | train acc 0.482 wga 0.049 | val_bal acc 0.517 wga 0.040 | val_id acc 0.490 wga 0.058
+step    25 | ep   0.7 | loss 0.5295 | train acc 0.913 wga 0.867 | val_bal acc 0.897 wga 0.860 | val_id acc 0.885 wga 0.858
+step    50 | ep   1.3 | loss 0.2278 | train acc 0.951 wga 0.921 | val_bal acc 0.912 wga 0.870 | val_id acc 0.915 wga 0.895
+step    75 | ep   2.0 | loss 0.1239 | train acc 0.969 wga 0.949 | val_bal acc 0.882 wga 0.750 | val_id acc 0.917 wga 0.800
+step   100 | ep   2.7 | loss 0.0760 | train acc 0.978 wga 0.967 | val_bal acc 0.873 wga 0.690 | val_id acc 0.925 wga 0.700
+step   125 | ep   3.3 | loss 0.0559 | train acc 0.985 wga 0.979 | val_bal acc 0.868 wga 0.700 | val_id acc 0.932 wga 0.700
+step   150 | ep   4.0 | loss 0.0323 | train acc 0.990 wga 0.982 | val_bal acc 0.860 wga 0.700 | val_id acc 0.935 wga 0.700
+step   175 | ep   4.7 | loss 0.0239 | train acc 0.991 wga 0.982 | val_bal acc 0.860 wga 0.710 | val_id acc 0.938 wga 0.700
+step   200 | ep   5.3 | loss 0.0264 | train acc 0.993 wga 0.988 | val_bal acc 0.848 wga 0.610 | val_id acc 0.945 wga 0.700
+step   300 | ep   8.0 | loss 0.0170 | train acc 0.998 wga 0.996 | val_bal acc 0.853 wga 0.670 | val_id acc 0.948 wga 0.700
+step   400 | ep  10.7 | loss 0.0074 | train acc 0.998 wga 0.996 | val_bal acc 0.850 wga 0.660 | val_id acc 0.948 wga 0.700
+step   500 | ep  13.3 | loss 0.0058 | train acc 1.000 wga 1.000 | val_bal acc 0.850 wga 0.650 | val_id acc 0.950 wga 0.600
+step   600 | ep  16.0 | loss 0.0048 | train acc 1.000 wga 1.000 | val_bal acc 0.843 wga 0.630 | val_id acc 0.953 wga 0.600
+step   700 | ep  18.7 | loss 0.0029 | train acc 1.000 wga 1.000 | val_bal acc 0.848 wga 0.660 | val_id acc 0.953 wga 0.600
+step   800 | ep  21.3 | loss 0.0023 | train acc 1.000 wga 1.000 | val_bal acc 0.848 wga 0.660 | val_id acc 0.955 wga 0.700
+step   900 | ep  24.0 | loss 0.0017 | train acc 1.000 wga 1.000 | val_bal acc 0.845 wga 0.650 | val_id acc 0.955 wga 0.700
+step  1000 | ep  26.7 | loss 0.0018 | train acc 1.000 wga 1.000 | val_bal acc 0.850 wga 0.660 | val_id acc 0.955 wga 0.600
+step  1100 | ep  29.3 | loss 0.0013 | train acc 1.000 wga 1.000 | val_bal acc 0.848 wga 0.660 | val_id acc 0.958 wga 0.700
+step  1200 | ep  32.0 | loss 0.0012 | train acc 1.000 wga 1.000 | val_bal acc 0.848 wga 0.640 | val_id acc 0.953 wga 0.700
+step  1300 | ep  34.7 | loss 0.0009 | train acc 1.000 wga 1.000 | val_bal acc 0.850 wga 0.650 | val_id acc 0.955 wga 0.700
+step  1400 | ep  37.3 | loss 0.0011 | train acc 1.000 wga 1.000 | val_bal acc 0.845 wga 0.640 | val_id acc 0.955 wga 0.600
+step  1500 | ep  40.0 | loss 0.0009 | train acc 1.000 wga 1.000 | val_bal acc 0.848 wga 0.650 | val_id acc 0.955 wga 0.600
+step  1600 | ep  42.7 | loss 0.0010 | train acc 1.000 wga 1.000 | val_bal acc 0.843 wga 0.630 | val_id acc 0.953 wga 0.500
+step  1700 | ep  45.3 | loss 0.0008 | train acc 1.000 wga 1.000 | val_bal acc 0.848 wga 0.650 | val_id acc 0.953 wga 0.600
+step  1800 | ep  48.0 | loss 0.0007 | train acc 1.000 wga 1.000 | val_bal acc 0.853 wga 0.660 | val_id acc 0.950 wga 0.500
+step  1900 | ep  50.7 | loss 0.0006 | train acc 1.000 wga 1.000 | val_bal acc 0.853 wga 0.650 | val_id acc 0.950 wga 0.500
+step  2000 | ep  53.3 | loss 0.0007 | train acc 1.000 wga 1.000 | val_bal acc 0.853 wga 0.670 | val_id acc 0.960 wga 0.700
+[time] training 36s (1754 img/s), evaluation 18s
+[done] runs/controlled_rho0.95_ds0_ts0_rwg_resnet50_41d0d465
+[run] controlled_rho0.95_ds0_ts0_jtt_resnet50_a2cc8599
+[run] controlled rho=0.95 data_seed=0; device=cuda, amp=True; train=1200, val_bal=400, val_id=400, test=1200
+[jtt] error set from controlled_rho0.95_ds0_ts0_erm_resnet50_36de2d23 at step 25: 87 examples, by group [51, 24, 7, 5]; minority precision 0.36, recall 0.52
+step     0 | ep   0.0 | train acc 0.482 wga 0.049 | val_bal acc 0.517 wga 0.040 | val_id acc 0.490 wga 0.058
+step    25 | ep   0.7 | loss 0.5456 | train acc 0.875 wga 0.200 | val_bal acc 0.700 wga 0.160 | val_id acc 0.853 wga 0.200
+step    50 | ep   1.3 | loss 0.3002 | train acc 0.953 wga 0.667 | val_bal acc 0.812 wga 0.590 | val_id acc 0.927 wga 0.600
+step    75 | ep   2.0 | loss 0.1675 | train acc 0.977 wga 0.833 | val_bal acc 0.838 wga 0.690 | val_id acc 0.935 wga 0.700
+step   100 | ep   2.7 | loss 0.0913 | train acc 0.988 wga 0.900 | val_bal acc 0.805 wga 0.520 | val_id acc 0.953 wga 0.500
+step   125 | ep   3.3 | loss 0.0571 | train acc 0.991 wga 0.900 | val_bal acc 0.828 wga 0.680 | val_id acc 0.955 wga 0.500
+step   150 | ep   4.0 | loss 0.0403 | train acc 0.994 wga 0.933 | val_bal acc 0.843 wga 0.700 | val_id acc 0.960 wga 0.500
+step   175 | ep   4.7 | loss 0.0352 | train acc 0.997 wga 0.933 | val_bal acc 0.825 wga 0.610 | val_id acc 0.960 wga 0.500
+step   200 | ep   5.3 | loss 0.0303 | train acc 0.997 wga 0.967 | val_bal acc 0.840 wga 0.670 | val_id acc 0.960 wga 0.500
+step   300 | ep   8.0 | loss 0.0165 | train acc 0.999 wga 0.998 | val_bal acc 0.815 wga 0.570 | val_id acc 0.965 wga 0.500
+step   400 | ep  10.7 | loss 0.0128 | train acc 0.999 wga 0.998 | val_bal acc 0.838 wga 0.660 | val_id acc 0.960 wga 0.700
+step   500 | ep  13.3 | loss 0.0077 | train acc 1.000 wga 1.000 | val_bal acc 0.805 wga 0.510 | val_id acc 0.963 wga 0.500
+step   600 | ep  16.0 | loss 0.0063 | train acc 0.999 wga 0.998 | val_bal acc 0.823 wga 0.610 | val_id acc 0.960 wga 0.500
+step   700 | ep  18.7 | loss 0.0045 | train acc 1.000 wga 1.000 | val_bal acc 0.802 wga 0.450 | val_id acc 0.965 wga 0.500
+step   800 | ep  21.3 | loss 0.0042 | train acc 1.000 wga 1.000 | val_bal acc 0.823 wga 0.610 | val_id acc 0.958 wga 0.500
+step   900 | ep  24.0 | loss 0.0029 | train acc 1.000 wga 1.000 | val_bal acc 0.830 wga 0.610 | val_id acc 0.960 wga 0.500
+step  1000 | ep  26.7 | loss 0.0027 | train acc 1.000 wga 1.000 | val_bal acc 0.818 wga 0.540 | val_id acc 0.960 wga 0.500
+step  1100 | ep  29.3 | loss 0.0022 | train acc 1.000 wga 1.000 | val_bal acc 0.823 wga 0.540 | val_id acc 0.960 wga 0.500
+step  1200 | ep  32.0 | loss 0.0023 | train acc 1.000 wga 1.000 | val_bal acc 0.828 wga 0.600 | val_id acc 0.963 wga 0.500
+step  1300 | ep  34.7 | loss 0.0024 | train acc 1.000 wga 1.000 | val_bal acc 0.818 wga 0.580 | val_id acc 0.958 wga 0.500
+step  1400 | ep  37.3 | loss 0.0025 | train acc 1.000 wga 1.000 | val_bal acc 0.830 wga 0.650 | val_id acc 0.960 wga 0.500
+step  1500 | ep  40.0 | loss 0.0033 | train acc 1.000 wga 1.000 | val_bal acc 0.802 wga 0.450 | val_id acc 0.958 wga 0.500
+step  1600 | ep  42.7 | loss 0.0012 | train acc 1.000 wga 1.000 | val_bal acc 0.805 wga 0.490 | val_id acc 0.958 wga 0.500
+step  1700 | ep  45.3 | loss 0.0021 | train acc 1.000 wga 1.000 | val_bal acc 0.823 wga 0.550 | val_id acc 0.953 wga 0.500
+step  1800 | ep  48.0 | loss 0.0031 | train acc 1.000 wga 1.000 | val_bal acc 0.812 wga 0.480 | val_id acc 0.955 wga 0.500
+step  1900 | ep  50.7 | loss 0.0018 | train acc 1.000 wga 1.000 | val_bal acc 0.815 wga 0.520 | val_id acc 0.955 wga 0.500
+step  2000 | ep  53.3 | loss 0.0016 | train acc 1.000 wga 1.000 | val_bal acc 0.802 wga 0.440 | val_id acc 0.960 wga 0.500
+[time] training 36s (1796 img/s), evaluation 18s
+[done] runs/controlled_rho0.95_ds0_ts0_jtt_resnet50_a2cc8599
+[run] controlled_rho0.99_ds0_ts0_erm_resnet50_09120280
+[run] controlled rho=0.99 data_seed=0; device=cuda, amp=True; train=1200, val_bal=400, val_id=400, test=1200
+step     0 | ep   0.0 | train acc 0.480 wga 0.000 | val_bal acc 0.517 wga 0.040 | val_id acc 0.485 wga 0.056
+step    25 | ep   0.7 | loss 0.4384 | train acc 0.954 wga 0.000 | val_bal acc 0.677 wga 0.160 | val_id acc 0.950 wga 0.000
+step    50 | ep   1.3 | loss 0.1511 | train acc 0.970 wga 0.000 | val_bal acc 0.665 wga 0.170 | val_id acc 0.970 wga 0.000
+step    75 | ep   2.0 | loss 0.1251 | train acc 0.981 wga 0.333 | val_bal acc 0.703 wga 0.420 | val_id acc 0.965 wga 0.000
+step   100 | ep   2.7 | loss 0.0757 | train acc 0.989 wga 0.333 | val_bal acc 0.710 wga 0.310 | val_id acc 0.973 wga 0.000
+step   125 | ep   3.3 | loss 0.0592 | train acc 0.994 wga 0.500 | val_bal acc 0.695 wga 0.280 | val_id acc 0.980 wga 0.000
+step   150 | ep   4.0 | loss 0.0517 | train acc 0.998 wga 0.833 | val_bal acc 0.718 wga 0.420 | val_id acc 0.968 wga 0.000
+step   175 | ep   4.7 | loss 0.0352 | train acc 0.997 wga 0.667 | val_bal acc 0.705 wga 0.230 | val_id acc 0.985 wga 0.000
+step   200 | ep   5.3 | loss 0.0259 | train acc 1.000 wga 1.000 | val_bal acc 0.705 wga 0.390 | val_id acc 0.980 wga 0.000
+step   300 | ep   8.0 | loss 0.0235 | train acc 0.999 wga 0.833 | val_bal acc 0.720 wga 0.330 | val_id acc 0.980 wga 0.000
+step   400 | ep  10.7 | loss 0.0142 | train acc 1.000 wga 1.000 | val_bal acc 0.715 wga 0.400 | val_id acc 0.980 wga 0.000
+step   500 | ep  13.3 | loss 0.0106 | train acc 1.000 wga 1.000 | val_bal acc 0.718 wga 0.360 | val_id acc 0.980 wga 0.000
+step   600 | ep  16.0 | loss 0.0073 | train acc 1.000 wga 1.000 | val_bal acc 0.728 wga 0.430 | val_id acc 0.975 wga 0.000
+step   700 | ep  18.7 | loss 0.0053 | train acc 1.000 wga 1.000 | val_bal acc 0.733 wga 0.400 | val_id acc 0.983 wga 0.000
+step   800 | ep  21.3 | loss 0.0031 | train acc 1.000 wga 1.000 | val_bal acc 0.725 wga 0.340 | val_id acc 0.985 wga 0.000
+step   900 | ep  24.0 | loss 0.0069 | train acc 1.000 wga 1.000 | val_bal acc 0.730 wga 0.410 | val_id acc 0.983 wga 0.000
+step  1000 | ep  26.7 | loss 0.0040 | train acc 1.000 wga 1.000 | val_bal acc 0.740 wga 0.440 | val_id acc 0.980 wga 0.000
+step  1100 | ep  29.3 | loss 0.0034 | train acc 1.000 wga 1.000 | val_bal acc 0.730 wga 0.380 | val_id acc 0.985 wga 0.000
+step  1200 | ep  32.0 | loss 0.0031 | train acc 1.000 wga 1.000 | val_bal acc 0.735 wga 0.390 | val_id acc 0.985 wga 0.000
+step  1300 | ep  34.7 | loss 0.0014 | train acc 1.000 wga 1.000 | val_bal acc 0.723 wga 0.360 | val_id acc 0.985 wga 0.000
+step  1400 | ep  37.3 | loss 0.0036 | train acc 1.000 wga 1.000 | val_bal acc 0.725 wga 0.380 | val_id acc 0.980 wga 0.000
+step  1500 | ep  40.0 | loss 0.0032 | train acc 1.000 wga 1.000 | val_bal acc 0.748 wga 0.460 | val_id acc 0.980 wga 0.000
+step  1600 | ep  42.7 | loss 0.0021 | train acc 1.000 wga 1.000 | val_bal acc 0.743 wga 0.410 | val_id acc 0.983 wga 0.000
+step  1700 | ep  45.3 | loss 0.0014 | train acc 1.000 wga 1.000 | val_bal acc 0.740 wga 0.410 | val_id acc 0.980 wga 0.000
+step  1800 | ep  48.0 | loss 0.0014 | train acc 1.000 wga 1.000 | val_bal acc 0.725 wga 0.330 | val_id acc 0.985 wga 0.000
+step  1900 | ep  50.7 | loss 0.0012 | train acc 1.000 wga 1.000 | val_bal acc 0.748 wga 0.420 | val_id acc 0.980 wga 0.000
+step  2000 | ep  53.3 | loss 0.0019 | train acc 1.000 wga 1.000 | val_bal acc 0.735 wga 0.380 | val_id acc 0.983 wga 0.000
+[time] training 36s (1797 img/s), evaluation 18s
+[done] runs/controlled_rho0.99_ds0_ts0_erm_resnet50_09120280
+[run] controlled_rho0.99_ds0_ts0_rwg_resnet50_f32c5b32
+[run] controlled rho=0.99 data_seed=0; device=cuda, amp=True; train=1200, val_bal=400, val_id=400, test=1200
+step     0 | ep   0.0 | train acc 0.480 wga 0.000 | val_bal acc 0.517 wga 0.040 | val_id acc 0.485 wga 0.056
+step    25 | ep   0.7 | loss 0.4601 | train acc 0.918 wga 0.907 | val_bal acc 0.823 wga 0.660 | val_id acc 0.897 wga 0.889
+step    50 | ep   1.3 | loss 0.1423 | train acc 0.961 wga 0.956 | val_bal acc 0.812 wga 0.600 | val_id acc 0.943 wga 0.500
+step    75 | ep   2.0 | loss 0.0828 | train acc 0.976 wga 0.968 | val_bal acc 0.802 wga 0.530 | val_id acc 0.958 wga 0.500
+step   100 | ep   2.7 | loss 0.0417 | train acc 0.983 wga 0.975 | val_bal acc 0.790 wga 0.480 | val_id acc 0.960 wga 0.500
+step   125 | ep   3.3 | loss 0.0388 | train acc 0.988 wga 0.983 | val_bal acc 0.780 wga 0.460 | val_id acc 0.965 wga 0.000
+step   150 | ep   4.0 | loss 0.0311 | train acc 0.993 wga 0.988 | val_bal acc 0.767 wga 0.450 | val_id acc 0.965 wga 0.000
+step   175 | ep   4.7 | loss 0.0194 | train acc 0.993 wga 0.992 | val_bal acc 0.765 wga 0.430 | val_id acc 0.970 wga 0.000
+step   200 | ep   5.3 | loss 0.0188 | train acc 0.998 wga 0.995 | val_bal acc 0.760 wga 0.440 | val_id acc 0.973 wga 0.000
+step   300 | ep   8.0 | loss 0.0116 | train acc 0.999 wga 0.998 | val_bal acc 0.767 wga 0.440 | val_id acc 0.973 wga 0.000
+step   400 | ep  10.7 | loss 0.0062 | train acc 0.999 wga 0.998 | val_bal acc 0.760 wga 0.460 | val_id acc 0.970 wga 0.000
+step   500 | ep  13.3 | loss 0.0043 | train acc 1.000 wga 1.000 | val_bal acc 0.757 wga 0.420 | val_id acc 0.970 wga 0.000
+step   600 | ep  16.0 | loss 0.0035 | train acc 1.000 wga 1.000 | val_bal acc 0.765 wga 0.460 | val_id acc 0.970 wga 0.000
+step   700 | ep  18.7 | loss 0.0022 | train acc 1.000 wga 1.000 | val_bal acc 0.762 wga 0.430 | val_id acc 0.970 wga 0.000
+step   800 | ep  21.3 | loss 0.0020 | train acc 1.000 wga 1.000 | val_bal acc 0.755 wga 0.440 | val_id acc 0.970 wga 0.000
+step   900 | ep  24.0 | loss 0.0020 | train acc 1.000 wga 1.000 | val_bal acc 0.765 wga 0.430 | val_id acc 0.973 wga 0.000
+step  1000 | ep  26.7 | loss 0.0015 | train acc 1.000 wga 1.000 | val_bal acc 0.765 wga 0.430 | val_id acc 0.970 wga 0.000
+step  1100 | ep  29.3 | loss 0.0011 | train acc 1.000 wga 1.000 | val_bal acc 0.765 wga 0.440 | val_id acc 0.970 wga 0.000
+step  1200 | ep  32.0 | loss 0.0013 | train acc 1.000 wga 1.000 | val_bal acc 0.762 wga 0.430 | val_id acc 0.970 wga 0.000
+step  1300 | ep  34.7 | loss 0.0012 | train acc 1.000 wga 1.000 | val_bal acc 0.760 wga 0.450 | val_id acc 0.973 wga 0.000
+step  1400 | ep  37.3 | loss 0.0008 | train acc 1.000 wga 1.000 | val_bal acc 0.765 wga 0.460 | val_id acc 0.973 wga 0.000
+step  1500 | ep  40.0 | loss 0.0010 | train acc 1.000 wga 1.000 | val_bal acc 0.765 wga 0.450 | val_id acc 0.970 wga 0.000
+step  1600 | ep  42.7 | loss 0.0008 | train acc 1.000 wga 1.000 | val_bal acc 0.757 wga 0.430 | val_id acc 0.973 wga 0.000
+step  1700 | ep  45.3 | loss 0.0007 | train acc 1.000 wga 1.000 | val_bal acc 0.757 wga 0.420 | val_id acc 0.970 wga 0.000
+step  1800 | ep  48.0 | loss 0.0006 | train acc 1.000 wga 1.000 | val_bal acc 0.767 wga 0.460 | val_id acc 0.970 wga 0.000
+step  1900 | ep  50.7 | loss 0.0006 | train acc 1.000 wga 1.000 | val_bal acc 0.762 wga 0.440 | val_id acc 0.970 wga 0.000
+step  2000 | ep  53.3 | loss 0.0004 | train acc 1.000 wga 1.000 | val_bal acc 0.762 wga 0.450 | val_id acc 0.970 wga 0.000
+[time] training 36s (1754 img/s), evaluation 18s
+[done] runs/controlled_rho0.99_ds0_ts0_rwg_resnet50_f32c5b32
+[run] controlled_rho0.99_ds0_ts0_jtt_resnet50_f1fc996b
+[run] controlled rho=0.99 data_seed=0; device=cuda, amp=True; train=1200, val_bal=400, val_id=400, test=1200
+[jtt] error set from controlled_rho0.99_ds0_ts0_erm_resnet50_09120280 at step 25: 55 examples, by group [41, 6, 3, 5]; minority precision 0.16, recall 0.75
+step     0 | ep   0.0 | train acc 0.480 wga 0.000 | val_bal acc 0.517 wga 0.040 | val_id acc 0.485 wga 0.056
+step    25 | ep   0.7 | loss 0.5224 | train acc 0.896 wga 0.000 | val_bal acc 0.662 wga 0.070 | val_id acc 0.890 wga 0.000
+step    50 | ep   1.3 | loss 0.2798 | train acc 0.965 wga 0.667 | val_bal acc 0.730 wga 0.350 | val_id acc 0.953 wga 0.000
+step    75 | ep   2.0 | loss 0.1251 | train acc 0.988 wga 0.975 | val_bal acc 0.743 wga 0.500 | val_id acc 0.965 wga 0.000
+step   100 | ep   2.7 | loss 0.0508 | train acc 0.997 wga 0.993 | val_bal acc 0.740 wga 0.450 | val_id acc 0.973 wga 0.000
+step   125 | ep   3.3 | loss 0.0361 | train acc 0.998 wga 0.997 | val_bal acc 0.740 wga 0.390 | val_id acc 0.973 wga 0.000
+step   150 | ep   4.0 | loss 0.0375 | train acc 1.000 wga 1.000 | val_bal acc 0.745 wga 0.420 | val_id acc 0.978 wga 0.000
+step   175 | ep   4.7 | loss 0.0235 | train acc 1.000 wga 1.000 | val_bal acc 0.740 wga 0.450 | val_id acc 0.978 wga 0.000
+step   200 | ep   5.3 | loss 0.0215 | train acc 1.000 wga 1.000 | val_bal acc 0.745 wga 0.460 | val_id acc 0.975 wga 0.000
+step   300 | ep   8.0 | loss 0.0161 | train acc 1.000 wga 1.000 | val_bal acc 0.740 wga 0.390 | val_id acc 0.980 wga 0.000
+step   400 | ep  10.7 | loss 0.0084 | train acc 1.000 wga 1.000 | val_bal acc 0.743 wga 0.420 | val_id acc 0.983 wga 0.000
+step   500 | ep  13.3 | loss 0.0063 | train acc 1.000 wga 1.000 | val_bal acc 0.740 wga 0.390 | val_id acc 0.983 wga 0.000
+step   600 | ep  16.0 | loss 0.0073 | train acc 1.000 wga 1.000 | val_bal acc 0.725 wga 0.370 | val_id acc 0.985 wga 0.000
+step   700 | ep  18.7 | loss 0.0052 | train acc 1.000 wga 1.000 | val_bal acc 0.730 wga 0.360 | val_id acc 0.983 wga 0.000
+step   800 | ep  21.3 | loss 0.0035 | train acc 1.000 wga 1.000 | val_bal acc 0.738 wga 0.350 | val_id acc 0.983 wga 0.000
+step   900 | ep  24.0 | loss 0.0029 | train acc 1.000 wga 1.000 | val_bal acc 0.738 wga 0.370 | val_id acc 0.980 wga 0.000
+step  1000 | ep  26.7 | loss 0.0020 | train acc 1.000 wga 1.000 | val_bal acc 0.738 wga 0.370 | val_id acc 0.980 wga 0.000
+step  1100 | ep  29.3 | loss 0.0020 | train acc 1.000 wga 1.000 | val_bal acc 0.743 wga 0.410 | val_id acc 0.980 wga 0.000
+step  1200 | ep  32.0 | loss 0.0017 | train acc 1.000 wga 1.000 | val_bal acc 0.740 wga 0.390 | val_id acc 0.983 wga 0.000
+step  1300 | ep  34.7 | loss 0.0036 | train acc 1.000 wga 1.000 | val_bal acc 0.733 wga 0.350 | val_id acc 0.983 wga 0.000
+step  1400 | ep  37.3 | loss 0.0014 | train acc 1.000 wga 1.000 | val_bal acc 0.735 wga 0.330 | val_id acc 0.985 wga 0.000
+step  1500 | ep  40.0 | loss 0.0017 | train acc 1.000 wga 1.000 | val_bal acc 0.738 wga 0.390 | val_id acc 0.985 wga 0.000
+step  1600 | ep  42.7 | loss 0.0014 | train acc 1.000 wga 1.000 | val_bal acc 0.723 wga 0.320 | val_id acc 0.988 wga 0.000
+step  1700 | ep  45.3 | loss 0.0024 | train acc 1.000 wga 1.000 | val_bal acc 0.735 wga 0.370 | val_id acc 0.980 wga 0.000
+step  1800 | ep  48.0 | loss 0.0027 | train acc 1.000 wga 1.000 | val_bal acc 0.748 wga 0.420 | val_id acc 0.980 wga 0.000
+step  1900 | ep  50.7 | loss 0.0023 | train acc 1.000 wga 1.000 | val_bal acc 0.735 wga 0.370 | val_id acc 0.983 wga 0.000
+step  2000 | ep  53.3 | loss 0.0021 | train acc 1.000 wga 1.000 | val_bal acc 0.733 wga 0.250 | val_id acc 0.980 wga 0.000
+[time] training 36s (1799 img/s), evaluation 18s
+[done] runs/controlled_rho0.99_ds0_ts0_jtt_resnet50_f1fc996b
+[run] controlled_rho0.9_ds0_ts0_erm_resnet50_a35f1050
+[run] controlled rho=0.9 data_seed=0; device=cuda, amp=True; train=1200, val_bal=400, val_id=400, test=1200
+step     0 | ep   0.0 | train acc 0.488 wga 0.052 | val_bal acc 0.517 wga 0.040 | val_id acc 0.490 wga 0.056
+step    25 | ep   0.7 | loss 0.4721 | train acc 0.919 wga 0.367 | val_bal acc 0.718 wga 0.340 | val_id acc 0.915 wga 0.250
+step    50 | ep   1.3 | loss 0.2463 | train acc 0.948 wga 0.533 | val_bal acc 0.780 wga 0.450 | val_id acc 0.927 wga 0.450
+step    75 | ep   2.0 | loss 0.1723 | train acc 0.968 wga 0.817 | val_bal acc 0.830 wga 0.670 | val_id acc 0.927 wga 0.550
+step   100 | ep   2.7 | loss 0.1256 | train acc 0.974 wga 0.850 | val_bal acc 0.828 wga 0.580 | val_id acc 0.930 wga 0.600
+step   125 | ep   3.3 | loss 0.1073 | train acc 0.983 wga 0.867 | val_bal acc 0.835 wga 0.630 | val_id acc 0.935 wga 0.550
+step   150 | ep   4.0 | loss 0.1017 | train acc 0.981 wga 0.817 | val_bal acc 0.853 wga 0.660 | val_id acc 0.935 wga 0.750
+step   175 | ep   4.7 | loss 0.0715 | train acc 0.998 wga 0.967 | val_bal acc 0.830 wga 0.560 | val_id acc 0.940 wga 0.550
+step   200 | ep   5.3 | loss 0.0558 | train acc 0.999 wga 0.983 | val_bal acc 0.850 wga 0.640 | val_id acc 0.940 wga 0.600
+step   300 | ep   8.0 | loss 0.0288 | train acc 1.000 wga 1.000 | val_bal acc 0.875 wga 0.770 | val_id acc 0.945 wga 0.650
+step   400 | ep  10.7 | loss 0.0274 | train acc 1.000 wga 1.000 | val_bal acc 0.868 wga 0.730 | val_id acc 0.950 wga 0.650
+step   500 | ep  13.3 | loss 0.0160 | train acc 1.000 wga 1.000 | val_bal acc 0.880 wga 0.770 | val_id acc 0.953 wga 0.700
+step   600 | ep  16.0 | loss 0.0081 | train acc 1.000 wga 1.000 | val_bal acc 0.873 wga 0.770 | val_id acc 0.953 wga 0.700
+step   700 | ep  18.7 | loss 0.0082 | train acc 0.999 wga 0.998 | val_bal acc 0.887 wga 0.780 | val_id acc 0.950 wga 0.800
+step   800 | ep  21.3 | loss 0.0058 | train acc 1.000 wga 1.000 | val_bal acc 0.880 wga 0.790 | val_id acc 0.948 wga 0.750
+step   900 | ep  24.0 | loss 0.0047 | train acc 1.000 wga 1.000 | val_bal acc 0.880 wga 0.770 | val_id acc 0.945 wga 0.750
+step  1000 | ep  26.7 | loss 0.0040 | train acc 1.000 wga 1.000 | val_bal acc 0.877 wga 0.720 | val_id acc 0.945 wga 0.800
+step  1100 | ep  29.3 | loss 0.0036 | train acc 1.000 wga 1.000 | val_bal acc 0.882 wga 0.770 | val_id acc 0.948 wga 0.750
+step  1200 | ep  32.0 | loss 0.0033 | train acc 1.000 wga 1.000 | val_bal acc 0.875 wga 0.790 | val_id acc 0.948 wga 0.700
+step  1300 | ep  34.7 | loss 0.0026 | train acc 1.000 wga 1.000 | val_bal acc 0.880 wga 0.750 | val_id acc 0.948 wga 0.700
+step  1400 | ep  37.3 | loss 0.0018 | train acc 1.000 wga 1.000 | val_bal acc 0.877 wga 0.780 | val_id acc 0.953 wga 0.750
+step  1500 | ep  40.0 | loss 0.0028 | train acc 1.000 wga 1.000 | val_bal acc 0.882 wga 0.770 | val_id acc 0.948 wga 0.800
+step  1600 | ep  42.7 | loss 0.0023 | train acc 1.000 wga 1.000 | val_bal acc 0.887 wga 0.780 | val_id acc 0.945 wga 0.700
+step  1700 | ep  45.3 | loss 0.0021 | train acc 1.000 wga 1.000 | val_bal acc 0.863 wga 0.740 | val_id acc 0.943 wga 0.650
+step  1800 | ep  48.0 | loss 0.0014 | train acc 1.000 wga 1.000 | val_bal acc 0.873 wga 0.730 | val_id acc 0.950 wga 0.700
+step  1900 | ep  50.7 | loss 0.0015 | train acc 1.000 wga 1.000 | val_bal acc 0.875 wga 0.770 | val_id acc 0.945 wga 0.700
+step  2000 | ep  53.3 | loss 0.0015 | train acc 1.000 wga 1.000 | val_bal acc 0.880 wga 0.780 | val_id acc 0.945 wga 0.700
+[time] training 36s (1799 img/s), evaluation 18s
+[done] runs/controlled_rho0.9_ds0_ts0_erm_resnet50_a35f1050
+[run] controlled_rho0.9_ds0_ts0_rwg_resnet50_0fb9dcb0
+[run] controlled rho=0.9 data_seed=0; device=cuda, amp=True; train=1200, val_bal=400, val_id=400, test=1200
+step     0 | ep   0.0 | train acc 0.488 wga 0.052 | val_bal acc 0.517 wga 0.040 | val_id acc 0.490 wga 0.056
+step    25 | ep   0.7 | loss 0.5431 | train acc 0.913 wga 0.878 | val_bal acc 0.902 wga 0.840 | val_id acc 0.890 wga 0.856
+step    50 | ep   1.3 | loss 0.2560 | train acc 0.936 wga 0.900 | val_bal acc 0.905 wga 0.870 | val_id acc 0.912 wga 0.900
+step    75 | ep   2.0 | loss 0.1582 | train acc 0.962 wga 0.931 | val_bal acc 0.915 wga 0.860 | val_id acc 0.922 wga 0.900
+step   100 | ep   2.7 | loss 0.0979 | train acc 0.967 wga 0.939 | val_bal acc 0.912 wga 0.860 | val_id acc 0.920 wga 0.850
+step   125 | ep   3.3 | loss 0.0783 | train acc 0.978 wga 0.967 | val_bal acc 0.900 wga 0.830 | val_id acc 0.932 wga 0.850
+step   150 | ep   4.0 | loss 0.0576 | train acc 0.988 wga 0.978 | val_bal acc 0.897 wga 0.810 | val_id acc 0.935 wga 0.800
+step   175 | ep   4.7 | loss 0.0362 | train acc 0.992 wga 0.987 | val_bal acc 0.897 wga 0.820 | val_id acc 0.932 wga 0.800
+step   200 | ep   5.3 | loss 0.0293 | train acc 0.994 wga 0.991 | val_bal acc 0.897 wga 0.820 | val_id acc 0.938 wga 0.850
+step   300 | ep   8.0 | loss 0.0162 | train acc 1.000 wga 1.000 | val_bal acc 0.890 wga 0.780 | val_id acc 0.943 wga 0.850
+step   400 | ep  10.7 | loss 0.0089 | train acc 0.999 wga 0.998 | val_bal acc 0.890 wga 0.810 | val_id acc 0.940 wga 0.850
+step   500 | ep  13.3 | loss 0.0057 | train acc 1.000 wga 1.000 | val_bal acc 0.897 wga 0.820 | val_id acc 0.943 wga 0.850
+step   600 | ep  16.0 | loss 0.0035 | train acc 1.000 wga 1.000 | val_bal acc 0.890 wga 0.790 | val_id acc 0.945 wga 0.750
+step   700 | ep  18.7 | loss 0.0031 | train acc 1.000 wga 1.000 | val_bal acc 0.892 wga 0.790 | val_id acc 0.948 wga 0.800
+step   800 | ep  21.3 | loss 0.0023 | train acc 1.000 wga 1.000 | val_bal acc 0.897 wga 0.810 | val_id acc 0.945 wga 0.850
+step   900 | ep  24.0 | loss 0.0017 | train acc 1.000 wga 1.000 | val_bal acc 0.895 wga 0.790 | val_id acc 0.943 wga 0.800
+step  1000 | ep  26.7 | loss 0.0019 | train acc 1.000 wga 1.000 | val_bal acc 0.895 wga 0.800 | val_id acc 0.943 wga 0.800
+step  1100 | ep  29.3 | loss 0.0013 | train acc 1.000 wga 1.000 | val_bal acc 0.892 wga 0.800 | val_id acc 0.945 wga 0.850
+step  1200 | ep  32.0 | loss 0.0011 | train acc 1.000 wga 1.000 | val_bal acc 0.895 wga 0.790 | val_id acc 0.945 wga 0.800
+step  1300 | ep  34.7 | loss 0.0021 | train acc 1.000 wga 1.000 | val_bal acc 0.895 wga 0.800 | val_id acc 0.940 wga 0.750
+step  1400 | ep  37.3 | loss 0.0011 | train acc 1.000 wga 1.000 | val_bal acc 0.897 wga 0.820 | val_id acc 0.940 wga 0.800
+step  1500 | ep  40.0 | loss 0.0009 | train acc 1.000 wga 1.000 | val_bal acc 0.892 wga 0.790 | val_id acc 0.940 wga 0.750
+step  1600 | ep  42.7 | loss 0.0008 | train acc 1.000 wga 1.000 | val_bal acc 0.895 wga 0.810 | val_id acc 0.940 wga 0.800
+step  1700 | ep  45.3 | loss 0.0008 | train acc 1.000 wga 1.000 | val_bal acc 0.895 wga 0.790 | val_id acc 0.943 wga 0.800
+step  1800 | ep  48.0 | loss 0.0006 | train acc 1.000 wga 1.000 | val_bal acc 0.897 wga 0.800 | val_id acc 0.945 wga 0.850
+step  1900 | ep  50.7 | loss 0.0008 | train acc 1.000 wga 1.000 | val_bal acc 0.902 wga 0.830 | val_id acc 0.943 wga 0.850
+step  2000 | ep  53.3 | loss 0.0006 | train acc 1.000 wga 1.000 | val_bal acc 0.895 wga 0.810 | val_id acc 0.943 wga 0.800
+[time] training 36s (1755 img/s), evaluation 18s
+[done] runs/controlled_rho0.9_ds0_ts0_rwg_resnet50_0fb9dcb0
+[run] controlled_rho0.9_ds0_ts0_jtt_resnet50_03e9759d
+[run] controlled rho=0.9 data_seed=0; device=cuda, amp=True; train=1200, val_bal=400, val_id=400, test=1200
+[jtt] error set from controlled_rho0.9_ds0_ts0_erm_resnet50_a35f1050 at step 25: 97 examples, by group [18, 38, 24, 17]; minority precision 0.64, recall 0.52
+step     0 | ep   0.0 | train acc 0.488 wga 0.052 | val_bal acc 0.517 wga 0.040 | val_id acc 0.490 wga 0.056
+step    25 | ep   0.7 | loss 0.6334 | train acc 0.877 wga 0.854 | val_bal acc 0.850 wga 0.750 | val_id acc 0.868 wga 0.844
+step    50 | ep   1.3 | loss 0.3994 | train acc 0.915 wga 0.876 | val_bal acc 0.865 wga 0.750 | val_id acc 0.875 wga 0.800
+step    75 | ep   2.0 | loss 0.2256 | train acc 0.964 wga 0.946 | val_bal acc 0.902 wga 0.830 | val_id acc 0.917 wga 0.894
+step   100 | ep   2.7 | loss 0.1263 | train acc 0.980 wga 0.967 | val_bal acc 0.905 wga 0.810 | val_id acc 0.940 wga 0.850
+step   125 | ep   3.3 | loss 0.0695 | train acc 0.988 wga 0.967 | val_bal acc 0.877 wga 0.790 | val_id acc 0.935 wga 0.850
+step   150 | ep   4.0 | loss 0.0460 | train acc 0.991 wga 0.967 | val_bal acc 0.885 wga 0.770 | val_id acc 0.945 wga 0.850
+step   175 | ep   4.7 | loss 0.0345 | train acc 0.995 wga 0.983 | val_bal acc 0.892 wga 0.740 | val_id acc 0.940 wga 0.750
+step   200 | ep   5.3 | loss 0.0285 | train acc 0.995 wga 0.983 | val_bal acc 0.895 wga 0.800 | val_id acc 0.938 wga 0.750
+step   300 | ep   8.0 | loss 0.0258 | train acc 0.999 wga 0.998 | val_bal acc 0.880 wga 0.690 | val_id acc 0.932 wga 0.700
+step   400 | ep  10.7 | loss 0.0114 | train acc 1.000 wga 1.000 | val_bal acc 0.885 wga 0.750 | val_id acc 0.943 wga 0.800
+step   500 | ep  13.3 | loss 0.0115 | train acc 1.000 wga 1.000 | val_bal acc 0.873 wga 0.690 | val_id acc 0.935 wga 0.650
+step   600 | ep  16.0 | loss 0.0081 | train acc 1.000 wga 1.000 | val_bal acc 0.882 wga 0.740 | val_id acc 0.940 wga 0.800
+step   700 | ep  18.7 | loss 0.0055 | train acc 1.000 wga 1.000 | val_bal acc 0.895 wga 0.790 | val_id acc 0.938 wga 0.800
+step   800 | ep  21.3 | loss 0.0080 | train acc 1.000 wga 1.000 | val_bal acc 0.885 wga 0.770 | val_id acc 0.938 wga 0.700
+step   900 | ep  24.0 | loss 0.0049 | train acc 1.000 wga 1.000 | val_bal acc 0.895 wga 0.760 | val_id acc 0.943 wga 0.700
+step  1000 | ep  26.7 | loss 0.0061 | train acc 1.000 wga 1.000 | val_bal acc 0.877 wga 0.760 | val_id acc 0.940 wga 0.800
+step  1100 | ep  29.3 | loss 0.0022 | train acc 1.000 wga 1.000 | val_bal acc 0.885 wga 0.730 | val_id acc 0.950 wga 0.800
+step  1200 | ep  32.0 | loss 0.0031 | train acc 1.000 wga 1.000 | val_bal acc 0.880 wga 0.760 | val_id acc 0.953 wga 0.800
+step  1300 | ep  34.7 | loss 0.0030 | train acc 1.000 wga 1.000 | val_bal acc 0.882 wga 0.760 | val_id acc 0.940 wga 0.750
+step  1400 | ep  37.3 | loss 0.0026 | train acc 1.000 wga 1.000 | val_bal acc 0.890 wga 0.770 | val_id acc 0.940 wga 0.800
+step  1500 | ep  40.0 | loss 0.0024 | train acc 1.000 wga 1.000 | val_bal acc 0.887 wga 0.750 | val_id acc 0.948 wga 0.800
+step  1600 | ep  42.7 | loss 0.0014 | train acc 1.000 wga 1.000 | val_bal acc 0.885 wga 0.780 | val_id acc 0.938 wga 0.750
+step  1700 | ep  45.3 | loss 0.0026 | train acc 1.000 wga 1.000 | val_bal acc 0.890 wga 0.760 | val_id acc 0.948 wga 0.850
+step  1800 | ep  48.0 | loss 0.0021 | train acc 1.000 wga 1.000 | val_bal acc 0.885 wga 0.750 | val_id acc 0.945 wga 0.750
+step  1900 | ep  50.7 | loss 0.0016 | train acc 1.000 wga 1.000 | val_bal acc 0.882 wga 0.730 | val_id acc 0.940 wga 0.700
+step  2000 | ep  53.3 | loss 0.0012 | train acc 1.000 wga 1.000 | val_bal acc 0.882 wga 0.750 | val_id acc 0.945 wga 0.800
+[time] training 36s (1800 img/s), evaluation 18s
+[done] runs/controlled_rho0.9_ds0_ts0_jtt_resnet50_03e9759d
+[run] controlled_rho0.8_ds0_ts0_erm_resnet50_265f8e77
+[run] controlled rho=0.8 data_seed=0; device=cuda, amp=True; train=1200, val_bal=400, val_id=400, test=1200
+step     0 | ep   0.0 | train acc 0.493 wga 0.050 | val_bal acc 0.517 wga 0.040 | val_id acc 0.490 wga 0.050
+step    25 | ep   0.7 | loss 0.5115 | train acc 0.878 wga 0.342 | val_bal acc 0.733 wga 0.290 | val_id acc 0.885 wga 0.375
+step    50 | ep   1.3 | loss 0.3169 | train acc 0.932 wga 0.725 | val_bal acc 0.853 wga 0.710 | val_id acc 0.907 wga 0.625
+step    75 | ep   2.0 | loss 0.2133 | train acc 0.956 wga 0.867 | val_bal acc 0.860 wga 0.700 | val_id acc 0.910 wga 0.700
+step   100 | ep   2.7 | loss 0.1520 | train acc 0.963 wga 0.867 | val_bal acc 0.848 wga 0.660 | val_id acc 0.902 wga 0.600
+step   125 | ep   3.3 | loss 0.1270 | train acc 0.980 wga 0.942 | val_bal acc 0.877 wga 0.740 | val_id acc 0.932 wga 0.800
+step   150 | ep   4.0 | loss 0.0865 | train acc 0.984 wga 0.917 | val_bal acc 0.905 wga 0.810 | val_id acc 0.932 wga 0.850
+step   175 | ep   4.7 | loss 0.0759 | train acc 0.992 wga 0.967 | val_bal acc 0.905 wga 0.820 | val_id acc 0.948 wga 0.875
+step   200 | ep   5.3 | loss 0.0701 | train acc 0.994 wga 0.967 | val_bal acc 0.865 wga 0.660 | val_id acc 0.922 wga 0.725
+step   300 | ep   8.0 | loss 0.0364 | train acc 1.000 wga 1.000 | val_bal acc 0.897 wga 0.800 | val_id acc 0.948 wga 0.875
+step   400 | ep  10.7 | loss 0.0223 | train acc 1.000 wga 1.000 | val_bal acc 0.905 wga 0.820 | val_id acc 0.950 wga 0.900
+step   500 | ep  13.3 | loss 0.0169 | train acc 1.000 wga 1.000 | val_bal acc 0.905 wga 0.830 | val_id acc 0.950 wga 0.875
+step   600 | ep  16.0 | loss 0.0090 | train acc 1.000 wga 1.000 | val_bal acc 0.915 wga 0.860 | val_id acc 0.948 wga 0.900
+step   700 | ep  18.7 | loss 0.0064 | train acc 0.999 wga 0.998 | val_bal acc 0.912 wga 0.800 | val_id acc 0.945 wga 0.900
+step   800 | ep  21.3 | loss 0.0060 | train acc 1.000 wga 1.000 | val_bal acc 0.910 wga 0.820 | val_id acc 0.948 wga 0.875
+step   900 | ep  24.0 | loss 0.0052 | train acc 1.000 wga 1.000 | val_bal acc 0.910 wga 0.840 | val_id acc 0.943 wga 0.900
+step  1000 | ep  26.7 | loss 0.0042 | train acc 1.000 wga 1.000 | val_bal acc 0.907 wga 0.830 | val_id acc 0.940 wga 0.875
+step  1100 | ep  29.3 | loss 0.0053 | train acc 1.000 wga 1.000 | val_bal acc 0.907 wga 0.830 | val_id acc 0.940 wga 0.875
+step  1200 | ep  32.0 | loss 0.0034 | train acc 1.000 wga 1.000 | val_bal acc 0.897 wga 0.810 | val_id acc 0.945 wga 0.875
+step  1300 | ep  34.7 | loss 0.0039 | train acc 1.000 wga 1.000 | val_bal acc 0.897 wga 0.790 | val_id acc 0.945 wga 0.875
+step  1400 | ep  37.3 | loss 0.0081 | train acc 1.000 wga 1.000 | val_bal acc 0.905 wga 0.850 | val_id acc 0.940 wga 0.875
+step  1500 | ep  40.0 | loss 0.0041 | train acc 1.000 wga 1.000 | val_bal acc 0.897 wga 0.790 | val_id acc 0.948 wga 0.900
+step  1600 | ep  42.7 | loss 0.0023 | train acc 1.000 wga 1.000 | val_bal acc 0.915 wga 0.840 | val_id acc 0.948 wga 0.875
+step  1700 | ep  45.3 | loss 0.0031 | train acc 1.000 wga 1.000 | val_bal acc 0.902 wga 0.820 | val_id acc 0.948 wga 0.900
+step  1800 | ep  48.0 | loss 0.0027 | train acc 1.000 wga 1.000 | val_bal acc 0.895 wga 0.800 | val_id acc 0.953 wga 0.900
+step  1900 | ep  50.7 | loss 0.0038 | train acc 1.000 wga 1.000 | val_bal acc 0.897 wga 0.820 | val_id acc 0.943 wga 0.875
+step  2000 | ep  53.3 | loss 0.0027 | train acc 1.000 wga 1.000 | val_bal acc 0.900 wga 0.830 | val_id acc 0.950 wga 0.900
+[time] training 36s (1799 img/s), evaluation 18s
+[done] runs/controlled_rho0.8_ds0_ts0_erm_resnet50_265f8e77
+[run] controlled_rho0.8_ds0_ts0_rwg_resnet50_3f82466d
+[run] controlled rho=0.8 data_seed=0; device=cuda, amp=True; train=1200, val_bal=400, val_id=400, test=1200
+step     0 | ep   0.0 | train acc 0.493 wga 0.050 | val_bal acc 0.517 wga 0.040 | val_id acc 0.490 wga 0.050
+step    25 | ep   0.7 | loss 0.5398 | train acc 0.916 wga 0.817 | val_bal acc 0.892 wga 0.810 | val_id acc 0.890 wga 0.850
+step    50 | ep   1.3 | loss 0.2938 | train acc 0.935 wga 0.867 | val_bal acc 0.915 wga 0.880 | val_id acc 0.897 wga 0.875
+step    75 | ep   2.0 | loss 0.1931 | train acc 0.956 wga 0.925 | val_bal acc 0.917 wga 0.890 | val_id acc 0.907 wga 0.850
+step   100 | ep   2.7 | loss 0.1201 | train acc 0.973 wga 0.963 | val_bal acc 0.910 wga 0.830 | val_id acc 0.892 wga 0.775
+step   125 | ep   3.3 | loss 0.0781 | train acc 0.981 wga 0.969 | val_bal acc 0.917 wga 0.860 | val_id acc 0.917 wga 0.850
+step   150 | ep   4.0 | loss 0.0563 | train acc 0.986 wga 0.967 | val_bal acc 0.917 wga 0.880 | val_id acc 0.925 wga 0.875
+step   175 | ep   4.7 | loss 0.0525 | train acc 0.990 wga 0.977 | val_bal acc 0.917 wga 0.850 | val_id acc 0.920 wga 0.875
+step   200 | ep   5.3 | loss 0.0350 | train acc 0.993 wga 0.981 | val_bal acc 0.925 wga 0.880 | val_id acc 0.927 wga 0.900
+step   300 | ep   8.0 | loss 0.0202 | train acc 0.998 wga 0.994 | val_bal acc 0.920 wga 0.860 | val_id acc 0.940 wga 0.875
+step   400 | ep  10.7 | loss 0.0092 | train acc 0.999 wga 0.998 | val_bal acc 0.920 wga 0.870 | val_id acc 0.940 wga 0.850
+step   500 | ep  13.3 | loss 0.0058 | train acc 0.999 wga 0.998 | val_bal acc 0.927 wga 0.880 | val_id acc 0.940 wga 0.900
+step   600 | ep  16.0 | loss 0.0037 | train acc 1.000 wga 1.000 | val_bal acc 0.917 wga 0.860 | val_id acc 0.943 wga 0.900
+step   700 | ep  18.7 | loss 0.0030 | train acc 1.000 wga 1.000 | val_bal acc 0.917 wga 0.860 | val_id acc 0.938 wga 0.900
+step   800 | ep  21.3 | loss 0.0027 | train acc 1.000 wga 1.000 | val_bal acc 0.917 wga 0.870 | val_id acc 0.935 wga 0.900
+step   900 | ep  24.0 | loss 0.0022 | train acc 1.000 wga 1.000 | val_bal acc 0.915 wga 0.860 | val_id acc 0.935 wga 0.900
+step  1000 | ep  26.7 | loss 0.0014 | train acc 1.000 wga 1.000 | val_bal acc 0.915 wga 0.860 | val_id acc 0.940 wga 0.900
+step  1100 | ep  29.3 | loss 0.0017 | train acc 1.000 wga 1.000 | val_bal acc 0.912 wga 0.850 | val_id acc 0.943 wga 0.900
+step  1200 | ep  32.0 | loss 0.0012 | train acc 1.000 wga 1.000 | val_bal acc 0.917 wga 0.870 | val_id acc 0.940 wga 0.900
+step  1300 | ep  34.7 | loss 0.0008 | train acc 1.000 wga 1.000 | val_bal acc 0.917 wga 0.870 | val_id acc 0.932 wga 0.900
+step  1400 | ep  37.3 | loss 0.0009 | train acc 1.000 wga 1.000 | val_bal acc 0.917 wga 0.850 | val_id acc 0.940 wga 0.900
+step  1500 | ep  40.0 | loss 0.0009 | train acc 1.000 wga 1.000 | val_bal acc 0.917 wga 0.860 | val_id acc 0.945 wga 0.900
+step  1600 | ep  42.7 | loss 0.0009 | train acc 1.000 wga 1.000 | val_bal acc 0.915 wga 0.870 | val_id acc 0.938 wga 0.900
+step  1700 | ep  45.3 | loss 0.0008 | train acc 1.000 wga 1.000 | val_bal acc 0.915 wga 0.870 | val_id acc 0.943 wga 0.900
+step  1800 | ep  48.0 | loss 0.0007 | train acc 1.000 wga 1.000 | val_bal acc 0.907 wga 0.850 | val_id acc 0.945 wga 0.900
+step  1900 | ep  50.7 | loss 0.0007 | train acc 1.000 wga 1.000 | val_bal acc 0.910 wga 0.860 | val_id acc 0.943 wga 0.900
+step  2000 | ep  53.3 | loss 0.0006 | train acc 1.000 wga 1.000 | val_bal acc 0.907 wga 0.850 | val_id acc 0.943 wga 0.900
+[time] training 36s (1758 img/s), evaluation 18s
+[done] runs/controlled_rho0.8_ds0_ts0_rwg_resnet50_3f82466d
+[run] controlled_rho0.8_ds0_ts0_jtt_resnet50_8945ef86
+[run] controlled rho=0.8 data_seed=0; device=cuda, amp=True; train=1200, val_bal=400, val_id=400, test=1200
+[jtt] error set from controlled_rho0.8_ds0_ts0_erm_resnet50_265f8e77 at step 25: 146 examples, by group [34, 79, 24, 9]; minority precision 0.71, recall 0.43
+step     0 | ep   0.0 | train acc 0.493 wga 0.050 | val_bal acc 0.517 wga 0.040 | val_id acc 0.490 wga 0.050
+step    25 | ep   0.7 | loss 0.6247 | train acc 0.652 wga 0.285 | val_bal acc 0.703 wga 0.270 | val_id acc 0.665 wga 0.312
+step    50 | ep   1.3 | loss 0.4256 | train acc 0.868 wga 0.819 | val_bal acc 0.873 wga 0.830 | val_id acc 0.840 wga 0.812
+step    75 | ep   2.0 | loss 0.2657 | train acc 0.908 wga 0.833 | val_bal acc 0.890 wga 0.850 | val_id acc 0.863 wga 0.781
+step   100 | ep   2.7 | loss 0.1495 | train acc 0.953 wga 0.917 | val_bal acc 0.907 wga 0.880 | val_id acc 0.892 wga 0.863
+step   125 | ep   3.3 | loss 0.1054 | train acc 0.968 wga 0.954 | val_bal acc 0.900 wga 0.810 | val_id acc 0.910 wga 0.850
+step   150 | ep   4.0 | loss 0.0569 | train acc 0.972 wga 0.952 | val_bal acc 0.897 wga 0.840 | val_id acc 0.907 wga 0.875
+step   175 | ep   4.7 | loss 0.0711 | train acc 0.982 wga 0.965 | val_bal acc 0.922 wga 0.850 | val_id acc 0.917 wga 0.850
+step   200 | ep   5.3 | loss 0.0397 | train acc 0.984 wga 0.971 | val_bal acc 0.907 wga 0.840 | val_id acc 0.922 wga 0.875
+step   300 | ep   8.0 | loss 0.0282 | train acc 0.993 wga 0.983 | val_bal acc 0.915 wga 0.830 | val_id acc 0.938 wga 0.900
+step   400 | ep  10.7 | loss 0.0198 | train acc 0.998 wga 0.992 | val_bal acc 0.907 wga 0.790 | val_id acc 0.938 wga 0.825
+step   500 | ep  13.3 | loss 0.0115 | train acc 0.999 wga 0.992 | val_bal acc 0.895 wga 0.780 | val_id acc 0.938 wga 0.825
+step   600 | ep  16.0 | loss 0.0101 | train acc 1.000 wga 1.000 | val_bal acc 0.915 wga 0.810 | val_id acc 0.938 wga 0.800
+step   700 | ep  18.7 | loss 0.0060 | train acc 1.000 wga 1.000 | val_bal acc 0.915 wga 0.810 | val_id acc 0.938 wga 0.825
+step   800 | ep  21.3 | loss 0.0041 | train acc 1.000 wga 1.000 | val_bal acc 0.915 wga 0.810 | val_id acc 0.940 wga 0.825
+step   900 | ep  24.0 | loss 0.0049 | train acc 1.000 wga 1.000 | val_bal acc 0.915 wga 0.800 | val_id acc 0.938 wga 0.825
+step  1000 | ep  26.7 | loss 0.0047 | train acc 1.000 wga 1.000 | val_bal acc 0.907 wga 0.780 | val_id acc 0.935 wga 0.825
+step  1100 | ep  29.3 | loss 0.0046 | train acc 1.000 wga 1.000 | val_bal acc 0.897 wga 0.770 | val_id acc 0.932 wga 0.800
+step  1200 | ep  32.0 | loss 0.0026 | train acc 1.000 wga 1.000 | val_bal acc 0.907 wga 0.780 | val_id acc 0.932 wga 0.775
+step  1300 | ep  34.7 | loss 0.0026 | train acc 1.000 wga 1.000 | val_bal acc 0.907 wga 0.760 | val_id acc 0.932 wga 0.775
+step  1400 | ep  37.3 | loss 0.0021 | train acc 1.000 wga 1.000 | val_bal acc 0.907 wga 0.770 | val_id acc 0.925 wga 0.775
+step  1500 | ep  40.0 | loss 0.0021 | train acc 1.000 wga 1.000 | val_bal acc 0.900 wga 0.760 | val_id acc 0.927 wga 0.750
+step  1600 | ep  42.7 | loss 0.0026 | train acc 1.000 wga 1.000 | val_bal acc 0.907 wga 0.780 | val_id acc 0.935 wga 0.825
+step  1700 | ep  45.3 | loss 0.0036 | train acc 1.000 wga 1.000 | val_bal acc 0.902 wga 0.750 | val_id acc 0.932 wga 0.800
+step  1800 | ep  48.0 | loss 0.0033 | train acc 1.000 wga 1.000 | val_bal acc 0.902 wga 0.820 | val_id acc 0.932 wga 0.825
+step  1900 | ep  50.7 | loss 0.0026 | train acc 1.000 wga 1.000 | val_bal acc 0.897 wga 0.810 | val_id acc 0.927 wga 0.825
+step  2000 | ep  53.3 | loss 0.0018 | train acc 1.000 wga 1.000 | val_bal acc 0.902 wga 0.810 | val_id acc 0.932 wga 0.800
+[time] training 36s (1798 img/s), evaluation 18s
+[done] runs/controlled_rho0.8_ds0_ts0_jtt_resnet50_8945ef86
+[run] controlled_rho0.5_ds0_ts0_erm_resnet50_d74518cd
+[run] controlled rho=0.5 data_seed=0; device=cuda, amp=True; train=1200, val_bal=400, val_id=400, test=1200
+step     0 | ep   0.0 | train acc 0.503 wga 0.043 | val_bal acc 0.517 wga 0.040 | val_id acc 0.510 wga 0.060
+step    25 | ep   0.7 | loss 0.5646 | train acc 0.901 wga 0.857 | val_bal acc 0.892 wga 0.860 | val_id acc 0.868 wga 0.820
+step    50 | ep   1.3 | loss 0.3523 | train acc 0.911 wga 0.857 | val_bal acc 0.882 wga 0.830 | val_id acc 0.885 wga 0.830
+step    75 | ep   2.0 | loss 0.2455 | train acc 0.948 wga 0.923 | val_bal acc 0.932 wga 0.900 | val_id acc 0.917 wga 0.900
+step   100 | ep   2.7 | loss 0.1698 | train acc 0.955 wga 0.930 | val_bal acc 0.907 wga 0.870 | val_id acc 0.905 wga 0.870
+step   125 | ep   3.3 | loss 0.1469 | train acc 0.971 wga 0.943 | val_bal acc 0.917 wga 0.900 | val_id acc 0.925 wga 0.920
+step   150 | ep   4.0 | loss 0.1061 | train acc 0.977 wga 0.950 | val_bal acc 0.930 wga 0.870 | val_id acc 0.930 wga 0.900
+step   175 | ep   4.7 | loss 0.0932 | train acc 0.989 wga 0.977 | val_bal acc 0.927 wga 0.900 | val_id acc 0.932 wga 0.920
+step   200 | ep   5.3 | loss 0.0803 | train acc 0.990 wga 0.977 | val_bal acc 0.925 wga 0.880 | val_id acc 0.935 wga 0.920
+step   300 | ep   8.0 | loss 0.0451 | train acc 1.000 wga 1.000 | val_bal acc 0.922 wga 0.870 | val_id acc 0.935 wga 0.900
+step   400 | ep  10.7 | loss 0.0264 | train acc 1.000 wga 1.000 | val_bal acc 0.938 wga 0.910 | val_id acc 0.948 wga 0.930
+step   500 | ep  13.3 | loss 0.0179 | train acc 1.000 wga 1.000 | val_bal acc 0.935 wga 0.910 | val_id acc 0.955 wga 0.940
+step   600 | ep  16.0 | loss 0.0103 | train acc 1.000 wga 1.000 | val_bal acc 0.932 wga 0.890 | val_id acc 0.948 wga 0.930
+step   700 | ep  18.7 | loss 0.0073 | train acc 1.000 wga 1.000 | val_bal acc 0.932 wga 0.900 | val_id acc 0.943 wga 0.920
+step   800 | ep  21.3 | loss 0.0083 | train acc 1.000 wga 1.000 | val_bal acc 0.932 wga 0.910 | val_id acc 0.943 wga 0.920
+step   900 | ep  24.0 | loss 0.0056 | train acc 1.000 wga 1.000 | val_bal acc 0.940 wga 0.920 | val_id acc 0.950 wga 0.930
+step  1000 | ep  26.7 | loss 0.0050 | train acc 1.000 wga 1.000 | val_bal acc 0.930 wga 0.900 | val_id acc 0.950 wga 0.940
+step  1100 | ep  29.3 | loss 0.0059 | train acc 1.000 wga 1.000 | val_bal acc 0.930 wga 0.890 | val_id acc 0.945 wga 0.940
+step  1200 | ep  32.0 | loss 0.0046 | train acc 1.000 wga 1.000 | val_bal acc 0.938 wga 0.910 | val_id acc 0.948 wga 0.930
+step  1300 | ep  34.7 | loss 0.0027 | train acc 1.000 wga 1.000 | val_bal acc 0.932 wga 0.930 | val_id acc 0.953 wga 0.940
+step  1400 | ep  37.3 | loss 0.0018 | train acc 1.000 wga 1.000 | val_bal acc 0.932 wga 0.900 | val_id acc 0.955 wga 0.940
+step  1500 | ep  40.0 | loss 0.0024 | train acc 1.000 wga 1.000 | val_bal acc 0.930 wga 0.910 | val_id acc 0.945 wga 0.940
+step  1600 | ep  42.7 | loss 0.0012 | train acc 1.000 wga 1.000 | val_bal acc 0.932 wga 0.910 | val_id acc 0.948 wga 0.930
+step  1700 | ep  45.3 | loss 0.0026 | train acc 1.000 wga 1.000 | val_bal acc 0.935 wga 0.880 | val_id acc 0.938 wga 0.910
+step  1800 | ep  48.0 | loss 0.0070 | train acc 1.000 wga 1.000 | val_bal acc 0.935 wga 0.910 | val_id acc 0.932 wga 0.910
+step  1900 | ep  50.7 | loss 0.0021 | train acc 1.000 wga 1.000 | val_bal acc 0.940 wga 0.910 | val_id acc 0.940 wga 0.930
+step  2000 | ep  53.3 | loss 0.0036 | train acc 1.000 wga 1.000 | val_bal acc 0.930 wga 0.890 | val_id acc 0.950 wga 0.940
+[time] training 36s (1799 img/s), evaluation 18s
+[done] runs/controlled_rho0.5_ds0_ts0_erm_resnet50_d74518cd
+[run] controlled_rho0.5_ds0_ts0_rwg_resnet50_e744368b
+[run] controlled rho=0.5 data_seed=0; device=cuda, amp=True; train=1200, val_bal=400, val_id=400, test=1200
+step     0 | ep   0.0 | train acc 0.503 wga 0.043 | val_bal acc 0.517 wga 0.040 | val_id acc 0.510 wga 0.060
+step    25 | ep   0.7 | loss 0.5512 | train acc 0.911 wga 0.887 | val_bal acc 0.915 wga 0.880 | val_id acc 0.887 wga 0.860
+step    50 | ep   1.3 | loss 0.3031 | train acc 0.927 wga 0.910 | val_bal acc 0.902 wga 0.860 | val_id acc 0.897 wga 0.870
+step    75 | ep   2.0 | loss 0.1914 | train acc 0.946 wga 0.923 | val_bal acc 0.917 wga 0.900 | val_id acc 0.910 wga 0.900
+step   100 | ep   2.7 | loss 0.1455 | train acc 0.960 wga 0.943 | val_bal acc 0.922 wga 0.900 | val_id acc 0.910 wga 0.890
+step   125 | ep   3.3 | loss 0.1403 | train acc 0.977 wga 0.960 | val_bal acc 0.925 wga 0.910 | val_id acc 0.920 wga 0.910
+step   150 | ep   4.0 | loss 0.0868 | train acc 0.983 wga 0.957 | val_bal acc 0.932 wga 0.910 | val_id acc 0.922 wga 0.910
+step   175 | ep   4.7 | loss 0.0618 | train acc 0.988 wga 0.977 | val_bal acc 0.930 wga 0.910 | val_id acc 0.925 wga 0.910
+step   200 | ep   5.3 | loss 0.0404 | train acc 0.991 wga 0.983 | val_bal acc 0.930 wga 0.910 | val_id acc 0.932 wga 0.910
+step   300 | ep   8.0 | loss 0.0301 | train acc 0.998 wga 0.997 | val_bal acc 0.927 wga 0.900 | val_id acc 0.935 wga 0.920
+step   400 | ep  10.7 | loss 0.0134 | train acc 1.000 wga 1.000 | val_bal acc 0.927 wga 0.910 | val_id acc 0.925 wga 0.910
+step   500 | ep  13.3 | loss 0.0068 | train acc 1.000 wga 1.000 | val_bal acc 0.945 wga 0.920 | val_id acc 0.938 wga 0.920
+step   600 | ep  16.0 | loss 0.0058 | train acc 1.000 wga 1.000 | val_bal acc 0.938 wga 0.910 | val_id acc 0.940 wga 0.920
+step   700 | ep  18.7 | loss 0.0053 | train acc 1.000 wga 1.000 | val_bal acc 0.945 wga 0.910 | val_id acc 0.943 wga 0.930
+step   800 | ep  21.3 | loss 0.0036 | train acc 1.000 wga 1.000 | val_bal acc 0.935 wga 0.910 | val_id acc 0.943 wga 0.940
+step   900 | ep  24.0 | loss 0.0031 | train acc 1.000 wga 1.000 | val_bal acc 0.940 wga 0.910 | val_id acc 0.938 wga 0.920
+step  1000 | ep  26.7 | loss 0.0017 | train acc 1.000 wga 1.000 | val_bal acc 0.940 wga 0.910 | val_id acc 0.935 wga 0.920
+step  1100 | ep  29.3 | loss 0.0021 | train acc 1.000 wga 1.000 | val_bal acc 0.938 wga 0.910 | val_id acc 0.938 wga 0.920
+step  1200 | ep  32.0 | loss 0.0012 | train acc 1.000 wga 1.000 | val_bal acc 0.943 wga 0.920 | val_id acc 0.940 wga 0.930
+step  1300 | ep  34.7 | loss 0.0012 | train acc 1.000 wga 1.000 | val_bal acc 0.938 wga 0.910 | val_id acc 0.940 wga 0.930
+step  1400 | ep  37.3 | loss 0.0012 | train acc 1.000 wga 1.000 | val_bal acc 0.943 wga 0.910 | val_id acc 0.940 wga 0.930
+step  1500 | ep  40.0 | loss 0.0011 | train acc 1.000 wga 1.000 | val_bal acc 0.943 wga 0.920 | val_id acc 0.940 wga 0.930
+step  1600 | ep  42.7 | loss 0.0010 | train acc 1.000 wga 1.000 | val_bal acc 0.938 wga 0.910 | val_id acc 0.940 wga 0.920
+step  1700 | ep  45.3 | loss 0.0009 | train acc 1.000 wga 1.000 | val_bal acc 0.943 wga 0.920 | val_id acc 0.943 wga 0.930
+step  1800 | ep  48.0 | loss 0.0007 | train acc 1.000 wga 1.000 | val_bal acc 0.945 wga 0.920 | val_id acc 0.943 wga 0.930
+step  1900 | ep  50.7 | loss 0.0006 | train acc 1.000 wga 1.000 | val_bal acc 0.945 wga 0.920 | val_id acc 0.938 wga 0.930
+step  2000 | ep  53.3 | loss 0.0006 | train acc 1.000 wga 1.000 | val_bal acc 0.943 wga 0.920 | val_id acc 0.940 wga 0.930
+[time] training 36s (1758 img/s), evaluation 18s
+[done] runs/controlled_rho0.5_ds0_ts0_rwg_resnet50_e744368b
+[run] controlled_rho0.5_ds0_ts0_jtt_resnet50_6d100168
+[run] controlled rho=0.5 data_seed=0; device=cuda, amp=True; train=1200, val_bal=400, val_id=400, test=1200
+[jtt] error set from controlled_rho0.5_ds0_ts0_erm_resnet50_d74518cd at step 25: 119 examples, by group [25, 43, 28, 23]; minority precision 0.60, recall 0.12
+step     0 | ep   0.0 | train acc 0.503 wga 0.043 | val_bal acc 0.517 wga 0.040 | val_id acc 0.510 wga 0.060
+step    25 | ep   0.7 | loss 0.6550 | train acc 0.572 wga 0.383 | val_bal acc 0.537 wga 0.410 | val_id acc 0.522 wga 0.380
+step    50 | ep   1.3 | loss 0.5082 | train acc 0.742 wga 0.487 | val_bal acc 0.703 wga 0.440 | val_id acc 0.700 wga 0.380
+step    75 | ep   2.0 | loss 0.3494 | train acc 0.877 wga 0.753 | val_bal acc 0.825 wga 0.770 | val_id acc 0.802 wga 0.710
+step   100 | ep   2.7 | loss 0.2260 | train acc 0.940 wga 0.880 | val_bal acc 0.853 wga 0.760 | val_id acc 0.863 wga 0.810
+step   125 | ep   3.3 | loss 0.1230 | train acc 0.959 wga 0.950 | val_bal acc 0.887 wga 0.840 | val_id acc 0.880 wga 0.850
+step   150 | ep   4.0 | loss 0.0762 | train acc 0.972 wga 0.957 | val_bal acc 0.907 wga 0.880 | val_id acc 0.892 wga 0.870
+step   175 | ep   4.7 | loss 0.0562 | train acc 0.975 wga 0.963 | val_bal acc 0.905 wga 0.890 | val_id acc 0.887 wga 0.870
+step   200 | ep   5.3 | loss 0.0618 | train acc 0.984 wga 0.973 | val_bal acc 0.912 wga 0.890 | val_id acc 0.895 wga 0.880
+step   300 | ep   8.0 | loss 0.0290 | train acc 0.995 wga 0.993 | val_bal acc 0.907 wga 0.840 | val_id acc 0.902 wga 0.870
+step   400 | ep  10.7 | loss 0.0204 | train acc 0.997 wga 0.993 | val_bal acc 0.912 wga 0.880 | val_id acc 0.907 wga 0.880
+step   500 | ep  13.3 | loss 0.0150 | train acc 0.998 wga 0.993 | val_bal acc 0.922 wga 0.890 | val_id acc 0.915 wga 0.900
+step   600 | ep  16.0 | loss 0.0074 | train acc 0.998 wga 0.993 | val_bal acc 0.935 wga 0.900 | val_id acc 0.907 wga 0.890
+step   700 | ep  18.7 | loss 0.0092 | train acc 1.000 wga 1.000 | val_bal acc 0.905 wga 0.850 | val_id acc 0.902 wga 0.870
+step   800 | ep  21.3 | loss 0.0067 | train acc 1.000 wga 1.000 | val_bal acc 0.917 wga 0.900 | val_id acc 0.915 wga 0.910
+step   900 | ep  24.0 | loss 0.0044 | train acc 1.000 wga 1.000 | val_bal acc 0.915 wga 0.890 | val_id acc 0.910 wga 0.890
+step  1000 | ep  26.7 | loss 0.0041 | train acc 1.000 wga 1.000 | val_bal acc 0.905 wga 0.840 | val_id acc 0.915 wga 0.900
+step  1100 | ep  29.3 | loss 0.0029 | train acc 1.000 wga 1.000 | val_bal acc 0.920 wga 0.870 | val_id acc 0.910 wga 0.880
+step  1200 | ep  32.0 | loss 0.0031 | train acc 1.000 wga 1.000 | val_bal acc 0.912 wga 0.860 | val_id acc 0.915 wga 0.900
+step  1300 | ep  34.7 | loss 0.0025 | train acc 1.000 wga 1.000 | val_bal acc 0.920 wga 0.870 | val_id acc 0.917 wga 0.910
+step  1400 | ep  37.3 | loss 0.0023 | train acc 1.000 wga 1.000 | val_bal acc 0.920 wga 0.870 | val_id acc 0.910 wga 0.890
+step  1500 | ep  40.0 | loss 0.0036 | train acc 1.000 wga 1.000 | val_bal acc 0.930 wga 0.890 | val_id acc 0.917 wga 0.890
+step  1600 | ep  42.7 | loss 0.0042 | train acc 1.000 wga 1.000 | val_bal acc 0.930 wga 0.890 | val_id acc 0.925 wga 0.900
+step  1700 | ep  45.3 | loss 0.0033 | train acc 1.000 wga 1.000 | val_bal acc 0.932 wga 0.920 | val_id acc 0.932 wga 0.920
+step  1800 | ep  48.0 | loss 0.0019 | train acc 1.000 wga 1.000 | val_bal acc 0.922 wga 0.880 | val_id acc 0.932 wga 0.910
+step  1900 | ep  50.7 | loss 0.0018 | train acc 1.000 wga 1.000 | val_bal acc 0.917 wga 0.860 | val_id acc 0.920 wga 0.890
+step  2000 | ep  53.3 | loss 0.0020 | train acc 1.000 wga 1.000 | val_bal acc 0.932 wga 0.910 | val_id acc 0.932 wga 0.900
+[time] training 36s (1799 img/s), evaluation 18s
+[done] runs/controlled_rho0.5_ds0_ts0_jtt_resnet50_6d100168
+[run] controlled_rho0.95_ds0_ts0_gdro_resnet50_b99bb942
+[run] controlled rho=0.95 data_seed=0; device=cuda, amp=True; train=1200, val_bal=400, val_id=400, test=1200
+step     0 | ep   0.0 | train acc 0.482 wga 0.049 | val_bal acc 0.517 wga 0.040 | val_id acc 0.490 wga 0.058
+step    25 | ep   0.7 | loss 1.2058 | train acc 0.502 wga 0.000 | val_bal acc 0.500 wga 0.000 | val_id acc 0.500 wga 0.000
+step    50 | ep   1.3 | loss 1.9657 | train acc 0.894 wga 0.767 | val_bal acc 0.873 wga 0.670 | val_id acc 0.870 wga 0.700
+step    75 | ep   2.0 | loss 1.4914 | train acc 0.579 wga 0.033 | val_bal acc 0.537 wga 0.030 | val_id acc 0.542 wga 0.000
+step   100 | ep   2.7 | loss 1.8305 | train acc 0.678 wga 0.384 | val_bal acc 0.647 wga 0.280 | val_id acc 0.665 wga 0.358
+step   125 | ep   3.3 | loss 1.0370 | train acc 0.896 wga 0.839 | val_bal acc 0.777 wga 0.510 | val_id acc 0.845 wga 0.700
+step   150 | ep   4.0 | loss 0.4502 | train acc 0.889 wga 0.733 | val_bal acc 0.770 wga 0.450 | val_id acc 0.848 wga 0.500
+step   175 | ep   4.7 | loss 0.2240 | train acc 0.855 wga 0.716 | val_bal acc 0.708 wga 0.330 | val_id acc 0.820 wga 0.400
+step   200 | ep   5.3 | loss 0.3236 | train acc 0.951 wga 0.767 | val_bal acc 0.743 wga 0.330 | val_id acc 0.912 wga 0.200
+step   300 | ep   8.0 | loss 0.1426 | train acc 0.954 wga 0.867 | val_bal acc 0.760 wga 0.440 | val_id acc 0.925 wga 0.600
+step   400 | ep  10.7 | loss 0.0742 | train acc 0.985 wga 0.933 | val_bal acc 0.782 wga 0.570 | val_id acc 0.950 wga 0.600
+step   500 | ep  13.3 | loss 0.0323 | train acc 0.994 wga 0.989 | val_bal acc 0.805 wga 0.570 | val_id acc 0.953 wga 0.700
+step   600 | ep  16.0 | loss 0.0135 | train acc 0.998 wga 0.996 | val_bal acc 0.743 wga 0.330 | val_id acc 0.948 wga 0.500
+step   700 | ep  18.7 | loss 0.0073 | train acc 0.998 wga 0.996 | val_bal acc 0.752 wga 0.400 | val_id acc 0.953 wga 0.500
+step   800 | ep  21.3 | loss 0.0053 | train acc 0.999 wga 0.998 | val_bal acc 0.755 wga 0.410 | val_id acc 0.950 wga 0.500
+step   900 | ep  24.0 | loss 0.0041 | train acc 0.999 wga 0.998 | val_bal acc 0.755 wga 0.380 | val_id acc 0.953 wga 0.500
+step  1000 | ep  26.7 | loss 0.0042 | train acc 1.000 wga 1.000 | val_bal acc 0.762 wga 0.400 | val_id acc 0.953 wga 0.500
+step  1100 | ep  29.3 | loss 0.0021 | train acc 1.000 wga 1.000 | val_bal acc 0.750 wga 0.350 | val_id acc 0.955 wga 0.500
+step  1200 | ep  32.0 | loss 0.0018 | train acc 1.000 wga 1.000 | val_bal acc 0.757 wga 0.390 | val_id acc 0.955 wga 0.500
+step  1300 | ep  34.7 | loss 0.0015 | train acc 1.000 wga 1.000 | val_bal acc 0.760 wga 0.390 | val_id acc 0.955 wga 0.500
+step  1400 | ep  37.3 | loss 0.0017 | train acc 1.000 wga 1.000 | val_bal acc 0.765 wga 0.410 | val_id acc 0.950 wga 0.500
+step  1500 | ep  40.0 | loss 0.0016 | train acc 1.000 wga 1.000 | val_bal acc 0.757 wga 0.380 | val_id acc 0.953 wga 0.500
+step  1600 | ep  42.7 | loss 0.0016 | train acc 1.000 wga 1.000 | val_bal acc 0.757 wga 0.380 | val_id acc 0.955 wga 0.500
+step  1700 | ep  45.3 | loss 0.0011 | train acc 1.000 wga 1.000 | val_bal acc 0.760 wga 0.380 | val_id acc 0.955 wga 0.500
+step  1800 | ep  48.0 | loss 0.0021 | train acc 1.000 wga 1.000 | val_bal acc 0.762 wga 0.430 | val_id acc 0.958 wga 0.600
+step  1900 | ep  50.7 | loss 0.0008 | train acc 1.000 wga 1.000 | val_bal acc 0.760 wga 0.420 | val_id acc 0.958 wga 0.600
+step  2000 | ep  53.3 | loss 0.0010 | train acc 1.000 wga 1.000 | val_bal acc 0.762 wga 0.410 | val_id acc 0.958 wga 0.600
+[time] training 36s (1754 img/s), evaluation 18s
+[done] runs/controlled_rho0.95_ds0_ts0_gdro_resnet50_b99bb942
+[run] controlled_rho0.95_ds1_ts1_erm_resnet50_2f7ad784
+[run] controlled rho=0.95 data_seed=1; device=cuda, amp=True; train=1200, val_bal=400, val_id=400, test=1200
+step     0 | ep   0.0 | train acc 0.504 wga 0.446 | val_bal acc 0.603 wga 0.510 | val_id acc 0.492 wga 0.400
+step    25 | ep   0.7 | loss 0.4274 | train acc 0.935 wga 0.367 | val_bal acc 0.652 wga 0.320 | val_id acc 0.940 wga 0.400
+step    50 | ep   1.3 | loss 0.2350 | train acc 0.959 wga 0.467 | val_bal acc 0.723 wga 0.380 | val_id acc 0.955 wga 0.500
+step    75 | ep   2.0 | loss 0.1279 | train acc 0.968 wga 0.633 | val_bal acc 0.757 wga 0.530 | val_id acc 0.950 wga 0.500
+step   100 | ep   2.7 | loss 0.1183 | train acc 0.981 wga 0.733 | val_bal acc 0.770 wga 0.530 | val_id acc 0.953 wga 0.500
+step   125 | ep   3.3 | loss 0.0745 | train acc 0.986 wga 0.767 | val_bal acc 0.748 wga 0.440 | val_id acc 0.953 wga 0.500
+step   150 | ep   4.0 | loss 0.0893 | train acc 0.992 wga 0.900 | val_bal acc 0.767 wga 0.520 | val_id acc 0.955 wga 0.600
+step   175 | ep   4.7 | loss 0.0671 | train acc 0.991 wga 0.900 | val_bal acc 0.782 wga 0.580 | val_id acc 0.953 wga 0.600
+step   200 | ep   5.3 | loss 0.0608 | train acc 0.996 wga 0.933 | val_bal acc 0.785 wga 0.510 | val_id acc 0.963 wga 0.500
+step   300 | ep   8.0 | loss 0.0379 | train acc 0.998 wga 0.967 | val_bal acc 0.792 wga 0.590 | val_id acc 0.960 wga 0.600
+step   400 | ep  10.7 | loss 0.0204 | train acc 1.000 wga 1.000 | val_bal acc 0.780 wga 0.500 | val_id acc 0.970 wga 0.600
+step   500 | ep  13.3 | loss 0.0129 | train acc 1.000 wga 1.000 | val_bal acc 0.785 wga 0.500 | val_id acc 0.968 wga 0.600
+step   600 | ep  16.0 | loss 0.0071 | train acc 1.000 wga 1.000 | val_bal acc 0.775 wga 0.500 | val_id acc 0.963 wga 0.500
+step   700 | ep  18.7 | loss 0.0063 | train acc 1.000 wga 1.000 | val_bal acc 0.787 wga 0.550 | val_id acc 0.963 wga 0.600
+step   800 | ep  21.3 | loss 0.0053 | train acc 1.000 wga 1.000 | val_bal acc 0.775 wga 0.520 | val_id acc 0.968 wga 0.600
+step   900 | ep  24.0 | loss 0.0040 | train acc 1.000 wga 1.000 | val_bal acc 0.777 wga 0.500 | val_id acc 0.965 wga 0.600
+step  1000 | ep  26.7 | loss 0.0044 | train acc 1.000 wga 1.000 | val_bal acc 0.775 wga 0.520 | val_id acc 0.965 wga 0.600
+step  1100 | ep  29.3 | loss 0.0039 | train acc 1.000 wga 1.000 | val_bal acc 0.787 wga 0.520 | val_id acc 0.968 wga 0.600
+step  1200 | ep  32.0 | loss 0.0032 | train acc 1.000 wga 1.000 | val_bal acc 0.777 wga 0.540 | val_id acc 0.955 wga 0.600
+step  1300 | ep  34.7 | loss 0.0033 | train acc 1.000 wga 1.000 | val_bal acc 0.777 wga 0.460 | val_id acc 0.963 wga 0.400
+step  1400 | ep  37.3 | loss 0.0061 | train acc 1.000 wga 1.000 | val_bal acc 0.795 wga 0.590 | val_id acc 0.953 wga 0.700
+step  1500 | ep  40.0 | loss 0.0037 | train acc 1.000 wga 1.000 | val_bal acc 0.792 wga 0.600 | val_id acc 0.960 wga 0.700
+step  1600 | ep  42.7 | loss 0.0021 | train acc 1.000 wga 1.000 | val_bal acc 0.785 wga 0.550 | val_id acc 0.968 wga 0.700
+step  1700 | ep  45.3 | loss 0.0014 | train acc 1.000 wga 1.000 | val_bal acc 0.780 wga 0.540 | val_id acc 0.968 wga 0.700
+step  1800 | ep  48.0 | loss 0.0020 | train acc 1.000 wga 1.000 | val_bal acc 0.777 wga 0.510 | val_id acc 0.968 wga 0.700
+step  1900 | ep  50.7 | loss 0.0015 | train acc 1.000 wga 1.000 | val_bal acc 0.785 wga 0.550 | val_id acc 0.965 wga 0.600
+step  2000 | ep  53.3 | loss 0.0017 | train acc 1.000 wga 1.000 | val_bal acc 0.785 wga 0.530 | val_id acc 0.968 wga 0.500
+[time] training 36s (1798 img/s), evaluation 18s
+[done] runs/controlled_rho0.95_ds1_ts1_erm_resnet50_2f7ad784
+[run] controlled_rho0.95_ds1_ts1_rwg_resnet50_1477d02e
+[run] controlled rho=0.95 data_seed=1; device=cuda, amp=True; train=1200, val_bal=400, val_id=400, test=1200
+step     0 | ep   0.0 | train acc 0.504 wga 0.446 | val_bal acc 0.603 wga 0.510 | val_id acc 0.492 wga 0.400
+step    25 | ep   0.7 | loss 0.5190 | train acc 0.907 wga 0.900 | val_bal acc 0.858 wga 0.810 | val_id acc 0.930 wga 0.800
+step    50 | ep   1.3 | loss 0.2374 | train acc 0.936 wga 0.918 | val_bal acc 0.885 wga 0.820 | val_id acc 0.927 wga 0.800
+step    75 | ep   2.0 | loss 0.1375 | train acc 0.958 wga 0.940 | val_bal acc 0.873 wga 0.780 | val_id acc 0.945 wga 0.800
+step   100 | ep   2.7 | loss 0.0766 | train acc 0.967 wga 0.940 | val_bal acc 0.873 wga 0.740 | val_id acc 0.948 wga 0.800
+step   125 | ep   3.3 | loss 0.0618 | train acc 0.978 wga 0.974 | val_bal acc 0.850 wga 0.700 | val_id acc 0.955 wga 0.800
+step   150 | ep   4.0 | loss 0.0459 | train acc 0.986 wga 0.972 | val_bal acc 0.843 wga 0.690 | val_id acc 0.955 wga 0.800
+step   175 | ep   4.7 | loss 0.0358 | train acc 0.989 wga 0.979 | val_bal acc 0.855 wga 0.710 | val_id acc 0.950 wga 0.800
+step   200 | ep   5.3 | loss 0.0330 | train acc 0.996 wga 0.993 | val_bal acc 0.830 wga 0.640 | val_id acc 0.958 wga 0.800
+step   300 | ep   8.0 | loss 0.0173 | train acc 0.999 wga 0.998 | val_bal acc 0.812 wga 0.590 | val_id acc 0.953 wga 0.800
+step   400 | ep  10.7 | loss 0.0088 | train acc 1.000 wga 1.000 | val_bal acc 0.810 wga 0.560 | val_id acc 0.960 wga 0.700
+step   500 | ep  13.3 | loss 0.0047 | train acc 1.000 wga 1.000 | val_bal acc 0.812 wga 0.590 | val_id acc 0.963 wga 0.800
+step   600 | ep  16.0 | loss 0.0035 | train acc 1.000 wga 1.000 | val_bal acc 0.815 wga 0.550 | val_id acc 0.960 wga 0.800
+step   700 | ep  18.7 | loss 0.0027 | train acc 1.000 wga 1.000 | val_bal acc 0.815 wga 0.560 | val_id acc 0.963 wga 0.800
+step   800 | ep  21.3 | loss 0.0024 | train acc 1.000 wga 1.000 | val_bal acc 0.815 wga 0.560 | val_id acc 0.960 wga 0.700
+step   900 | ep  24.0 | loss 0.0021 | train acc 1.000 wga 1.000 | val_bal acc 0.812 wga 0.580 | val_id acc 0.970 wga 0.800
+step  1000 | ep  26.7 | loss 0.0016 | train acc 1.000 wga 1.000 | val_bal acc 0.812 wga 0.590 | val_id acc 0.965 wga 0.700
+step  1100 | ep  29.3 | loss 0.0013 | train acc 1.000 wga 1.000 | val_bal acc 0.815 wga 0.590 | val_id acc 0.968 wga 0.700
+step  1200 | ep  32.0 | loss 0.0011 | train acc 1.000 wga 1.000 | val_bal acc 0.818 wga 0.580 | val_id acc 0.970 wga 0.700
+step  1300 | ep  34.7 | loss 0.0010 | train acc 1.000 wga 1.000 | val_bal acc 0.812 wga 0.590 | val_id acc 0.965 wga 0.700
+step  1400 | ep  37.3 | loss 0.0009 | train acc 1.000 wga 1.000 | val_bal acc 0.815 wga 0.590 | val_id acc 0.970 wga 0.800
+step  1500 | ep  40.0 | loss 0.0009 | train acc 1.000 wga 1.000 | val_bal acc 0.820 wga 0.580 | val_id acc 0.970 wga 0.700
+step  1600 | ep  42.7 | loss 0.0007 | train acc 1.000 wga 1.000 | val_bal acc 0.818 wga 0.570 | val_id acc 0.970 wga 0.700
+step  1700 | ep  45.3 | loss 0.0007 | train acc 1.000 wga 1.000 | val_bal acc 0.820 wga 0.590 | val_id acc 0.968 wga 0.700
+step  1800 | ep  48.0 | loss 0.0006 | train acc 1.000 wga 1.000 | val_bal acc 0.823 wga 0.580 | val_id acc 0.968 wga 0.700
+step  1900 | ep  50.7 | loss 0.0007 | train acc 1.000 wga 1.000 | val_bal acc 0.825 wga 0.600 | val_id acc 0.968 wga 0.700
+step  2000 | ep  53.3 | loss 0.0005 | train acc 1.000 wga 1.000 | val_bal acc 0.820 wga 0.590 | val_id acc 0.970 wga 0.700
+[time] training 36s (1757 img/s), evaluation 18s
+[done] runs/controlled_rho0.95_ds1_ts1_rwg_resnet50_1477d02e
+[run] controlled_rho0.95_ds1_ts1_jtt_resnet50_a5e28eb5
+[run] controlled rho=0.95 data_seed=1; device=cuda, amp=True; train=1200, val_bal=400, val_id=400, test=1200
+[jtt] error set from controlled_rho0.95_ds1_ts1_erm_resnet50_2f7ad784 at step 25: 78 examples, by group [15, 19, 14, 30]; minority precision 0.42, recall 0.55
+step     0 | ep   0.0 | train acc 0.504 wga 0.446 | val_bal acc 0.603 wga 0.510 | val_id acc 0.492 wga 0.400
+step    25 | ep   0.7 | loss 0.6226 | train acc 0.897 wga 0.867 | val_bal acc 0.828 wga 0.720 | val_id acc 0.870 wga 0.600
+step    50 | ep   1.3 | loss 0.3956 | train acc 0.941 wga 0.896 | val_bal acc 0.795 wga 0.480 | val_id acc 0.915 wga 0.500
+step    75 | ep   2.0 | loss 0.2194 | train acc 0.965 wga 0.949 | val_bal acc 0.835 wga 0.640 | val_id acc 0.927 wga 0.500
+step   100 | ep   2.7 | loss 0.1040 | train acc 0.987 wga 0.984 | val_bal acc 0.840 wga 0.680 | val_id acc 0.963 wga 0.800
+step   125 | ep   3.3 | loss 0.0865 | train acc 0.993 wga 0.991 | val_bal acc 0.818 wga 0.590 | val_id acc 0.960 wga 0.800
+step   150 | ep   4.0 | loss 0.0510 | train acc 0.998 wga 0.996 | val_bal acc 0.812 wga 0.550 | val_id acc 0.958 wga 0.600
+step   175 | ep   4.7 | loss 0.0246 | train acc 0.998 wga 0.996 | val_bal acc 0.815 wga 0.510 | val_id acc 0.960 wga 0.600
+step   200 | ep   5.3 | loss 0.0324 | train acc 1.000 wga 1.000 | val_bal acc 0.810 wga 0.600 | val_id acc 0.963 wga 0.800
+step   300 | ep   8.0 | loss 0.0166 | train acc 0.999 wga 0.998 | val_bal acc 0.802 wga 0.570 | val_id acc 0.965 wga 0.700
+step   400 | ep  10.7 | loss 0.0107 | train acc 1.000 wga 1.000 | val_bal acc 0.807 wga 0.590 | val_id acc 0.970 wga 0.800
+step   500 | ep  13.3 | loss 0.0105 | train acc 1.000 wga 1.000 | val_bal acc 0.800 wga 0.490 | val_id acc 0.963 wga 0.600
+step   600 | ep  16.0 | loss 0.0052 | train acc 1.000 wga 1.000 | val_bal acc 0.800 wga 0.530 | val_id acc 0.968 wga 0.700
+step   700 | ep  18.7 | loss 0.0037 | train acc 1.000 wga 1.000 | val_bal acc 0.807 wga 0.580 | val_id acc 0.968 wga 0.700
+step   800 | ep  21.3 | loss 0.0034 | train acc 1.000 wga 1.000 | val_bal acc 0.797 wga 0.490 | val_id acc 0.963 wga 0.600
+step   900 | ep  24.0 | loss 0.0054 | train acc 1.000 wga 1.000 | val_bal acc 0.802 wga 0.500 | val_id acc 0.965 wga 0.600
+step  1000 | ep  26.7 | loss 0.0042 | train acc 1.000 wga 1.000 | val_bal acc 0.790 wga 0.510 | val_id acc 0.968 wga 0.800
+step  1100 | ep  29.3 | loss 0.0034 | train acc 1.000 wga 1.000 | val_bal acc 0.807 wga 0.580 | val_id acc 0.970 wga 0.800
+step  1200 | ep  32.0 | loss 0.0059 | train acc 1.000 wga 1.000 | val_bal acc 0.810 wga 0.610 | val_id acc 0.965 wga 0.700
+step  1300 | ep  34.7 | loss 0.0067 | train acc 1.000 wga 1.000 | val_bal acc 0.815 wga 0.590 | val_id acc 0.970 wga 0.800
+step  1400 | ep  37.3 | loss 0.0018 | train acc 1.000 wga 1.000 | val_bal acc 0.807 wga 0.570 | val_id acc 0.970 wga 0.700
+step  1500 | ep  40.0 | loss 0.0018 | train acc 1.000 wga 1.000 | val_bal acc 0.805 wga 0.560 | val_id acc 0.970 wga 0.800
+step  1600 | ep  42.7 | loss 0.0025 | train acc 1.000 wga 1.000 | val_bal acc 0.797 wga 0.470 | val_id acc 0.973 wga 0.500
+step  1700 | ep  45.3 | loss 0.0011 | train acc 1.000 wga 1.000 | val_bal acc 0.792 wga 0.450 | val_id acc 0.973 wga 0.500
+step  1800 | ep  48.0 | loss 0.0014 | train acc 1.000 wga 1.000 | val_bal acc 0.815 wga 0.590 | val_id acc 0.970 wga 0.800
+step  1900 | ep  50.7 | loss 0.0018 | train acc 1.000 wga 1.000 | val_bal acc 0.792 wga 0.430 | val_id acc 0.973 wga 0.500
+step  2000 | ep  53.3 | loss 0.0016 | train acc 1.000 wga 1.000 | val_bal acc 0.823 wga 0.560 | val_id acc 0.968 wga 0.600
+[time] training 36s (1796 img/s), evaluation 18s
+[done] runs/controlled_rho0.95_ds1_ts1_jtt_resnet50_a5e28eb5
+[run] controlled_rho0.99_ds1_ts1_erm_resnet50_6faf74b2
+[run] controlled rho=0.99 data_seed=1; device=cuda, amp=True; train=1200, val_bal=400, val_id=400, test=1200
+step     0 | ep   0.0 | train acc 0.497 wga 0.451 | val_bal acc 0.603 wga 0.510 | val_id acc 0.492 wga 0.485
+step    25 | ep   0.7 | loss 0.4256 | train acc 0.958 wga 0.333 | val_bal acc 0.630 wga 0.290 | val_id acc 0.963 wga 0.000
+step    50 | ep   1.3 | loss 0.1567 | train acc 0.971 wga 0.500 | val_bal acc 0.635 wga 0.200 | val_id acc 0.963 wga 0.000
+step    75 | ep   2.0 | loss 0.1211 | train acc 0.980 wga 0.500 | val_bal acc 0.637 wga 0.290 | val_id acc 0.963 wga 0.000
+step   100 | ep   2.7 | loss 0.0950 | train acc 0.991 wga 0.500 | val_bal acc 0.670 wga 0.190 | val_id acc 0.973 wga 0.500
+step   125 | ep   3.3 | loss 0.0508 | train acc 0.993 wga 0.500 | val_bal acc 0.670 wga 0.210 | val_id acc 0.978 wga 0.500
+step   150 | ep   4.0 | loss 0.0680 | train acc 0.993 wga 0.500 | val_bal acc 0.665 wga 0.210 | val_id acc 0.978 wga 0.500
+step   175 | ep   4.7 | loss 0.0514 | train acc 0.995 wga 0.667 | val_bal acc 0.680 wga 0.300 | val_id acc 0.975 wga 0.500
+step   200 | ep   5.3 | loss 0.0428 | train acc 0.995 wga 0.667 | val_bal acc 0.680 wga 0.240 | val_id acc 0.975 wga 0.500
+step   300 | ep   8.0 | loss 0.0291 | train acc 0.998 wga 0.833 | val_bal acc 0.700 wga 0.280 | val_id acc 0.973 wga 0.500
+step   400 | ep  10.7 | loss 0.0219 | train acc 1.000 wga 1.000 | val_bal acc 0.703 wga 0.300 | val_id acc 0.978 wga 0.500
+step   500 | ep  13.3 | loss 0.0113 | train acc 1.000 wga 1.000 | val_bal acc 0.705 wga 0.330 | val_id acc 0.975 wga 0.000
+step   600 | ep  16.0 | loss 0.0062 | train acc 1.000 wga 1.000 | val_bal acc 0.708 wga 0.290 | val_id acc 0.975 wga 0.000
+step   700 | ep  18.7 | loss 0.0081 | train acc 1.000 wga 1.000 | val_bal acc 0.700 wga 0.290 | val_id acc 0.978 wga 0.000
+step   800 | ep  21.3 | loss 0.0103 | train acc 1.000 wga 1.000 | val_bal acc 0.698 wga 0.300 | val_id acc 0.975 wga 0.000
+step   900 | ep  24.0 | loss 0.0035 | train acc 1.000 wga 1.000 | val_bal acc 0.703 wga 0.290 | val_id acc 0.983 wga 0.000
+step  1000 | ep  26.7 | loss 0.0044 | train acc 1.000 wga 1.000 | val_bal acc 0.710 wga 0.350 | val_id acc 0.975 wga 0.500
+step  1100 | ep  29.3 | loss 0.0030 | train acc 1.000 wga 1.000 | val_bal acc 0.700 wga 0.280 | val_id acc 0.980 wga 0.000
+step  1200 | ep  32.0 | loss 0.0035 | train acc 1.000 wga 1.000 | val_bal acc 0.708 wga 0.370 | val_id acc 0.973 wga 0.500
+step  1300 | ep  34.7 | loss 0.0021 | train acc 1.000 wga 1.000 | val_bal acc 0.708 wga 0.310 | val_id acc 0.980 wga 0.000
+step  1400 | ep  37.3 | loss 0.0023 | train acc 1.000 wga 1.000 | val_bal acc 0.708 wga 0.320 | val_id acc 0.983 wga 0.000
+step  1500 | ep  40.0 | loss 0.0029 | train acc 1.000 wga 1.000 | val_bal acc 0.715 wga 0.350 | val_id acc 0.978 wga 0.500
+step  1600 | ep  42.7 | loss 0.0023 | train acc 1.000 wga 1.000 | val_bal acc 0.703 wga 0.290 | val_id acc 0.980 wga 0.000
+step  1700 | ep  45.3 | loss 0.0012 | train acc 1.000 wga 1.000 | val_bal acc 0.698 wga 0.290 | val_id acc 0.973 wga 0.000
+step  1800 | ep  48.0 | loss 0.0016 | train acc 1.000 wga 1.000 | val_bal acc 0.695 wga 0.350 | val_id acc 0.980 wga 0.500
+step  1900 | ep  50.7 | loss 0.0021 | train acc 1.000 wga 1.000 | val_bal acc 0.703 wga 0.330 | val_id acc 0.978 wga 0.000
+step  2000 | ep  53.3 | loss 0.0021 | train acc 1.000 wga 1.000 | val_bal acc 0.710 wga 0.290 | val_id acc 0.978 wga 0.000
+[time] training 36s (1795 img/s), evaluation 18s
+[done] runs/controlled_rho0.99_ds1_ts1_erm_resnet50_6faf74b2
+[run] controlled_rho0.99_ds1_ts1_rwg_resnet50_db4e67bf
+[run] controlled rho=0.99 data_seed=1; device=cuda, amp=True; train=1200, val_bal=400, val_id=400, test=1200
+step     0 | ep   0.0 | train acc 0.497 wga 0.451 | val_bal acc 0.603 wga 0.510 | val_id acc 0.492 wga 0.485
+step    25 | ep   0.7 | loss 0.4694 | train acc 0.927 wga 0.901 | val_bal acc 0.792 wga 0.550 | val_id acc 0.930 wga 0.500
+step    50 | ep   1.3 | loss 0.1509 | train acc 0.955 wga 0.943 | val_bal acc 0.765 wga 0.460 | val_id acc 0.950 wga 0.500
+step    75 | ep   2.0 | loss 0.0825 | train acc 0.972 wga 0.963 | val_bal acc 0.720 wga 0.350 | val_id acc 0.950 wga 0.500
+step   100 | ep   2.7 | loss 0.0487 | train acc 0.983 wga 0.971 | val_bal acc 0.740 wga 0.460 | val_id acc 0.958 wga 0.500
+step   125 | ep   3.3 | loss 0.0434 | train acc 0.987 wga 0.985 | val_bal acc 0.728 wga 0.400 | val_id acc 0.958 wga 0.500
+step   150 | ep   4.0 | loss 0.0392 | train acc 0.992 wga 0.992 | val_bal acc 0.715 wga 0.330 | val_id acc 0.963 wga 0.500
+step   175 | ep   4.7 | loss 0.0207 | train acc 0.994 wga 0.992 | val_bal acc 0.720 wga 0.370 | val_id acc 0.963 wga 0.500
+step   200 | ep   5.3 | loss 0.0212 | train acc 0.994 wga 0.992 | val_bal acc 0.715 wga 0.360 | val_id acc 0.963 wga 0.500
+step   300 | ep   8.0 | loss 0.0130 | train acc 0.997 wga 0.993 | val_bal acc 0.718 wga 0.350 | val_id acc 0.970 wga 0.500
+step   400 | ep  10.7 | loss 0.0087 | train acc 0.999 wga 0.998 | val_bal acc 0.698 wga 0.300 | val_id acc 0.970 wga 0.500
+step   500 | ep  13.3 | loss 0.0050 | train acc 0.999 wga 0.998 | val_bal acc 0.713 wga 0.340 | val_id acc 0.973 wga 0.500
+step   600 | ep  16.0 | loss 0.0036 | train acc 0.999 wga 0.998 | val_bal acc 0.710 wga 0.320 | val_id acc 0.973 wga 0.500
+step   700 | ep  18.7 | loss 0.0025 | train acc 0.999 wga 0.998 | val_bal acc 0.703 wga 0.360 | val_id acc 0.970 wga 0.500
+step   800 | ep  21.3 | loss 0.0020 | train acc 1.000 wga 1.000 | val_bal acc 0.710 wga 0.330 | val_id acc 0.975 wga 0.500
+step   900 | ep  24.0 | loss 0.0019 | train acc 1.000 wga 1.000 | val_bal acc 0.715 wga 0.360 | val_id acc 0.970 wga 0.500
+step  1000 | ep  26.7 | loss 0.0012 | train acc 1.000 wga 1.000 | val_bal acc 0.705 wga 0.310 | val_id acc 0.973 wga 0.500
+step  1100 | ep  29.3 | loss 0.0011 | train acc 1.000 wga 1.000 | val_bal acc 0.710 wga 0.330 | val_id acc 0.975 wga 0.500
+step  1200 | ep  32.0 | loss 0.0012 | train acc 1.000 wga 1.000 | val_bal acc 0.713 wga 0.350 | val_id acc 0.970 wga 0.500
+step  1300 | ep  34.7 | loss 0.0010 | train acc 1.000 wga 1.000 | val_bal acc 0.713 wga 0.340 | val_id acc 0.978 wga 0.500
+step  1400 | ep  37.3 | loss 0.0016 | train acc 1.000 wga 1.000 | val_bal acc 0.710 wga 0.330 | val_id acc 0.983 wga 0.500
+step  1500 | ep  40.0 | loss 0.0008 | train acc 1.000 wga 1.000 | val_bal acc 0.715 wga 0.360 | val_id acc 0.973 wga 0.500
+step  1600 | ep  42.7 | loss 0.0007 | train acc 1.000 wga 1.000 | val_bal acc 0.710 wga 0.340 | val_id acc 0.975 wga 0.500
+step  1700 | ep  45.3 | loss 0.0007 | train acc 1.000 wga 1.000 | val_bal acc 0.708 wga 0.330 | val_id acc 0.978 wga 0.500
+step  1800 | ep  48.0 | loss 0.0006 | train acc 1.000 wga 1.000 | val_bal acc 0.710 wga 0.330 | val_id acc 0.978 wga 0.500
+step  1900 | ep  50.7 | loss 0.0006 | train acc 1.000 wga 1.000 | val_bal acc 0.708 wga 0.340 | val_id acc 0.975 wga 0.500
+step  2000 | ep  53.3 | loss 0.0005 | train acc 1.000 wga 1.000 | val_bal acc 0.713 wga 0.350 | val_id acc 0.973 wga 0.500
+[time] training 37s (1753 img/s), evaluation 18s
+[done] runs/controlled_rho0.99_ds1_ts1_rwg_resnet50_db4e67bf
+[run] controlled_rho0.99_ds1_ts1_jtt_resnet50_d6295428
+[run] controlled rho=0.99 data_seed=1; device=cuda, amp=True; train=1200, val_bal=400, val_id=400, test=1200
+[jtt] error set from controlled_rho0.99_ds1_ts1_erm_resnet50_6faf74b2 at step 25: 51 examples, by group [16, 3, 4, 28]; minority precision 0.14, recall 0.58
+step     0 | ep   0.0 | train acc 0.497 wga 0.451 | val_bal acc 0.603 wga 0.510 | val_id acc 0.492 wga 0.485
+step    25 | ep   0.7 | loss 0.5960 | train acc 0.971 wga 0.500 | val_bal acc 0.665 wga 0.170 | val_id acc 0.960 wga 0.000
+step    50 | ep   1.3 | loss 0.3291 | train acc 0.976 wga 0.833 | val_bal acc 0.680 wga 0.350 | val_id acc 0.953 wga 0.919
+step    75 | ep   2.0 | loss 0.1896 | train acc 0.983 wga 0.966 | val_bal acc 0.708 wga 0.220 | val_id acc 0.963 wga 0.000
+step   100 | ep   2.7 | loss 0.0978 | train acc 0.991 wga 0.983 | val_bal acc 0.698 wga 0.230 | val_id acc 0.968 wga 0.000
+step   125 | ep   3.3 | loss 0.0452 | train acc 1.000 wga 1.000 | val_bal acc 0.693 wga 0.280 | val_id acc 0.975 wga 0.500
+step   150 | ep   4.0 | loss 0.0307 | train acc 0.999 wga 0.998 | val_bal acc 0.700 wga 0.260 | val_id acc 0.978 wga 0.500
+step   175 | ep   4.7 | loss 0.0287 | train acc 1.000 wga 1.000 | val_bal acc 0.690 wga 0.280 | val_id acc 0.975 wga 0.500
+step   200 | ep   5.3 | loss 0.0155 | train acc 1.000 wga 1.000 | val_bal acc 0.693 wga 0.290 | val_id acc 0.975 wga 0.500
+step   300 | ep   8.0 | loss 0.0191 | train acc 1.000 wga 1.000 | val_bal acc 0.700 wga 0.300 | val_id acc 0.983 wga 0.500
+step   400 | ep  10.7 | loss 0.0078 | train acc 1.000 wga 1.000 | val_bal acc 0.698 wga 0.290 | val_id acc 0.980 wga 0.000
+step   500 | ep  13.3 | loss 0.0080 | train acc 1.000 wga 1.000 | val_bal acc 0.698 wga 0.290 | val_id acc 0.975 wga 0.000
+step   600 | ep  16.0 | loss 0.0066 | train acc 1.000 wga 1.000 | val_bal acc 0.698 wga 0.280 | val_id acc 0.975 wga 0.000
+step   700 | ep  18.7 | loss 0.0038 | train acc 1.000 wga 1.000 | val_bal acc 0.695 wga 0.290 | val_id acc 0.975 wga 0.000
+step   800 | ep  21.3 | loss 0.0031 | train acc 1.000 wga 1.000 | val_bal acc 0.693 wga 0.270 | val_id acc 0.978 wga 0.000
+step   900 | ep  24.0 | loss 0.0031 | train acc 1.000 wga 1.000 | val_bal acc 0.700 wga 0.310 | val_id acc 0.973 wga 0.000
+step  1000 | ep  26.7 | loss 0.0051 | train acc 1.000 wga 1.000 | val_bal acc 0.698 wga 0.270 | val_id acc 0.973 wga 0.000
+step  1100 | ep  29.3 | loss 0.0045 | train acc 1.000 wga 1.000 | val_bal acc 0.690 wga 0.260 | val_id acc 0.975 wga 0.000
+step  1200 | ep  32.0 | loss 0.0023 | train acc 1.000 wga 1.000 | val_bal acc 0.698 wga 0.270 | val_id acc 0.978 wga 0.000
+step  1300 | ep  34.7 | loss 0.0017 | train acc 1.000 wga 1.000 | val_bal acc 0.705 wga 0.350 | val_id acc 0.975 wga 0.500
+step  1400 | ep  37.3 | loss 0.0016 | train acc 1.000 wga 1.000 | val_bal acc 0.693 wga 0.300 | val_id acc 0.973 wga 0.500
+step  1500 | ep  40.0 | loss 0.0010 | train acc 1.000 wga 1.000 | val_bal acc 0.698 wga 0.300 | val_id acc 0.978 wga 0.000
+step  1600 | ep  42.7 | loss 0.0030 | train acc 1.000 wga 1.000 | val_bal acc 0.693 wga 0.240 | val_id acc 0.978 wga 0.000
+step  1700 | ep  45.3 | loss 0.0013 | train acc 1.000 wga 1.000 | val_bal acc 0.705 wga 0.300 | val_id acc 0.980 wga 0.000
+step  1800 | ep  48.0 | loss 0.0010 | train acc 1.000 wga 1.000 | val_bal acc 0.698 wga 0.290 | val_id acc 0.978 wga 0.000
+step  1900 | ep  50.7 | loss 0.0020 | train acc 1.000 wga 1.000 | val_bal acc 0.695 wga 0.310 | val_id acc 0.978 wga 0.000
+step  2000 | ep  53.3 | loss 0.0011 | train acc 1.000 wga 1.000 | val_bal acc 0.695 wga 0.290 | val_id acc 0.980 wga 0.000
+[time] training 36s (1795 img/s), evaluation 18s
+[done] runs/controlled_rho0.99_ds1_ts1_jtt_resnet50_d6295428
+[run] controlled_rho0.9_ds1_ts1_erm_resnet50_51998c43
+[run] controlled rho=0.9 data_seed=1; device=cuda, amp=True; train=1200, val_bal=400, val_id=400, test=1200
+step     0 | ep   0.0 | train acc 0.513 wga 0.441 | val_bal acc 0.603 wga 0.510 | val_id acc 0.500 wga 0.450
+step    25 | ep   0.7 | loss 0.4549 | train acc 0.907 wga 0.417 | val_bal acc 0.695 wga 0.360 | val_id acc 0.902 wga 0.400
+step    50 | ep   1.3 | loss 0.2817 | train acc 0.934 wga 0.517 | val_bal acc 0.777 wga 0.490 | val_id acc 0.925 wga 0.400
+step    75 | ep   2.0 | loss 0.1727 | train acc 0.958 wga 0.833 | val_bal acc 0.838 wga 0.640 | val_id acc 0.922 wga 0.600
+step   100 | ep   2.7 | loss 0.1285 | train acc 0.971 wga 0.867 | val_bal acc 0.828 wga 0.680 | val_id acc 0.935 wga 0.600
+step   125 | ep   3.3 | loss 0.1175 | train acc 0.982 wga 0.917 | val_bal acc 0.838 wga 0.700 | val_id acc 0.945 wga 0.700
+step   150 | ep   4.0 | loss 0.1009 | train acc 0.988 wga 0.933 | val_bal acc 0.835 wga 0.640 | val_id acc 0.948 wga 0.650
+step   175 | ep   4.7 | loss 0.0772 | train acc 0.989 wga 0.917 | val_bal acc 0.850 wga 0.680 | val_id acc 0.943 wga 0.700
+step   200 | ep   5.3 | loss 0.0668 | train acc 0.994 wga 0.950 | val_bal acc 0.838 wga 0.690 | val_id acc 0.953 wga 0.700
+step   300 | ep   8.0 | loss 0.0421 | train acc 0.998 wga 0.983 | val_bal acc 0.848 wga 0.660 | val_id acc 0.943 wga 0.750
+step   400 | ep  10.7 | loss 0.0260 | train acc 1.000 wga 1.000 | val_bal acc 0.850 wga 0.640 | val_id acc 0.950 wga 0.650
+step   500 | ep  13.3 | loss 0.0122 | train acc 1.000 wga 1.000 | val_bal acc 0.853 wga 0.660 | val_id acc 0.955 wga 0.700
+step   600 | ep  16.0 | loss 0.0077 | train acc 1.000 wga 1.000 | val_bal acc 0.845 wga 0.640 | val_id acc 0.950 wga 0.600
+step   700 | ep  18.7 | loss 0.0079 | train acc 1.000 wga 1.000 | val_bal acc 0.835 wga 0.630 | val_id acc 0.953 wga 0.650
+step   800 | ep  21.3 | loss 0.0063 | train acc 1.000 wga 1.000 | val_bal acc 0.855 wga 0.690 | val_id acc 0.958 wga 0.750
+step   900 | ep  24.0 | loss 0.0052 | train acc 1.000 wga 1.000 | val_bal acc 0.845 wga 0.650 | val_id acc 0.950 wga 0.750
+step  1000 | ep  26.7 | loss 0.0042 | train acc 1.000 wga 1.000 | val_bal acc 0.835 wga 0.620 | val_id acc 0.948 wga 0.600
+step  1100 | ep  29.3 | loss 0.0047 | train acc 1.000 wga 1.000 | val_bal acc 0.838 wga 0.640 | val_id acc 0.960 wga 0.700
+step  1200 | ep  32.0 | loss 0.0040 | train acc 1.000 wga 1.000 | val_bal acc 0.843 wga 0.660 | val_id acc 0.958 wga 0.750
+step  1300 | ep  34.7 | loss 0.0021 | train acc 1.000 wga 1.000 | val_bal acc 0.828 wga 0.580 | val_id acc 0.950 wga 0.650
+step  1400 | ep  37.3 | loss 0.0041 | train acc 1.000 wga 1.000 | val_bal acc 0.845 wga 0.710 | val_id acc 0.958 wga 0.750
+step  1500 | ep  40.0 | loss 0.0047 | train acc 1.000 wga 1.000 | val_bal acc 0.845 wga 0.680 | val_id acc 0.955 wga 0.750
+step  1600 | ep  42.7 | loss 0.0024 | train acc 1.000 wga 1.000 | val_bal acc 0.848 wga 0.680 | val_id acc 0.955 wga 0.750
+step  1700 | ep  45.3 | loss 0.0024 | train acc 1.000 wga 1.000 | val_bal acc 0.843 wga 0.650 | val_id acc 0.953 wga 0.700
+step  1800 | ep  48.0 | loss 0.0025 | train acc 1.000 wga 1.000 | val_bal acc 0.853 wga 0.690 | val_id acc 0.960 wga 0.800
+step  1900 | ep  50.7 | loss 0.0013 | train acc 1.000 wga 1.000 | val_bal acc 0.850 wga 0.700 | val_id acc 0.950 wga 0.750
+step  2000 | ep  53.3 | loss 0.0016 | train acc 1.000 wga 1.000 | val_bal acc 0.848 wga 0.690 | val_id acc 0.955 wga 0.700
+[time] training 36s (1795 img/s), evaluation 18s
+[done] runs/controlled_rho0.9_ds1_ts1_erm_resnet50_51998c43
+[run] controlled_rho0.9_ds1_ts1_rwg_resnet50_62c98ef5
+[run] controlled rho=0.9 data_seed=1; device=cuda, amp=True; train=1200, val_bal=400, val_id=400, test=1200
+step     0 | ep   0.0 | train acc 0.513 wga 0.441 | val_bal acc 0.603 wga 0.510 | val_id acc 0.500 wga 0.450
+step    25 | ep   0.7 | loss 0.5377 | train acc 0.906 wga 0.900 | val_bal acc 0.877 wga 0.850 | val_id acc 0.902 wga 0.750
+step    50 | ep   1.3 | loss 0.2950 | train acc 0.927 wga 0.922 | val_bal acc 0.895 wga 0.830 | val_id acc 0.920 wga 0.850
+step    75 | ep   2.0 | loss 0.1668 | train acc 0.949 wga 0.944 | val_bal acc 0.892 wga 0.820 | val_id acc 0.932 wga 0.850
+step   100 | ep   2.7 | loss 0.0998 | train acc 0.967 wga 0.946 | val_bal acc 0.897 wga 0.800 | val_id acc 0.935 wga 0.850
+step   125 | ep   3.3 | loss 0.0902 | train acc 0.975 wga 0.961 | val_bal acc 0.892 wga 0.820 | val_id acc 0.940 wga 0.800
+step   150 | ep   4.0 | loss 0.0590 | train acc 0.985 wga 0.972 | val_bal acc 0.882 wga 0.800 | val_id acc 0.948 wga 0.850
+step   175 | ep   4.7 | loss 0.0408 | train acc 0.987 wga 0.980 | val_bal acc 0.892 wga 0.800 | val_id acc 0.945 wga 0.800
+step   200 | ep   5.3 | loss 0.0420 | train acc 0.994 wga 0.993 | val_bal acc 0.885 wga 0.770 | val_id acc 0.945 wga 0.800
+step   300 | ep   8.0 | loss 0.0234 | train acc 0.999 wga 0.998 | val_bal acc 0.877 wga 0.760 | val_id acc 0.945 wga 0.750
+step   400 | ep  10.7 | loss 0.0098 | train acc 1.000 wga 1.000 | val_bal acc 0.877 wga 0.760 | val_id acc 0.945 wga 0.800
+step   500 | ep  13.3 | loss 0.0057 | train acc 1.000 wga 1.000 | val_bal acc 0.882 wga 0.760 | val_id acc 0.953 wga 0.800
+step   600 | ep  16.0 | loss 0.0040 | train acc 1.000 wga 1.000 | val_bal acc 0.877 wga 0.730 | val_id acc 0.953 wga 0.750
+step   700 | ep  18.7 | loss 0.0026 | train acc 1.000 wga 1.000 | val_bal acc 0.885 wga 0.760 | val_id acc 0.950 wga 0.750
+step   800 | ep  21.3 | loss 0.0024 | train acc 1.000 wga 1.000 | val_bal acc 0.887 wga 0.760 | val_id acc 0.953 wga 0.750
+step   900 | ep  24.0 | loss 0.0020 | train acc 1.000 wga 1.000 | val_bal acc 0.885 wga 0.760 | val_id acc 0.953 wga 0.750
+step  1000 | ep  26.7 | loss 0.0015 | train acc 1.000 wga 1.000 | val_bal acc 0.882 wga 0.770 | val_id acc 0.953 wga 0.750
+step  1100 | ep  29.3 | loss 0.0014 | train acc 1.000 wga 1.000 | val_bal acc 0.885 wga 0.760 | val_id acc 0.953 wga 0.750
+step  1200 | ep  32.0 | loss 0.0012 | train acc 1.000 wga 1.000 | val_bal acc 0.887 wga 0.770 | val_id acc 0.955 wga 0.800
+step  1300 | ep  34.7 | loss 0.0011 | train acc 1.000 wga 1.000 | val_bal acc 0.885 wga 0.750 | val_id acc 0.950 wga 0.750
+step  1400 | ep  37.3 | loss 0.0010 | train acc 1.000 wga 1.000 | val_bal acc 0.882 wga 0.750 | val_id acc 0.950 wga 0.750
+step  1500 | ep  40.0 | loss 0.0008 | train acc 1.000 wga 1.000 | val_bal acc 0.885 wga 0.780 | val_id acc 0.953 wga 0.750
+step  1600 | ep  42.7 | loss 0.0008 | train acc 1.000 wga 1.000 | val_bal acc 0.885 wga 0.780 | val_id acc 0.955 wga 0.750
+step  1700 | ep  45.3 | loss 0.0009 | train acc 1.000 wga 1.000 | val_bal acc 0.887 wga 0.780 | val_id acc 0.953 wga 0.750
+step  1800 | ep  48.0 | loss 0.0006 | train acc 1.000 wga 1.000 | val_bal acc 0.890 wga 0.780 | val_id acc 0.950 wga 0.750
+step  1900 | ep  50.7 | loss 0.0005 | train acc 1.000 wga 1.000 | val_bal acc 0.887 wga 0.770 | val_id acc 0.950 wga 0.750
+step  2000 | ep  53.3 | loss 0.0009 | train acc 1.000 wga 1.000 | val_bal acc 0.885 wga 0.760 | val_id acc 0.950 wga 0.750
+[time] training 37s (1752 img/s), evaluation 18s
+[done] runs/controlled_rho0.9_ds1_ts1_rwg_resnet50_62c98ef5
+[run] controlled_rho0.9_ds1_ts1_jtt_resnet50_858679ae
+[run] controlled rho=0.9 data_seed=1; device=cuda, amp=True; train=1200, val_bal=400, val_id=400, test=1200
+[jtt] error set from controlled_rho0.9_ds1_ts1_erm_resnet50_51998c43 at step 25: 112 examples, by group [7, 33, 35, 37]; minority precision 0.61, recall 0.57
+step     0 | ep   0.0 | train acc 0.513 wga 0.441 | val_bal acc 0.603 wga 0.510 | val_id acc 0.500 wga 0.450
+step    25 | ep   0.7 | loss 0.6310 | train acc 0.700 wga 0.467 | val_bal acc 0.765 wga 0.540 | val_id acc 0.695 wga 0.500
+step    50 | ep   1.3 | loss 0.4184 | train acc 0.871 wga 0.774 | val_bal acc 0.845 wga 0.700 | val_id acc 0.828 wga 0.700
+step    75 | ep   2.0 | loss 0.2682 | train acc 0.904 wga 0.811 | val_bal acc 0.833 wga 0.590 | val_id acc 0.875 wga 0.600
+step   100 | ep   2.7 | loss 0.1421 | train acc 0.958 wga 0.928 | val_bal acc 0.853 wga 0.710 | val_id acc 0.912 wga 0.700
+step   125 | ep   3.3 | loss 0.0917 | train acc 0.980 wga 0.967 | val_bal acc 0.865 wga 0.760 | val_id acc 0.935 wga 0.800
+step   150 | ep   4.0 | loss 0.0460 | train acc 0.980 wga 0.967 | val_bal acc 0.858 wga 0.710 | val_id acc 0.930 wga 0.700
+step   175 | ep   4.7 | loss 0.0549 | train acc 0.993 wga 0.983 | val_bal acc 0.860 wga 0.710 | val_id acc 0.945 wga 0.800
+step   200 | ep   5.3 | loss 0.0475 | train acc 0.992 wga 0.967 | val_bal acc 0.858 wga 0.670 | val_id acc 0.940 wga 0.750
+step   300 | ep   8.0 | loss 0.0221 | train acc 0.998 wga 0.996 | val_bal acc 0.858 wga 0.710 | val_id acc 0.945 wga 0.800
+step   400 | ep  10.7 | loss 0.0158 | train acc 0.999 wga 0.998 | val_bal acc 0.860 wga 0.690 | val_id acc 0.945 wga 0.700
+step   500 | ep  13.3 | loss 0.0091 | train acc 1.000 wga 1.000 | val_bal acc 0.858 wga 0.690 | val_id acc 0.953 wga 0.800
+step   600 | ep  16.0 | loss 0.0070 | train acc 1.000 wga 1.000 | val_bal acc 0.875 wga 0.760 | val_id acc 0.950 wga 0.800
+step   700 | ep  18.7 | loss 0.0057 | train acc 1.000 wga 1.000 | val_bal acc 0.865 wga 0.720 | val_id acc 0.950 wga 0.800
+step   800 | ep  21.3 | loss 0.0053 | train acc 1.000 wga 1.000 | val_bal acc 0.870 wga 0.750 | val_id acc 0.948 wga 0.750
+step   900 | ep  24.0 | loss 0.0043 | train acc 1.000 wga 1.000 | val_bal acc 0.882 wga 0.790 | val_id acc 0.953 wga 0.850
+step  1000 | ep  26.7 | loss 0.0046 | train acc 1.000 wga 1.000 | val_bal acc 0.875 wga 0.720 | val_id acc 0.943 wga 0.700
+step  1100 | ep  29.3 | loss 0.0034 | train acc 1.000 wga 1.000 | val_bal acc 0.887 wga 0.770 | val_id acc 0.953 wga 0.800
+step  1200 | ep  32.0 | loss 0.0041 | train acc 1.000 wga 1.000 | val_bal acc 0.863 wga 0.720 | val_id acc 0.950 wga 0.750
+step  1300 | ep  34.7 | loss 0.0038 | train acc 1.000 wga 1.000 | val_bal acc 0.870 wga 0.730 | val_id acc 0.950 wga 0.750
+step  1400 | ep  37.3 | loss 0.0015 | train acc 1.000 wga 1.000 | val_bal acc 0.870 wga 0.740 | val_id acc 0.950 wga 0.750
+step  1500 | ep  40.0 | loss 0.0024 | train acc 1.000 wga 1.000 | val_bal acc 0.865 wga 0.730 | val_id acc 0.953 wga 0.750
+step  1600 | ep  42.7 | loss 0.0049 | train acc 1.000 wga 1.000 | val_bal acc 0.882 wga 0.780 | val_id acc 0.948 wga 0.800
+step  1700 | ep  45.3 | loss 0.0019 | train acc 1.000 wga 1.000 | val_bal acc 0.877 wga 0.780 | val_id acc 0.948 wga 0.800
+step  1800 | ep  48.0 | loss 0.0018 | train acc 1.000 wga 1.000 | val_bal acc 0.875 wga 0.750 | val_id acc 0.950 wga 0.750
+step  1900 | ep  50.7 | loss 0.0016 | train acc 1.000 wga 1.000 | val_bal acc 0.875 wga 0.760 | val_id acc 0.953 wga 0.800
+step  2000 | ep  53.3 | loss 0.0014 | train acc 1.000 wga 1.000 | val_bal acc 0.875 wga 0.760 | val_id acc 0.950 wga 0.750
+[time] training 36s (1793 img/s), evaluation 18s
+[done] runs/controlled_rho0.9_ds1_ts1_jtt_resnet50_858679ae
+[run] controlled_rho0.8_ds1_ts1_erm_resnet50_a0993447
+[run] controlled rho=0.8 data_seed=1; device=cuda, amp=True; train=1200, val_bal=400, val_id=400, test=1200
+step     0 | ep   0.0 | train acc 0.529 wga 0.440 | val_bal acc 0.603 wga 0.510 | val_id acc 0.517 wga 0.481
+step    25 | ep   0.7 | loss 0.5351 | train acc 0.886 wga 0.600 | val_bal acc 0.772 wga 0.560 | val_id acc 0.865 wga 0.450
+step    50 | ep   1.3 | loss 0.2927 | train acc 0.923 wga 0.683 | val_bal acc 0.858 wga 0.720 | val_id acc 0.902 wga 0.550
+step    75 | ep   2.0 | loss 0.2373 | train acc 0.955 wga 0.875 | val_bal acc 0.880 wga 0.730 | val_id acc 0.927 wga 0.800
+step   100 | ep   2.7 | loss 0.1767 | train acc 0.954 wga 0.842 | val_bal acc 0.882 wga 0.680 | val_id acc 0.917 wga 0.725
+step   125 | ep   3.3 | loss 0.1357 | train acc 0.969 wga 0.900 | val_bal acc 0.895 wga 0.760 | val_id acc 0.930 wga 0.800
+step   150 | ep   4.0 | loss 0.1235 | train acc 0.979 wga 0.925 | val_bal acc 0.897 wga 0.810 | val_id acc 0.943 wga 0.850
+step   175 | ep   4.7 | loss 0.0933 | train acc 0.982 wga 0.917 | val_bal acc 0.902 wga 0.790 | val_id acc 0.938 wga 0.800
+step   200 | ep   5.3 | loss 0.0731 | train acc 0.987 wga 0.933 | val_bal acc 0.897 wga 0.780 | val_id acc 0.940 wga 0.800
+step   300 | ep   8.0 | loss 0.0478 | train acc 0.998 wga 0.983 | val_bal acc 0.905 wga 0.830 | val_id acc 0.945 wga 0.850
+step   400 | ep  10.7 | loss 0.0347 | train acc 1.000 wga 1.000 | val_bal acc 0.902 wga 0.800 | val_id acc 0.948 wga 0.850
+step   500 | ep  13.3 | loss 0.0189 | train acc 1.000 wga 1.000 | val_bal acc 0.910 wga 0.830 | val_id acc 0.945 wga 0.850
+step   600 | ep  16.0 | loss 0.0119 | train acc 1.000 wga 1.000 | val_bal acc 0.907 wga 0.840 | val_id acc 0.938 wga 0.825
+step   700 | ep  18.7 | loss 0.0095 | train acc 1.000 wga 1.000 | val_bal acc 0.915 wga 0.850 | val_id acc 0.938 wga 0.825
+step   800 | ep  21.3 | loss 0.0083 | train acc 1.000 wga 1.000 | val_bal acc 0.920 wga 0.860 | val_id acc 0.943 wga 0.850
+step   900 | ep  24.0 | loss 0.0065 | train acc 1.000 wga 1.000 | val_bal acc 0.905 wga 0.820 | val_id acc 0.945 wga 0.850
+step  1000 | ep  26.7 | loss 0.0061 | train acc 1.000 wga 1.000 | val_bal acc 0.912 wga 0.840 | val_id acc 0.948 wga 0.850
+step  1100 | ep  29.3 | loss 0.0041 | train acc 1.000 wga 1.000 | val_bal acc 0.902 wga 0.830 | val_id acc 0.945 wga 0.875
+step  1200 | ep  32.0 | loss 0.0068 | train acc 1.000 wga 1.000 | val_bal acc 0.902 wga 0.780 | val_id acc 0.945 wga 0.825
+step  1300 | ep  34.7 | loss 0.0045 | train acc 1.000 wga 1.000 | val_bal acc 0.910 wga 0.830 | val_id acc 0.953 wga 0.900
+step  1400 | ep  37.3 | loss 0.0048 | train acc 1.000 wga 1.000 | val_bal acc 0.917 wga 0.860 | val_id acc 0.948 wga 0.875
+step  1500 | ep  40.0 | loss 0.0024 | train acc 1.000 wga 1.000 | val_bal acc 0.922 wga 0.840 | val_id acc 0.948 wga 0.875
+step  1600 | ep  42.7 | loss 0.0024 | train acc 1.000 wga 1.000 | val_bal acc 0.915 wga 0.840 | val_id acc 0.948 wga 0.875
+step  1700 | ep  45.3 | loss 0.0049 | train acc 1.000 wga 1.000 | val_bal acc 0.907 wga 0.840 | val_id acc 0.945 wga 0.875
+step  1800 | ep  48.0 | loss 0.0020 | train acc 1.000 wga 1.000 | val_bal acc 0.910 wga 0.830 | val_id acc 0.943 wga 0.875
+step  1900 | ep  50.7 | loss 0.0023 | train acc 1.000 wga 1.000 | val_bal acc 0.912 wga 0.830 | val_id acc 0.945 wga 0.875
+step  2000 | ep  53.3 | loss 0.0033 | train acc 1.000 wga 1.000 | val_bal acc 0.915 wga 0.820 | val_id acc 0.950 wga 0.875
+[time] training 36s (1795 img/s), evaluation 18s
+[done] runs/controlled_rho0.8_ds1_ts1_erm_resnet50_a0993447
+[run] controlled_rho0.8_ds1_ts1_rwg_resnet50_39d733f6
+[run] controlled rho=0.8 data_seed=1; device=cuda, amp=True; train=1200, val_bal=400, val_id=400, test=1200
+step     0 | ep   0.0 | train acc 0.529 wga 0.440 | val_bal acc 0.603 wga 0.510 | val_id acc 0.517 wga 0.481
+step    25 | ep   0.7 | loss 0.5444 | train acc 0.885 wga 0.863 | val_bal acc 0.885 wga 0.850 | val_id acc 0.880 wga 0.800
+step    50 | ep   1.3 | loss 0.3308 | train acc 0.932 wga 0.902 | val_bal acc 0.920 wga 0.860 | val_id acc 0.910 wga 0.800
+step    75 | ep   2.0 | loss 0.2030 | train acc 0.942 wga 0.908 | val_bal acc 0.932 wga 0.870 | val_id acc 0.915 wga 0.800
+step   100 | ep   2.7 | loss 0.1229 | train acc 0.958 wga 0.940 | val_bal acc 0.920 wga 0.860 | val_id acc 0.932 wga 0.825
+step   125 | ep   3.3 | loss 0.1196 | train acc 0.975 wga 0.960 | val_bal acc 0.912 wga 0.860 | val_id acc 0.940 wga 0.850
+step   150 | ep   4.0 | loss 0.0779 | train acc 0.981 wga 0.958 | val_bal acc 0.920 wga 0.840 | val_id acc 0.938 wga 0.825
+step   175 | ep   4.7 | loss 0.0571 | train acc 0.986 wga 0.967 | val_bal acc 0.925 wga 0.840 | val_id acc 0.938 wga 0.825
+step   200 | ep   5.3 | loss 0.0492 | train acc 0.994 wga 0.985 | val_bal acc 0.915 wga 0.850 | val_id acc 0.940 wga 0.825
+step   300 | ep   8.0 | loss 0.0261 | train acc 0.998 wga 0.996 | val_bal acc 0.910 wga 0.830 | val_id acc 0.945 wga 0.850
+step   400 | ep  10.7 | loss 0.0118 | train acc 0.999 wga 0.998 | val_bal acc 0.915 wga 0.840 | val_id acc 0.943 wga 0.850
+step   500 | ep  13.3 | loss 0.0070 | train acc 1.000 wga 1.000 | val_bal acc 0.920 wga 0.840 | val_id acc 0.945 wga 0.850
+step   600 | ep  16.0 | loss 0.0052 | train acc 1.000 wga 1.000 | val_bal acc 0.912 wga 0.820 | val_id acc 0.945 wga 0.850
+step   700 | ep  18.7 | loss 0.0036 | train acc 1.000 wga 1.000 | val_bal acc 0.920 wga 0.840 | val_id acc 0.945 wga 0.850
+step   800 | ep  21.3 | loss 0.0029 | train acc 1.000 wga 1.000 | val_bal acc 0.910 wga 0.840 | val_id acc 0.943 wga 0.850
+step   900 | ep  24.0 | loss 0.0027 | train acc 1.000 wga 1.000 | val_bal acc 0.907 wga 0.830 | val_id acc 0.948 wga 0.850
+step  1000 | ep  26.7 | loss 0.0017 | train acc 1.000 wga 1.000 | val_bal acc 0.910 wga 0.830 | val_id acc 0.948 wga 0.850
+step  1100 | ep  29.3 | loss 0.0021 | train acc 1.000 wga 1.000 | val_bal acc 0.925 wga 0.870 | val_id acc 0.940 wga 0.850
+step  1200 | ep  32.0 | loss 0.0013 | train acc 1.000 wga 1.000 | val_bal acc 0.920 wga 0.840 | val_id acc 0.948 wga 0.850
+step  1300 | ep  34.7 | loss 0.0012 | train acc 1.000 wga 1.000 | val_bal acc 0.920 wga 0.830 | val_id acc 0.948 wga 0.850
+step  1400 | ep  37.3 | loss 0.0012 | train acc 1.000 wga 1.000 | val_bal acc 0.912 wga 0.830 | val_id acc 0.948 wga 0.850
+step  1500 | ep  40.0 | loss 0.0013 | train acc 1.000 wga 1.000 | val_bal acc 0.925 wga 0.850 | val_id acc 0.948 wga 0.850
+step  1600 | ep  42.7 | loss 0.0008 | train acc 1.000 wga 1.000 | val_bal acc 0.925 wga 0.850 | val_id acc 0.945 wga 0.850
+step  1700 | ep  45.3 | loss 0.0008 | train acc 1.000 wga 1.000 | val_bal acc 0.920 wga 0.840 | val_id acc 0.948 wga 0.850
+step  1800 | ep  48.0 | loss 0.0008 | train acc 1.000 wga 1.000 | val_bal acc 0.917 wga 0.850 | val_id acc 0.948 wga 0.850
+step  1900 | ep  50.7 | loss 0.0008 | train acc 1.000 wga 1.000 | val_bal acc 0.915 wga 0.850 | val_id acc 0.945 wga 0.850
+step  2000 | ep  53.3 | loss 0.0008 | train acc 1.000 wga 1.000 | val_bal acc 0.922 wga 0.840 | val_id acc 0.948 wga 0.850
+[time] training 37s (1752 img/s), evaluation 18s
+[done] runs/controlled_rho0.8_ds1_ts1_rwg_resnet50_39d733f6
+[run] controlled_rho0.8_ds1_ts1_jtt_resnet50_9e5e1463
+[run] controlled rho=0.8 data_seed=1; device=cuda, amp=True; train=1200, val_bal=400, val_id=400, test=1200
+[jtt] error set from controlled_rho0.8_ds1_ts1_erm_resnet50_a0993447 at step 25: 137 examples, by group [8, 48, 48, 33]; minority precision 0.70, recall 0.40
+step     0 | ep   0.0 | train acc 0.529 wga 0.440 | val_bal acc 0.603 wga 0.510 | val_id acc 0.517 wga 0.481
+step    25 | ep   0.7 | loss 0.6565 | train acc 0.522 wga 0.169 | val_bal acc 0.642 wga 0.090 | val_id acc 0.520 wga 0.156
+step    50 | ep   1.3 | loss 0.4647 | train acc 0.719 wga 0.444 | val_bal acc 0.767 wga 0.410 | val_id acc 0.670 wga 0.344
+step    75 | ep   2.0 | loss 0.3149 | train acc 0.845 wga 0.683 | val_bal acc 0.815 wga 0.620 | val_id acc 0.790 wga 0.625
+step   100 | ep   2.7 | loss 0.2170 | train acc 0.948 wga 0.942 | val_bal acc 0.902 wga 0.820 | val_id acc 0.880 wga 0.800
+step   125 | ep   3.3 | loss 0.1250 | train acc 0.954 wga 0.919 | val_bal acc 0.892 wga 0.760 | val_id acc 0.897 wga 0.775
+step   150 | ep   4.0 | loss 0.0696 | train acc 0.967 wga 0.958 | val_bal acc 0.887 wga 0.790 | val_id acc 0.915 wga 0.825
+step   175 | ep   4.7 | loss 0.0758 | train acc 0.983 wga 0.975 | val_bal acc 0.900 wga 0.800 | val_id acc 0.917 wga 0.800
+step   200 | ep   5.3 | loss 0.0581 | train acc 0.990 wga 0.975 | val_bal acc 0.890 wga 0.770 | val_id acc 0.922 wga 0.800
+step   300 | ep   8.0 | loss 0.0402 | train acc 0.998 wga 0.992 | val_bal acc 0.900 wga 0.830 | val_id acc 0.922 wga 0.800
+step   400 | ep  10.7 | loss 0.0210 | train acc 0.998 wga 0.992 | val_bal acc 0.900 wga 0.830 | val_id acc 0.927 wga 0.825
+step   500 | ep  13.3 | loss 0.0143 | train acc 0.998 wga 0.998 | val_bal acc 0.910 wga 0.860 | val_id acc 0.932 wga 0.825
+step   600 | ep  16.0 | loss 0.0074 | train acc 1.000 wga 1.000 | val_bal acc 0.907 wga 0.850 | val_id acc 0.943 wga 0.825
+step   700 | ep  18.7 | loss 0.0066 | train acc 1.000 wga 1.000 | val_bal acc 0.902 wga 0.830 | val_id acc 0.932 wga 0.825
+step   800 | ep  21.3 | loss 0.0047 | train acc 1.000 wga 1.000 | val_bal acc 0.912 wga 0.840 | val_id acc 0.932 wga 0.800
+step   900 | ep  24.0 | loss 0.0054 | train acc 1.000 wga 1.000 | val_bal acc 0.902 wga 0.820 | val_id acc 0.940 wga 0.825
+step  1000 | ep  26.7 | loss 0.0075 | train acc 1.000 wga 1.000 | val_bal acc 0.907 wga 0.840 | val_id acc 0.932 wga 0.825
+step  1100 | ep  29.3 | loss 0.0043 | train acc 1.000 wga 1.000 | val_bal acc 0.905 wga 0.790 | val_id acc 0.935 wga 0.825
+step  1200 | ep  32.0 | loss 0.0051 | train acc 1.000 wga 1.000 | val_bal acc 0.905 wga 0.790 | val_id acc 0.935 wga 0.825
+step  1300 | ep  34.7 | loss 0.0031 | train acc 1.000 wga 1.000 | val_bal acc 0.907 wga 0.850 | val_id acc 0.943 wga 0.875
+step  1400 | ep  37.3 | loss 0.0017 | train acc 1.000 wga 1.000 | val_bal acc 0.905 wga 0.820 | val_id acc 0.943 wga 0.825
+step  1500 | ep  40.0 | loss 0.0020 | train acc 1.000 wga 1.000 | val_bal acc 0.902 wga 0.790 | val_id acc 0.940 wga 0.825
+step  1600 | ep  42.7 | loss 0.0042 | train acc 1.000 wga 1.000 | val_bal acc 0.910 wga 0.820 | val_id acc 0.935 wga 0.825
+step  1700 | ep  45.3 | loss 0.0018 | train acc 1.000 wga 1.000 | val_bal acc 0.912 wga 0.840 | val_id acc 0.943 wga 0.875
+step  1800 | ep  48.0 | loss 0.0012 | train acc 1.000 wga 1.000 | val_bal acc 0.912 wga 0.830 | val_id acc 0.943 wga 0.875
+step  1900 | ep  50.7 | loss 0.0021 | train acc 1.000 wga 1.000 | val_bal acc 0.907 wga 0.840 | val_id acc 0.943 wga 0.850
+step  2000 | ep  53.3 | loss 0.0027 | train acc 1.000 wga 1.000 | val_bal acc 0.900 wga 0.820 | val_id acc 0.938 wga 0.850
+[time] training 36s (1795 img/s), evaluation 18s
+[done] runs/controlled_rho0.8_ds1_ts1_jtt_resnet50_9e5e1463
+[run] controlled_rho0.5_ds1_ts1_erm_resnet50_93ec1679
+[run] controlled rho=0.5 data_seed=1; device=cuda, amp=True; train=1200, val_bal=400, val_id=400, test=1200
+step     0 | ep   0.0 | train acc 0.581 wga 0.450 | val_bal acc 0.603 wga 0.510 | val_id acc 0.557 wga 0.480
+step    25 | ep   0.7 | loss 0.5649 | train acc 0.890 wga 0.803 | val_bal acc 0.882 wga 0.750 | val_id acc 0.880 wga 0.770
+step    50 | ep   1.3 | loss 0.3359 | train acc 0.897 wga 0.837 | val_bal acc 0.880 wga 0.780 | val_id acc 0.882 wga 0.840
+step    75 | ep   2.0 | loss 0.2249 | train acc 0.953 wga 0.940 | val_bal acc 0.920 wga 0.890 | val_id acc 0.920 wga 0.880
+step   100 | ep   2.7 | loss 0.1616 | train acc 0.968 wga 0.957 | val_bal acc 0.922 wga 0.890 | val_id acc 0.922 wga 0.860
+step   125 | ep   3.3 | loss 0.1503 | train acc 0.976 wga 0.963 | val_bal acc 0.938 wga 0.890 | val_id acc 0.932 wga 0.880
+step   150 | ep   4.0 | loss 0.1224 | train acc 0.981 wga 0.963 | val_bal acc 0.935 wga 0.900 | val_id acc 0.932 wga 0.900
+step   175 | ep   4.7 | loss 0.0787 | train acc 0.988 wga 0.970 | val_bal acc 0.945 wga 0.910 | val_id acc 0.932 wga 0.890
+step   200 | ep   5.3 | loss 0.1004 | train acc 0.988 wga 0.973 | val_bal acc 0.940 wga 0.880 | val_id acc 0.925 wga 0.870
+step   300 | ep   8.0 | loss 0.0480 | train acc 0.998 wga 0.993 | val_bal acc 0.950 wga 0.930 | val_id acc 0.935 wga 0.890
+step   400 | ep  10.7 | loss 0.0215 | train acc 0.998 wga 0.997 | val_bal acc 0.943 wga 0.910 | val_id acc 0.938 wga 0.890
+step   500 | ep  13.3 | loss 0.0132 | train acc 1.000 wga 1.000 | val_bal acc 0.943 wga 0.920 | val_id acc 0.938 wga 0.920
+step   600 | ep  16.0 | loss 0.0129 | train acc 1.000 wga 1.000 | val_bal acc 0.948 wga 0.940 | val_id acc 0.945 wga 0.930
+step   700 | ep  18.7 | loss 0.0111 | train acc 1.000 wga 1.000 | val_bal acc 0.943 wga 0.930 | val_id acc 0.943 wga 0.920
+step   800 | ep  21.3 | loss 0.0051 | train acc 1.000 wga 1.000 | val_bal acc 0.948 wga 0.930 | val_id acc 0.940 wga 0.910
+step   900 | ep  24.0 | loss 0.0104 | train acc 0.999 wga 0.997 | val_bal acc 0.948 wga 0.930 | val_id acc 0.938 wga 0.910
+step  1000 | ep  26.7 | loss 0.0045 | train acc 1.000 wga 1.000 | val_bal acc 0.943 wga 0.910 | val_id acc 0.943 wga 0.920
+step  1100 | ep  29.3 | loss 0.0033 | train acc 1.000 wga 1.000 | val_bal acc 0.932 wga 0.900 | val_id acc 0.940 wga 0.920
+step  1200 | ep  32.0 | loss 0.0037 | train acc 0.999 wga 0.997 | val_bal acc 0.943 wga 0.940 | val_id acc 0.943 wga 0.920
+step  1300 | ep  34.7 | loss 0.0059 | train acc 1.000 wga 1.000 | val_bal acc 0.948 wga 0.940 | val_id acc 0.943 wga 0.920
+step  1400 | ep  37.3 | loss 0.0036 | train acc 1.000 wga 1.000 | val_bal acc 0.938 wga 0.920 | val_id acc 0.938 wga 0.920
+step  1500 | ep  40.0 | loss 0.0028 | train acc 1.000 wga 1.000 | val_bal acc 0.945 wga 0.940 | val_id acc 0.940 wga 0.920
+step  1600 | ep  42.7 | loss 0.0032 | train acc 1.000 wga 1.000 | val_bal acc 0.938 wga 0.920 | val_id acc 0.943 wga 0.920
+step  1700 | ep  45.3 | loss 0.0051 | train acc 1.000 wga 1.000 | val_bal acc 0.940 wga 0.910 | val_id acc 0.943 wga 0.920
+step  1800 | ep  48.0 | loss 0.0021 | train acc 1.000 wga 1.000 | val_bal acc 0.948 wga 0.940 | val_id acc 0.943 wga 0.920
+step  1900 | ep  50.7 | loss 0.0034 | train acc 1.000 wga 1.000 | val_bal acc 0.948 wga 0.920 | val_id acc 0.940 wga 0.920
+step  2000 | ep  53.3 | loss 0.0029 | train acc 1.000 wga 1.000 | val_bal acc 0.948 wga 0.930 | val_id acc 0.945 wga 0.910
+[time] training 36s (1795 img/s), evaluation 18s
+[done] runs/controlled_rho0.5_ds1_ts1_erm_resnet50_93ec1679
+[run] controlled_rho0.5_ds1_ts1_rwg_resnet50_1329468f
+[run] controlled rho=0.5 data_seed=1; device=cuda, amp=True; train=1200, val_bal=400, val_id=400, test=1200
+step     0 | ep   0.0 | train acc 0.581 wga 0.450 | val_bal acc 0.603 wga 0.510 | val_id acc 0.557 wga 0.480
+step    25 | ep   0.7 | loss 0.5420 | train acc 0.904 wga 0.900 | val_bal acc 0.890 wga 0.870 | val_id acc 0.882 wga 0.850
+step    50 | ep   1.3 | loss 0.2989 | train acc 0.938 wga 0.933 | val_bal acc 0.910 wga 0.880 | val_id acc 0.910 wga 0.860
+step    75 | ep   2.0 | loss 0.1943 | train acc 0.953 wga 0.947 | val_bal acc 0.925 wga 0.890 | val_id acc 0.927 wga 0.880
+step   100 | ep   2.7 | loss 0.1344 | train acc 0.959 wga 0.947 | val_bal acc 0.922 wga 0.900 | val_id acc 0.922 wga 0.890
+step   125 | ep   3.3 | loss 0.1240 | train acc 0.972 wga 0.960 | val_bal acc 0.925 wga 0.900 | val_id acc 0.925 wga 0.890
+step   150 | ep   4.0 | loss 0.0982 | train acc 0.985 wga 0.963 | val_bal acc 0.932 wga 0.900 | val_id acc 0.932 wga 0.890
+step   175 | ep   4.7 | loss 0.0687 | train acc 0.992 wga 0.990 | val_bal acc 0.938 wga 0.910 | val_id acc 0.932 wga 0.900
+step   200 | ep   5.3 | loss 0.0458 | train acc 0.991 wga 0.980 | val_bal acc 0.932 wga 0.900 | val_id acc 0.938 wga 0.890
+step   300 | ep   8.0 | loss 0.0306 | train acc 0.998 wga 0.997 | val_bal acc 0.938 wga 0.920 | val_id acc 0.935 wga 0.890
+step   400 | ep  10.7 | loss 0.0139 | train acc 0.999 wga 0.997 | val_bal acc 0.932 wga 0.910 | val_id acc 0.938 wga 0.900
+step   500 | ep  13.3 | loss 0.0079 | train acc 1.000 wga 1.000 | val_bal acc 0.938 wga 0.920 | val_id acc 0.945 wga 0.920
+step   600 | ep  16.0 | loss 0.0052 | train acc 1.000 wga 1.000 | val_bal acc 0.943 wga 0.920 | val_id acc 0.943 wga 0.920
+step   700 | ep  18.7 | loss 0.0033 | train acc 1.000 wga 1.000 | val_bal acc 0.943 wga 0.930 | val_id acc 0.943 wga 0.910
+step   800 | ep  21.3 | loss 0.0027 | train acc 1.000 wga 1.000 | val_bal acc 0.943 wga 0.930 | val_id acc 0.945 wga 0.920
+step   900 | ep  24.0 | loss 0.0020 | train acc 1.000 wga 1.000 | val_bal acc 0.943 wga 0.930 | val_id acc 0.940 wga 0.910
+step  1000 | ep  26.7 | loss 0.0022 | train acc 1.000 wga 1.000 | val_bal acc 0.943 wga 0.930 | val_id acc 0.948 wga 0.930
+step  1100 | ep  29.3 | loss 0.0016 | train acc 1.000 wga 1.000 | val_bal acc 0.943 wga 0.930 | val_id acc 0.948 wga 0.920
+step  1200 | ep  32.0 | loss 0.0015 | train acc 1.000 wga 1.000 | val_bal acc 0.940 wga 0.930 | val_id acc 0.945 wga 0.920
+step  1300 | ep  34.7 | loss 0.0012 | train acc 1.000 wga 1.000 | val_bal acc 0.943 wga 0.920 | val_id acc 0.948 wga 0.930
+step  1400 | ep  37.3 | loss 0.0010 | train acc 1.000 wga 1.000 | val_bal acc 0.945 wga 0.930 | val_id acc 0.950 wga 0.930
+step  1500 | ep  40.0 | loss 0.0012 | train acc 1.000 wga 1.000 | val_bal acc 0.945 wga 0.930 | val_id acc 0.945 wga 0.920
+step  1600 | ep  42.7 | loss 0.0011 | train acc 1.000 wga 1.000 | val_bal acc 0.945 wga 0.930 | val_id acc 0.943 wga 0.920
+step  1700 | ep  45.3 | loss 0.0009 | train acc 1.000 wga 1.000 | val_bal acc 0.948 wga 0.930 | val_id acc 0.945 wga 0.920
+step  1800 | ep  48.0 | loss 0.0008 | train acc 1.000 wga 1.000 | val_bal acc 0.945 wga 0.930 | val_id acc 0.945 wga 0.920
+step  1900 | ep  50.7 | loss 0.0007 | train acc 1.000 wga 1.000 | val_bal acc 0.950 wga 0.930 | val_id acc 0.945 wga 0.920
+step  2000 | ep  53.3 | loss 0.0008 | train acc 1.000 wga 1.000 | val_bal acc 0.950 wga 0.930 | val_id acc 0.943 wga 0.920
+[time] training 36s (1755 img/s), evaluation 18s
+[done] runs/controlled_rho0.5_ds1_ts1_rwg_resnet50_1329468f
+[run] controlled_rho0.5_ds1_ts1_jtt_resnet50_f126ab4e
+[run] controlled rho=0.5 data_seed=1; device=cuda, amp=True; train=1200, val_bal=400, val_id=400, test=1200
+[jtt] error set from controlled_rho0.5_ds1_ts1_erm_resnet50_93ec1679 at step 25: 132 examples, by group [8, 7, 59, 58]; minority precision 0.50, recall 0.11
+step     0 | ep   0.0 | train acc 0.581 wga 0.450 | val_bal acc 0.603 wga 0.510 | val_id acc 0.557 wga 0.480
+step    25 | ep   0.7 | loss 0.6079 | train acc 0.502 wga 0.003 | val_bal acc 0.502 wga 0.000 | val_id acc 0.500 wga 0.000
+step    50 | ep   1.3 | loss 0.4294 | train acc 0.583 wga 0.130 | val_bal acc 0.598 wga 0.080 | val_id acc 0.568 wga 0.070
+step    75 | ep   2.0 | loss 0.3489 | train acc 0.744 wga 0.460 | val_bal acc 0.730 wga 0.400 | val_id acc 0.693 wga 0.330
+step   100 | ep   2.7 | loss 0.2416 | train acc 0.881 wga 0.713 | val_bal acc 0.873 wga 0.650 | val_id acc 0.820 wga 0.600
+step   125 | ep   3.3 | loss 0.1665 | train acc 0.907 wga 0.813 | val_bal acc 0.875 wga 0.710 | val_id acc 0.845 wga 0.690
+step   150 | ep   4.0 | loss 0.1051 | train acc 0.939 wga 0.857 | val_bal acc 0.897 wga 0.790 | val_id acc 0.902 wga 0.800
+step   175 | ep   4.7 | loss 0.0912 | train acc 0.945 wga 0.883 | val_bal acc 0.897 wga 0.780 | val_id acc 0.902 wga 0.810
+step   200 | ep   5.3 | loss 0.0967 | train acc 0.990 wga 0.980 | val_bal acc 0.935 wga 0.900 | val_id acc 0.922 wga 0.880
+step   300 | ep   8.0 | loss 0.0396 | train acc 0.992 wga 0.983 | val_bal acc 0.940 wga 0.900 | val_id acc 0.932 wga 0.910
+step   400 | ep  10.7 | loss 0.0226 | train acc 0.995 wga 0.990 | val_bal acc 0.927 wga 0.870 | val_id acc 0.940 wga 0.930
+step   500 | ep  13.3 | loss 0.0127 | train acc 0.999 wga 0.997 | val_bal acc 0.943 wga 0.930 | val_id acc 0.935 wga 0.920
+step   600 | ep  16.0 | loss 0.0114 | train acc 1.000 wga 1.000 | val_bal acc 0.945 wga 0.930 | val_id acc 0.940 wga 0.920
+step   700 | ep  18.7 | loss 0.0070 | train acc 0.999 wga 0.997 | val_bal acc 0.930 wga 0.890 | val_id acc 0.938 wga 0.910
+step   800 | ep  21.3 | loss 0.0053 | train acc 1.000 wga 1.000 | val_bal acc 0.945 wga 0.920 | val_id acc 0.938 wga 0.920
+step   900 | ep  24.0 | loss 0.0047 | train acc 1.000 wga 1.000 | val_bal acc 0.948 wga 0.920 | val_id acc 0.932 wga 0.900
+step  1000 | ep  26.7 | loss 0.0079 | train acc 1.000 wga 1.000 | val_bal acc 0.948 wga 0.920 | val_id acc 0.940 wga 0.920
+step  1100 | ep  29.3 | loss 0.0034 | train acc 1.000 wga 1.000 | val_bal acc 0.945 wga 0.920 | val_id acc 0.935 wga 0.920
+step  1200 | ep  32.0 | loss 0.0037 | train acc 1.000 wga 1.000 | val_bal acc 0.940 wga 0.920 | val_id acc 0.938 wga 0.930
+step  1300 | ep  34.7 | loss 0.0037 | train acc 1.000 wga 1.000 | val_bal acc 0.943 wga 0.890 | val_id acc 0.938 wga 0.890
+step  1400 | ep  37.3 | loss 0.0034 | train acc 1.000 wga 1.000 | val_bal acc 0.943 wga 0.910 | val_id acc 0.938 wga 0.890
+step  1500 | ep  40.0 | loss 0.0051 | train acc 1.000 wga 1.000 | val_bal acc 0.935 wga 0.920 | val_id acc 0.938 wga 0.910
+step  1600 | ep  42.7 | loss 0.0025 | train acc 1.000 wga 1.000 | val_bal acc 0.938 wga 0.920 | val_id acc 0.943 wga 0.910
+step  1700 | ep  45.3 | loss 0.0022 | train acc 1.000 wga 1.000 | val_bal acc 0.945 wga 0.910 | val_id acc 0.925 wga 0.880
+step  1800 | ep  48.0 | loss 0.0016 | train acc 1.000 wga 1.000 | val_bal acc 0.945 wga 0.930 | val_id acc 0.948 wga 0.920
+step  1900 | ep  50.7 | loss 0.0031 | train acc 1.000 wga 1.000 | val_bal acc 0.940 wga 0.930 | val_id acc 0.940 wga 0.910
+step  2000 | ep  53.3 | loss 0.0023 | train acc 1.000 wga 1.000 | val_bal acc 0.940 wga 0.920 | val_id acc 0.938 wga 0.920
+[time] training 36s (1799 img/s), evaluation 18s
+[done] runs/controlled_rho0.5_ds1_ts1_jtt_resnet50_f126ab4e
+[run] controlled_rho0.95_ds1_ts1_gdro_resnet50_8a5ae6bd
+[run] controlled rho=0.95 data_seed=1; device=cuda, amp=True; train=1200, val_bal=400, val_id=400, test=1200
+step     0 | ep   0.0 | train acc 0.504 wga 0.446 | val_bal acc 0.603 wga 0.510 | val_id acc 0.492 wga 0.400
+step    25 | ep   0.7 | loss 1.0268 | train acc 0.902 wga 0.865 | val_bal acc 0.843 wga 0.680 | val_id acc 0.907 wga 0.600
+step    50 | ep   1.3 | loss 1.7460 | train acc 0.934 wga 0.733 | val_bal acc 0.858 wga 0.650 | val_id acc 0.920 wga 0.500
+step    75 | ep   2.0 | loss 1.3085 | train acc 0.573 wga 0.156 | val_bal acc 0.588 wga 0.160 | val_id acc 0.557 wga 0.121
+step   100 | ep   2.7 | loss 0.9940 | train acc 0.944 wga 0.800 | val_bal acc 0.745 wga 0.450 | val_id acc 0.927 wga 0.300
+step   125 | ep   3.3 | loss 0.9100 | train acc 0.776 wga 0.537 | val_bal acc 0.750 wga 0.500 | val_id acc 0.750 wga 0.511
+step   150 | ep   4.0 | loss 1.3294 | train acc 0.882 wga 0.733 | val_bal acc 0.720 wga 0.240 | val_id acc 0.877 wga 0.500
+step   175 | ep   4.7 | loss 0.4620 | train acc 0.907 wga 0.812 | val_bal acc 0.775 wga 0.390 | val_id acc 0.873 wga 0.400
+step   200 | ep   5.3 | loss 0.2624 | train acc 0.830 wga 0.600 | val_bal acc 0.675 wga 0.120 | val_id acc 0.810 wga 0.200
+step   300 | ep   8.0 | loss 0.2064 | train acc 0.980 wga 0.867 | val_bal acc 0.757 wga 0.400 | val_id acc 0.950 wga 0.600
+step   400 | ep  10.7 | loss 0.1024 | train acc 0.981 wga 0.960 | val_bal acc 0.815 wga 0.630 | val_id acc 0.927 wga 0.800
+step   500 | ep  13.3 | loss 0.0216 | train acc 0.997 wga 0.967 | val_bal acc 0.812 wga 0.550 | val_id acc 0.940 wga 0.700
+step   600 | ep  16.0 | loss 0.0123 | train acc 0.996 wga 0.967 | val_bal acc 0.795 wga 0.500 | val_id acc 0.943 wga 0.600
+step   700 | ep  18.7 | loss 0.0095 | train acc 1.000 wga 1.000 | val_bal acc 0.792 wga 0.540 | val_id acc 0.950 wga 0.700
+step   800 | ep  21.3 | loss 0.0056 | train acc 1.000 wga 1.000 | val_bal acc 0.785 wga 0.560 | val_id acc 0.948 wga 0.700
+step   900 | ep  24.0 | loss 0.0039 | train acc 1.000 wga 1.000 | val_bal acc 0.787 wga 0.560 | val_id acc 0.950 wga 0.700
+step  1000 | ep  26.7 | loss 0.0041 | train acc 1.000 wga 1.000 | val_bal acc 0.785 wga 0.570 | val_id acc 0.948 wga 0.700
+step  1100 | ep  29.3 | loss 0.0019 | train acc 1.000 wga 1.000 | val_bal acc 0.780 wga 0.560 | val_id acc 0.950 wga 0.700
+step  1200 | ep  32.0 | loss 0.0022 | train acc 1.000 wga 1.000 | val_bal acc 0.780 wga 0.530 | val_id acc 0.950 wga 0.700
+step  1300 | ep  34.7 | loss 0.0013 | train acc 1.000 wga 1.000 | val_bal acc 0.782 wga 0.550 | val_id acc 0.950 wga 0.700
+step  1400 | ep  37.3 | loss 0.0017 | train acc 1.000 wga 1.000 | val_bal acc 0.780 wga 0.560 | val_id acc 0.950 wga 0.700
+step  1500 | ep  40.0 | loss 0.0010 | train acc 1.000 wga 1.000 | val_bal acc 0.780 wga 0.550 | val_id acc 0.950 wga 0.700
+step  1600 | ep  42.7 | loss 0.0012 | train acc 1.000 wga 1.000 | val_bal acc 0.777 wga 0.540 | val_id acc 0.950 wga 0.700
+step  1700 | ep  45.3 | loss 0.0009 | train acc 1.000 wga 1.000 | val_bal acc 0.780 wga 0.540 | val_id acc 0.950 wga 0.700
+step  1800 | ep  48.0 | loss 0.0008 | train acc 1.000 wga 1.000 | val_bal acc 0.780 wga 0.540 | val_id acc 0.950 wga 0.700
+step  1900 | ep  50.7 | loss 0.0010 | train acc 1.000 wga 1.000 | val_bal acc 0.785 wga 0.560 | val_id acc 0.950 wga 0.700
+step  2000 | ep  53.3 | loss 0.0006 | train acc 1.000 wga 1.000 | val_bal acc 0.785 wga 0.550 | val_id acc 0.948 wga 0.700
+[time] training 36s (1755 img/s), evaluation 18s
+[done] runs/controlled_rho0.95_ds1_ts1_gdro_resnet50_8a5ae6bd
+[run] controlled_rho0.95_ds2_ts2_erm_resnet50_247afa97
+[run] controlled rho=0.95 data_seed=2; device=cuda, amp=True; train=1200, val_bal=400, val_id=400, test=1200
+step     0 | ep   0.0 | train acc 0.376 wga 0.051 | val_bal acc 0.450 wga 0.090 | val_id acc 0.388 wga 0.053
+step    25 | ep   0.7 | loss 0.4627 | train acc 0.940 wga 0.267 | val_bal acc 0.637 wga 0.290 | val_id acc 0.943 wga 0.600
+step    50 | ep   1.3 | loss 0.1705 | train acc 0.956 wga 0.600 | val_bal acc 0.698 wga 0.380 | val_id acc 0.950 wga 0.600
+step    75 | ep   2.0 | loss 0.1523 | train acc 0.964 wga 0.700 | val_bal acc 0.748 wga 0.480 | val_id acc 0.958 wga 0.600
+step   100 | ep   2.7 | loss 0.1133 | train acc 0.983 wga 0.667 | val_bal acc 0.730 wga 0.330 | val_id acc 0.960 wga 0.600
+step   125 | ep   3.3 | loss 0.1083 | train acc 0.989 wga 0.867 | val_bal acc 0.757 wga 0.410 | val_id acc 0.963 wga 0.800
+step   150 | ep   4.0 | loss 0.0611 | train acc 0.988 wga 0.933 | val_bal acc 0.785 wga 0.590 | val_id acc 0.963 wga 0.800
+step   175 | ep   4.7 | loss 0.0671 | train acc 0.995 wga 0.967 | val_bal acc 0.780 wga 0.520 | val_id acc 0.963 wga 0.800
+step   200 | ep   5.3 | loss 0.0597 | train acc 0.999 wga 0.998 | val_bal acc 0.745 wga 0.390 | val_id acc 0.968 wga 0.700
+step   300 | ep   8.0 | loss 0.0280 | train acc 0.999 wga 0.998 | val_bal acc 0.780 wga 0.520 | val_id acc 0.965 wga 0.800
+step   400 | ep  10.7 | loss 0.0209 | train acc 1.000 wga 1.000 | val_bal acc 0.785 wga 0.540 | val_id acc 0.970 wga 0.800
+step   500 | ep  13.3 | loss 0.0130 | train acc 1.000 wga 1.000 | val_bal acc 0.787 wga 0.550 | val_id acc 0.970 wga 0.800
+step   600 | ep  16.0 | loss 0.0100 | train acc 1.000 wga 1.000 | val_bal acc 0.787 wga 0.520 | val_id acc 0.968 wga 0.800
+step   700 | ep  18.7 | loss 0.0127 | train acc 1.000 wga 1.000 | val_bal acc 0.787 wga 0.550 | val_id acc 0.963 wga 0.800
+step   800 | ep  21.3 | loss 0.0044 | train acc 1.000 wga 1.000 | val_bal acc 0.782 wga 0.480 | val_id acc 0.968 wga 0.800
+step   900 | ep  24.0 | loss 0.0059 | train acc 1.000 wga 1.000 | val_bal acc 0.785 wga 0.500 | val_id acc 0.970 wga 0.800
+step  1000 | ep  26.7 | loss 0.0040 | train acc 1.000 wga 1.000 | val_bal acc 0.785 wga 0.530 | val_id acc 0.973 wga 0.800
+step  1100 | ep  29.3 | loss 0.0032 | train acc 1.000 wga 1.000 | val_bal acc 0.787 wga 0.530 | val_id acc 0.970 wga 0.800
+step  1200 | ep  32.0 | loss 0.0043 | train acc 1.000 wga 1.000 | val_bal acc 0.785 wga 0.440 | val_id acc 0.973 wga 0.800
+step  1300 | ep  34.7 | loss 0.0028 | train acc 1.000 wga 1.000 | val_bal acc 0.785 wga 0.520 | val_id acc 0.978 wga 0.800
+step  1400 | ep  37.3 | loss 0.0040 | train acc 1.000 wga 1.000 | val_bal acc 0.795 wga 0.530 | val_id acc 0.970 wga 0.800
+step  1500 | ep  40.0 | loss 0.0026 | train acc 1.000 wga 1.000 | val_bal acc 0.797 wga 0.540 | val_id acc 0.973 wga 0.800
+step  1600 | ep  42.7 | loss 0.0019 | train acc 1.000 wga 1.000 | val_bal acc 0.785 wga 0.540 | val_id acc 0.975 wga 0.800
+step  1700 | ep  45.3 | loss 0.0024 | train acc 1.000 wga 1.000 | val_bal acc 0.787 wga 0.540 | val_id acc 0.975 wga 0.800
+step  1800 | ep  48.0 | loss 0.0019 | train acc 1.000 wga 1.000 | val_bal acc 0.800 wga 0.530 | val_id acc 0.973 wga 0.800
+step  1900 | ep  50.7 | loss 0.0033 | train acc 1.000 wga 1.000 | val_bal acc 0.797 wga 0.510 | val_id acc 0.973 wga 0.800
+step  2000 | ep  53.3 | loss 0.0020 | train acc 1.000 wga 1.000 | val_bal acc 0.772 wga 0.480 | val_id acc 0.978 wga 0.800
+[time] training 36s (1799 img/s), evaluation 18s
+[done] runs/controlled_rho0.95_ds2_ts2_erm_resnet50_247afa97
+[run] controlled_rho0.95_ds2_ts2_rwg_resnet50_c47a39cf
+[run] controlled rho=0.95 data_seed=2; device=cuda, amp=True; train=1200, val_bal=400, val_id=400, test=1200
+step     0 | ep   0.0 | train acc 0.376 wga 0.051 | val_bal acc 0.450 wga 0.090 | val_id acc 0.388 wga 0.053
+step    25 | ep   0.7 | loss 0.5468 | train acc 0.939 wga 0.904 | val_bal acc 0.870 wga 0.750 | val_id acc 0.920 wga 0.800
+step    50 | ep   1.3 | loss 0.2282 | train acc 0.952 wga 0.928 | val_bal acc 0.907 wga 0.850 | val_id acc 0.940 wga 0.800
+step    75 | ep   2.0 | loss 0.1230 | train acc 0.960 wga 0.937 | val_bal acc 0.882 wga 0.810 | val_id acc 0.953 wga 0.800
+step   100 | ep   2.7 | loss 0.0663 | train acc 0.968 wga 0.942 | val_bal acc 0.890 wga 0.810 | val_id acc 0.953 wga 0.800
+step   125 | ep   3.3 | loss 0.0656 | train acc 0.977 wga 0.958 | val_bal acc 0.875 wga 0.740 | val_id acc 0.953 wga 0.800
+step   150 | ep   4.0 | loss 0.0461 | train acc 0.984 wga 0.972 | val_bal acc 0.868 wga 0.700 | val_id acc 0.950 wga 0.800
+step   175 | ep   4.7 | loss 0.0350 | train acc 0.985 wga 0.972 | val_bal acc 0.863 wga 0.700 | val_id acc 0.958 wga 0.800
+step   200 | ep   5.3 | loss 0.0244 | train acc 0.992 wga 0.988 | val_bal acc 0.840 wga 0.600 | val_id acc 0.955 wga 0.800
+step   300 | ep   8.0 | loss 0.0170 | train acc 0.996 wga 0.995 | val_bal acc 0.828 wga 0.540 | val_id acc 0.963 wga 0.800
+step   400 | ep  10.7 | loss 0.0099 | train acc 0.999 wga 0.998 | val_bal acc 0.845 wga 0.650 | val_id acc 0.963 wga 0.800
+step   500 | ep  13.3 | loss 0.0059 | train acc 1.000 wga 1.000 | val_bal acc 0.825 wga 0.560 | val_id acc 0.965 wga 0.800
+step   600 | ep  16.0 | loss 0.0039 | train acc 1.000 wga 1.000 | val_bal acc 0.833 wga 0.590 | val_id acc 0.965 wga 0.800
+step   700 | ep  18.7 | loss 0.0031 | train acc 1.000 wga 1.000 | val_bal acc 0.820 wga 0.550 | val_id acc 0.965 wga 0.800
+step   800 | ep  21.3 | loss 0.0027 | train acc 1.000 wga 1.000 | val_bal acc 0.830 wga 0.590 | val_id acc 0.965 wga 0.800
+step   900 | ep  24.0 | loss 0.0021 | train acc 1.000 wga 1.000 | val_bal acc 0.830 wga 0.580 | val_id acc 0.968 wga 0.800
+step  1000 | ep  26.7 | loss 0.0016 | train acc 1.000 wga 1.000 | val_bal acc 0.828 wga 0.570 | val_id acc 0.970 wga 0.800
+step  1100 | ep  29.3 | loss 0.0015 | train acc 1.000 wga 1.000 | val_bal acc 0.828 wga 0.580 | val_id acc 0.970 wga 0.800
+step  1200 | ep  32.0 | loss 0.0011 | train acc 1.000 wga 1.000 | val_bal acc 0.833 wga 0.600 | val_id acc 0.968 wga 0.800
+step  1300 | ep  34.7 | loss 0.0011 | train acc 1.000 wga 1.000 | val_bal acc 0.835 wga 0.610 | val_id acc 0.970 wga 0.800
+step  1400 | ep  37.3 | loss 0.0013 | train acc 1.000 wga 1.000 | val_bal acc 0.825 wga 0.610 | val_id acc 0.970 wga 0.800
+step  1500 | ep  40.0 | loss 0.0009 | train acc 1.000 wga 1.000 | val_bal acc 0.823 wga 0.580 | val_id acc 0.970 wga 0.800
+step  1600 | ep  42.7 | loss 0.0008 | train acc 1.000 wga 1.000 | val_bal acc 0.823 wga 0.600 | val_id acc 0.970 wga 0.800
+step  1700 | ep  45.3 | loss 0.0008 | train acc 1.000 wga 1.000 | val_bal acc 0.828 wga 0.580 | val_id acc 0.970 wga 0.800
+step  1800 | ep  48.0 | loss 0.0006 | train acc 1.000 wga 1.000 | val_bal acc 0.825 wga 0.570 | val_id acc 0.970 wga 0.800
+step  1900 | ep  50.7 | loss 0.0007 | train acc 1.000 wga 1.000 | val_bal acc 0.830 wga 0.590 | val_id acc 0.970 wga 0.800
+step  2000 | ep  53.3 | loss 0.0006 | train acc 1.000 wga 1.000 | val_bal acc 0.828 wga 0.580 | val_id acc 0.970 wga 0.800
+[time] training 36s (1757 img/s), evaluation 18s
+[done] runs/controlled_rho0.95_ds2_ts2_rwg_resnet50_c47a39cf
+[run] controlled_rho0.95_ds2_ts2_jtt_resnet50_89869df3
+[run] controlled rho=0.95 data_seed=2; device=cuda, amp=True; train=1200, val_bal=400, val_id=400, test=1200
+[jtt] error set from controlled_rho0.95_ds2_ts2_erm_resnet50_247afa97 at step 25: 72 examples, by group [9, 14, 22, 27]; minority precision 0.50, recall 0.60
+step     0 | ep   0.0 | train acc 0.376 wga 0.051 | val_bal acc 0.450 wga 0.090 | val_id acc 0.388 wga 0.053
+step    25 | ep   0.7 | loss 0.6303 | train acc 0.887 wga 0.842 | val_bal acc 0.845 wga 0.790 | val_id acc 0.877 wga 0.800
+step    50 | ep   1.3 | loss 0.3757 | train acc 0.955 wga 0.833 | val_bal acc 0.815 wga 0.550 | val_id acc 0.920 wga 0.700
+step    75 | ep   2.0 | loss 0.1985 | train acc 0.971 wga 0.833 | val_bal acc 0.833 wga 0.610 | val_id acc 0.945 wga 0.800
+step   100 | ep   2.7 | loss 0.1024 | train acc 0.975 wga 0.867 | val_bal acc 0.818 wga 0.510 | val_id acc 0.943 wga 0.700
+step   125 | ep   3.3 | loss 0.0702 | train acc 0.986 wga 0.933 | val_bal acc 0.823 wga 0.610 | val_id acc 0.955 wga 0.800
+step   150 | ep   4.0 | loss 0.0534 | train acc 0.994 wga 0.991 | val_bal acc 0.825 wga 0.660 | val_id acc 0.968 wga 0.800
+step   175 | ep   4.7 | loss 0.0351 | train acc 0.996 wga 0.967 | val_bal acc 0.818 wga 0.590 | val_id acc 0.963 wga 0.800
+step   200 | ep   5.3 | loss 0.0294 | train acc 0.998 wga 0.967 | val_bal acc 0.805 wga 0.570 | val_id acc 0.968 wga 0.800
+step   300 | ep   8.0 | loss 0.0212 | train acc 1.000 wga 1.000 | val_bal acc 0.825 wga 0.630 | val_id acc 0.970 wga 0.800
+step   400 | ep  10.7 | loss 0.0110 | train acc 0.999 wga 0.998 | val_bal acc 0.787 wga 0.520 | val_id acc 0.973 wga 0.800
+step   500 | ep  13.3 | loss 0.0085 | train acc 1.000 wga 1.000 | val_bal acc 0.810 wga 0.540 | val_id acc 0.970 wga 0.800
+step   600 | ep  16.0 | loss 0.0077 | train acc 1.000 wga 1.000 | val_bal acc 0.800 wga 0.620 | val_id acc 0.968 wga 0.800
+step   700 | ep  18.7 | loss 0.0088 | train acc 1.000 wga 1.000 | val_bal acc 0.805 wga 0.510 | val_id acc 0.970 wga 0.800
+step   800 | ep  21.3 | loss 0.0039 | train acc 1.000 wga 1.000 | val_bal acc 0.815 wga 0.510 | val_id acc 0.970 wga 0.800
+step   900 | ep  24.0 | loss 0.0033 | train acc 1.000 wga 1.000 | val_bal acc 0.820 wga 0.620 | val_id acc 0.965 wga 0.800
+step  1000 | ep  26.7 | loss 0.0036 | train acc 1.000 wga 1.000 | val_bal acc 0.823 wga 0.650 | val_id acc 0.965 wga 0.800
+step  1100 | ep  29.3 | loss 0.0026 | train acc 1.000 wga 1.000 | val_bal acc 0.812 wga 0.580 | val_id acc 0.970 wga 0.800
+step  1200 | ep  32.0 | loss 0.0019 | train acc 1.000 wga 1.000 | val_bal acc 0.812 wga 0.560 | val_id acc 0.968 wga 0.800
+step  1300 | ep  34.7 | loss 0.0021 | train acc 1.000 wga 1.000 | val_bal acc 0.805 wga 0.600 | val_id acc 0.970 wga 0.800
+step  1400 | ep  37.3 | loss 0.0016 | train acc 1.000 wga 1.000 | val_bal acc 0.807 wga 0.530 | val_id acc 0.970 wga 0.800
+step  1500 | ep  40.0 | loss 0.0048 | train acc 1.000 wga 1.000 | val_bal acc 0.790 wga 0.560 | val_id acc 0.970 wga 0.800
+step  1600 | ep  42.7 | loss 0.0029 | train acc 1.000 wga 1.000 | val_bal acc 0.810 wga 0.470 | val_id acc 0.973 wga 0.800
+step  1700 | ep  45.3 | loss 0.0023 | train acc 1.000 wga 1.000 | val_bal acc 0.815 wga 0.550 | val_id acc 0.968 wga 0.800
+step  1800 | ep  48.0 | loss 0.0022 | train acc 1.000 wga 1.000 | val_bal acc 0.810 wga 0.590 | val_id acc 0.973 wga 0.800
+step  1900 | ep  50.7 | loss 0.0012 | train acc 1.000 wga 1.000 | val_bal acc 0.792 wga 0.560 | val_id acc 0.968 wga 0.700
+step  2000 | ep  53.3 | loss 0.0017 | train acc 1.000 wga 1.000 | val_bal acc 0.802 wga 0.530 | val_id acc 0.970 wga 0.800
+[time] training 36s (1798 img/s), evaluation 18s
+[done] runs/controlled_rho0.95_ds2_ts2_jtt_resnet50_89869df3
+[run] controlled_rho0.99_ds2_ts2_erm_resnet50_19ee387f
+[run] controlled rho=0.99 data_seed=2; device=cuda, amp=True; train=1200, val_bal=400, val_id=400, test=1200
+step     0 | ep   0.0 | train acc 0.375 wga 0.000 | val_bal acc 0.450 wga 0.090 | val_id acc 0.383 wga 0.000
+step    25 | ep   0.7 | loss 0.4386 | train acc 0.956 wga 0.167 | val_bal acc 0.620 wga 0.210 | val_id acc 0.950 wga 0.500
+step    50 | ep   1.3 | loss 0.1543 | train acc 0.967 wga 0.333 | val_bal acc 0.623 wga 0.250 | val_id acc 0.963 wga 0.500
+step    75 | ep   2.0 | loss 0.1025 | train acc 0.980 wga 0.667 | val_bal acc 0.642 wga 0.250 | val_id acc 0.965 wga 0.500
+step   100 | ep   2.7 | loss 0.0840 | train acc 0.987 wga 0.667 | val_bal acc 0.660 wga 0.300 | val_id acc 0.973 wga 0.500
+step   125 | ep   3.3 | loss 0.0833 | train acc 0.992 wga 0.667 | val_bal acc 0.662 wga 0.260 | val_id acc 0.975 wga 0.000
+step   150 | ep   4.0 | loss 0.0483 | train acc 0.995 wga 0.667 | val_bal acc 0.665 wga 0.270 | val_id acc 0.975 wga 0.000
+step   175 | ep   4.7 | loss 0.0413 | train acc 0.995 wga 0.833 | val_bal acc 0.670 wga 0.300 | val_id acc 0.983 wga 0.500
+step   200 | ep   5.3 | loss 0.0492 | train acc 0.998 wga 0.833 | val_bal acc 0.665 wga 0.240 | val_id acc 0.975 wga 0.000
+step   300 | ep   8.0 | loss 0.0244 | train acc 1.000 wga 1.000 | val_bal acc 0.682 wga 0.240 | val_id acc 0.973 wga 0.000
+step   400 | ep  10.7 | loss 0.0159 | train acc 1.000 wga 1.000 | val_bal acc 0.682 wga 0.260 | val_id acc 0.975 wga 0.000
+step   500 | ep  13.3 | loss 0.0116 | train acc 1.000 wga 1.000 | val_bal acc 0.703 wga 0.360 | val_id acc 0.980 wga 0.500
+step   600 | ep  16.0 | loss 0.0075 | train acc 1.000 wga 1.000 | val_bal acc 0.688 wga 0.280 | val_id acc 0.980 wga 0.000
+step   700 | ep  18.7 | loss 0.0069 | train acc 1.000 wga 1.000 | val_bal acc 0.698 wga 0.330 | val_id acc 0.978 wga 0.000
+step   800 | ep  21.3 | loss 0.0047 | train acc 1.000 wga 1.000 | val_bal acc 0.708 wga 0.340 | val_id acc 0.980 wga 0.000
+step   900 | ep  24.0 | loss 0.0047 | train acc 1.000 wga 1.000 | val_bal acc 0.700 wga 0.360 | val_id acc 0.978 wga 0.000
+step  1000 | ep  26.7 | loss 0.0038 | train acc 1.000 wga 1.000 | val_bal acc 0.715 wga 0.350 | val_id acc 0.978 wga 0.000
+step  1100 | ep  29.3 | loss 0.0037 | train acc 1.000 wga 1.000 | val_bal acc 0.700 wga 0.310 | val_id acc 0.980 wga 0.000
+step  1200 | ep  32.0 | loss 0.0047 | train acc 1.000 wga 1.000 | val_bal acc 0.708 wga 0.290 | val_id acc 0.978 wga 0.000
+step  1300 | ep  34.7 | loss 0.0021 | train acc 1.000 wga 1.000 | val_bal acc 0.708 wga 0.340 | val_id acc 0.980 wga 0.000
+step  1400 | ep  37.3 | loss 0.0034 | train acc 1.000 wga 1.000 | val_bal acc 0.718 wga 0.370 | val_id acc 0.978 wga 0.000
+step  1500 | ep  40.0 | loss 0.0017 | train acc 1.000 wga 1.000 | val_bal acc 0.710 wga 0.350 | val_id acc 0.980 wga 0.000
+step  1600 | ep  42.7 | loss 0.0017 | train acc 1.000 wga 1.000 | val_bal acc 0.713 wga 0.390 | val_id acc 0.980 wga 0.000
+step  1700 | ep  45.3 | loss 0.0015 | train acc 1.000 wga 1.000 | val_bal acc 0.715 wga 0.350 | val_id acc 0.978 wga 0.000
+step  1800 | ep  48.0 | loss 0.0011 | train acc 1.000 wga 1.000 | val_bal acc 0.713 wga 0.350 | val_id acc 0.980 wga 0.000
+step  1900 | ep  50.7 | loss 0.0011 | train acc 1.000 wga 1.000 | val_bal acc 0.715 wga 0.370 | val_id acc 0.978 wga 0.000
+step  2000 | ep  53.3 | loss 0.0025 | train acc 1.000 wga 1.000 | val_bal acc 0.703 wga 0.340 | val_id acc 0.978 wga 0.000
+[time] training 36s (1797 img/s), evaluation 18s
+[done] runs/controlled_rho0.99_ds2_ts2_erm_resnet50_19ee387f
+[run] controlled_rho0.99_ds2_ts2_rwg_resnet50_eada65ca
+[run] controlled rho=0.99 data_seed=2; device=cuda, amp=True; train=1200, val_bal=400, val_id=400, test=1200
+step     0 | ep   0.0 | train acc 0.375 wga 0.000 | val_bal acc 0.450 wga 0.090 | val_id acc 0.383 wga 0.000
+step    25 | ep   0.7 | loss 0.4604 | train acc 0.919 wga 0.870 | val_bal acc 0.840 wga 0.690 | val_id acc 0.925 wga 0.500
+step    50 | ep   1.3 | loss 0.1461 | train acc 0.958 wga 0.926 | val_bal acc 0.810 wga 0.660 | val_id acc 0.953 wga 0.500
+step    75 | ep   2.0 | loss 0.0740 | train acc 0.972 wga 0.960 | val_bal acc 0.757 wga 0.440 | val_id acc 0.963 wga 0.500
+step   100 | ep   2.7 | loss 0.0458 | train acc 0.981 wga 0.975 | val_bal acc 0.728 wga 0.370 | val_id acc 0.965 wga 0.500
+step   125 | ep   3.3 | loss 0.0430 | train acc 0.987 wga 0.980 | val_bal acc 0.725 wga 0.370 | val_id acc 0.973 wga 0.500
+step   150 | ep   4.0 | loss 0.0358 | train acc 0.989 wga 0.981 | val_bal acc 0.735 wga 0.420 | val_id acc 0.970 wga 0.500
+step   175 | ep   4.7 | loss 0.0229 | train acc 0.988 wga 0.978 | val_bal acc 0.733 wga 0.460 | val_id acc 0.970 wga 0.500
+step   200 | ep   5.3 | loss 0.0252 | train acc 0.996 wga 0.993 | val_bal acc 0.723 wga 0.300 | val_id acc 0.978 wga 0.500
+step   300 | ep   8.0 | loss 0.0119 | train acc 0.998 wga 0.995 | val_bal acc 0.735 wga 0.420 | val_id acc 0.973 wga 0.500
+step   400 | ep  10.7 | loss 0.0075 | train acc 1.000 wga 1.000 | val_bal acc 0.735 wga 0.340 | val_id acc 0.980 wga 0.500
+step   500 | ep  13.3 | loss 0.0056 | train acc 1.000 wga 1.000 | val_bal acc 0.728 wga 0.390 | val_id acc 0.973 wga 0.500
+step   600 | ep  16.0 | loss 0.0036 | train acc 1.000 wga 1.000 | val_bal acc 0.728 wga 0.370 | val_id acc 0.973 wga 0.500
+step   700 | ep  18.7 | loss 0.0032 | train acc 1.000 wga 1.000 | val_bal acc 0.715 wga 0.340 | val_id acc 0.978 wga 0.500
+step   800 | ep  21.3 | loss 0.0022 | train acc 1.000 wga 1.000 | val_bal acc 0.730 wga 0.400 | val_id acc 0.975 wga 0.500
+step   900 | ep  24.0 | loss 0.0017 | train acc 1.000 wga 1.000 | val_bal acc 0.725 wga 0.360 | val_id acc 0.978 wga 0.500
+step  1000 | ep  26.7 | loss 0.0018 | train acc 1.000 wga 1.000 | val_bal acc 0.733 wga 0.400 | val_id acc 0.978 wga 0.500
+step  1100 | ep  29.3 | loss 0.0013 | train acc 1.000 wga 1.000 | val_bal acc 0.725 wga 0.340 | val_id acc 0.978 wga 0.500
+step  1200 | ep  32.0 | loss 0.0012 | train acc 1.000 wga 1.000 | val_bal acc 0.725 wga 0.370 | val_id acc 0.978 wga 0.500
+step  1300 | ep  34.7 | loss 0.0011 | train acc 1.000 wga 1.000 | val_bal acc 0.728 wga 0.360 | val_id acc 0.980 wga 0.500
+step  1400 | ep  37.3 | loss 0.0009 | train acc 1.000 wga 1.000 | val_bal acc 0.725 wga 0.350 | val_id acc 0.980 wga 0.500
+step  1500 | ep  40.0 | loss 0.0009 | train acc 1.000 wga 1.000 | val_bal acc 0.723 wga 0.360 | val_id acc 0.980 wga 0.500
+step  1600 | ep  42.7 | loss 0.0008 | train acc 1.000 wga 1.000 | val_bal acc 0.725 wga 0.370 | val_id acc 0.980 wga 0.500
+step  1700 | ep  45.3 | loss 0.0007 | train acc 1.000 wga 1.000 | val_bal acc 0.720 wga 0.360 | val_id acc 0.980 wga 0.500
+step  1800 | ep  48.0 | loss 0.0007 | train acc 1.000 wga 1.000 | val_bal acc 0.723 wga 0.340 | val_id acc 0.978 wga 0.500
+step  1900 | ep  50.7 | loss 0.0007 | train acc 1.000 wga 1.000 | val_bal acc 0.720 wga 0.350 | val_id acc 0.980 wga 0.500
+step  2000 | ep  53.3 | loss 0.0006 | train acc 1.000 wga 1.000 | val_bal acc 0.728 wga 0.350 | val_id acc 0.978 wga 0.500
+[time] training 37s (1752 img/s), evaluation 18s
+[done] runs/controlled_rho0.99_ds2_ts2_rwg_resnet50_eada65ca
+[run] controlled_rho0.99_ds2_ts2_jtt_resnet50_fca28b14
+[run] controlled rho=0.99 data_seed=2; device=cuda, amp=True; train=1200, val_bal=400, val_id=400, test=1200
+[jtt] error set from controlled_rho0.99_ds2_ts2_erm_resnet50_19ee387f at step 25: 53 examples, by group [6, 2, 5, 40]; minority precision 0.13, recall 0.58
+step     0 | ep   0.0 | train acc 0.375 wga 0.000 | val_bal acc 0.450 wga 0.090 | val_id acc 0.383 wga 0.000
+step    25 | ep   0.7 | loss 0.5749 | train acc 0.924 wga 0.000 | val_bal acc 0.670 wga 0.070 | val_id acc 0.930 wga 0.000
+step    50 | ep   1.3 | loss 0.3101 | train acc 0.980 wga 0.500 | val_bal acc 0.675 wga 0.190 | val_id acc 0.965 wga 0.000
+step    75 | ep   2.0 | loss 0.1526 | train acc 0.960 wga 0.500 | val_bal acc 0.677 wga 0.120 | val_id acc 0.955 wga 0.000
+step   100 | ep   2.7 | loss 0.0956 | train acc 0.983 wga 0.667 | val_bal acc 0.680 wga 0.210 | val_id acc 0.963 wga 0.000
+step   125 | ep   3.3 | loss 0.0640 | train acc 0.998 wga 0.998 | val_bal acc 0.688 wga 0.380 | val_id acc 0.978 wga 0.000
+step   150 | ep   4.0 | loss 0.0307 | train acc 0.999 wga 0.998 | val_bal acc 0.693 wga 0.390 | val_id acc 0.980 wga 0.500
+step   175 | ep   4.7 | loss 0.0315 | train acc 0.998 wga 0.997 | val_bal acc 0.708 wga 0.330 | val_id acc 0.975 wga 0.000
+step   200 | ep   5.3 | loss 0.0247 | train acc 1.000 wga 1.000 | val_bal acc 0.688 wga 0.350 | val_id acc 0.975 wga 0.000
+step   300 | ep   8.0 | loss 0.0150 | train acc 1.000 wga 1.000 | val_bal acc 0.688 wga 0.300 | val_id acc 0.973 wga 0.000
+step   400 | ep  10.7 | loss 0.0107 | train acc 1.000 wga 1.000 | val_bal acc 0.713 wga 0.410 | val_id acc 0.975 wga 0.000
+step   500 | ep  13.3 | loss 0.0080 | train acc 1.000 wga 1.000 | val_bal acc 0.708 wga 0.370 | val_id acc 0.980 wga 0.500
+step   600 | ep  16.0 | loss 0.0059 | train acc 1.000 wga 1.000 | val_bal acc 0.703 wga 0.330 | val_id acc 0.980 wga 0.500
+step   700 | ep  18.7 | loss 0.0046 | train acc 1.000 wga 1.000 | val_bal acc 0.705 wga 0.350 | val_id acc 0.978 wga 0.500
+step   800 | ep  21.3 | loss 0.0039 | train acc 1.000 wga 1.000 | val_bal acc 0.710 wga 0.380 | val_id acc 0.978 wga 0.500
+step   900 | ep  24.0 | loss 0.0029 | train acc 1.000 wga 1.000 | val_bal acc 0.705 wga 0.370 | val_id acc 0.978 wga 0.500
+step  1000 | ep  26.7 | loss 0.0032 | train acc 1.000 wga 1.000 | val_bal acc 0.713 wga 0.400 | val_id acc 0.978 wga 0.500
+step  1100 | ep  29.3 | loss 0.0057 | train acc 1.000 wga 1.000 | val_bal acc 0.708 wga 0.370 | val_id acc 0.975 wga 0.500
+step  1200 | ep  32.0 | loss 0.0014 | train acc 1.000 wga 1.000 | val_bal acc 0.705 wga 0.360 | val_id acc 0.978 wga 0.500
+step  1300 | ep  34.7 | loss 0.0014 | train acc 1.000 wga 1.000 | val_bal acc 0.708 wga 0.400 | val_id acc 0.975 wga 0.500
+step  1400 | ep  37.3 | loss 0.0015 | train acc 1.000 wga 1.000 | val_bal acc 0.698 wga 0.320 | val_id acc 0.975 wga 0.000
+step  1500 | ep  40.0 | loss 0.0011 | train acc 1.000 wga 1.000 | val_bal acc 0.708 wga 0.320 | val_id acc 0.975 wga 0.000
+step  1600 | ep  42.7 | loss 0.0015 | train acc 1.000 wga 1.000 | val_bal acc 0.703 wga 0.400 | val_id acc 0.975 wga 0.500
+step  1700 | ep  45.3 | loss 0.0014 | train acc 1.000 wga 1.000 | val_bal acc 0.713 wga 0.400 | val_id acc 0.978 wga 0.500
+step  1800 | ep  48.0 | loss 0.0023 | train acc 1.000 wga 1.000 | val_bal acc 0.715 wga 0.400 | val_id acc 0.978 wga 0.500
+step  1900 | ep  50.7 | loss 0.0011 | train acc 1.000 wga 1.000 | val_bal acc 0.713 wga 0.360 | val_id acc 0.978 wga 0.500
+step  2000 | ep  53.3 | loss 0.0011 | train acc 1.000 wga 1.000 | val_bal acc 0.708 wga 0.390 | val_id acc 0.975 wga 0.000
+[time] training 36s (1797 img/s), evaluation 18s
+[done] runs/controlled_rho0.99_ds2_ts2_jtt_resnet50_fca28b14
+[run] controlled_rho0.9_ds2_ts2_erm_resnet50_511f085a
+[run] controlled rho=0.9 data_seed=2; device=cuda, amp=True; train=1200, val_bal=400, val_id=400, test=1200
+step     0 | ep   0.0 | train acc 0.376 wga 0.050 | val_bal acc 0.450 wga 0.090 | val_id acc 0.385 wga 0.056
+step    25 | ep   0.7 | loss 0.4911 | train acc 0.914 wga 0.350 | val_bal acc 0.718 wga 0.360 | val_id acc 0.912 wga 0.550
+step    50 | ep   1.3 | loss 0.2577 | train acc 0.945 wga 0.683 | val_bal acc 0.780 wga 0.590 | val_id acc 0.938 wga 0.600
+step    75 | ep   2.0 | loss 0.1641 | train acc 0.961 wga 0.750 | val_bal acc 0.823 wga 0.630 | val_id acc 0.935 wga 0.650
+step   100 | ep   2.7 | loss 0.1420 | train acc 0.978 wga 0.883 | val_bal acc 0.833 wga 0.630 | val_id acc 0.940 wga 0.700
+step   125 | ep   3.3 | loss 0.1086 | train acc 0.983 wga 0.833 | val_bal acc 0.802 wga 0.490 | val_id acc 0.935 wga 0.650
+step   150 | ep   4.0 | loss 0.0866 | train acc 0.983 wga 0.933 | val_bal acc 0.848 wga 0.730 | val_id acc 0.948 wga 0.800
+step   175 | ep   4.7 | loss 0.0738 | train acc 0.991 wga 0.967 | val_bal acc 0.863 wga 0.720 | val_id acc 0.948 wga 0.800
+step   200 | ep   5.3 | loss 0.0859 | train acc 0.997 wga 0.967 | val_bal acc 0.820 wga 0.560 | val_id acc 0.945 wga 0.650
+step   300 | ep   8.0 | loss 0.0315 | train acc 0.998 wga 0.983 | val_bal acc 0.845 wga 0.630 | val_id acc 0.948 wga 0.750
+step   400 | ep  10.7 | loss 0.0207 | train acc 0.999 wga 0.998 | val_bal acc 0.855 wga 0.670 | val_id acc 0.950 wga 0.750
+step   500 | ep  13.3 | loss 0.0152 | train acc 1.000 wga 1.000 | val_bal acc 0.858 wga 0.710 | val_id acc 0.953 wga 0.750
+step   600 | ep  16.0 | loss 0.0094 | train acc 1.000 wga 1.000 | val_bal acc 0.830 wga 0.590 | val_id acc 0.958 wga 0.750
+step   700 | ep  18.7 | loss 0.0098 | train acc 1.000 wga 1.000 | val_bal acc 0.845 wga 0.630 | val_id acc 0.958 wga 0.750
+step   800 | ep  21.3 | loss 0.0050 | train acc 1.000 wga 1.000 | val_bal acc 0.865 wga 0.740 | val_id acc 0.960 wga 0.850
+step   900 | ep  24.0 | loss 0.0065 | train acc 1.000 wga 1.000 | val_bal acc 0.845 wga 0.660 | val_id acc 0.955 wga 0.750
+step  1000 | ep  26.7 | loss 0.0049 | train acc 1.000 wga 1.000 | val_bal acc 0.865 wga 0.740 | val_id acc 0.955 wga 0.800
+step  1100 | ep  29.3 | loss 0.0039 | train acc 1.000 wga 1.000 | val_bal acc 0.850 wga 0.650 | val_id acc 0.955 wga 0.750
+step  1200 | ep  32.0 | loss 0.0043 | train acc 1.000 wga 1.000 | val_bal acc 0.848 wga 0.640 | val_id acc 0.960 wga 0.750
+step  1300 | ep  34.7 | loss 0.0017 | train acc 1.000 wga 1.000 | val_bal acc 0.860 wga 0.720 | val_id acc 0.953 wga 0.800
+step  1400 | ep  37.3 | loss 0.0028 | train acc 1.000 wga 1.000 | val_bal acc 0.855 wga 0.670 | val_id acc 0.958 wga 0.750
+step  1500 | ep  40.0 | loss 0.0020 | train acc 1.000 wga 1.000 | val_bal acc 0.855 wga 0.690 | val_id acc 0.963 wga 0.800
+step  1600 | ep  42.7 | loss 0.0019 | train acc 1.000 wga 1.000 | val_bal acc 0.845 wga 0.710 | val_id acc 0.955 wga 0.800
+step  1700 | ep  45.3 | loss 0.0016 | train acc 1.000 wga 1.000 | val_bal acc 0.853 wga 0.700 | val_id acc 0.953 wga 0.800
+step  1800 | ep  48.0 | loss 0.0011 | train acc 1.000 wga 1.000 | val_bal acc 0.858 wga 0.700 | val_id acc 0.955 wga 0.750
+step  1900 | ep  50.7 | loss 0.0021 | train acc 1.000 wga 1.000 | val_bal acc 0.848 wga 0.700 | val_id acc 0.958 wga 0.800
+step  2000 | ep  53.3 | loss 0.0026 | train acc 1.000 wga 1.000 | val_bal acc 0.858 wga 0.670 | val_id acc 0.953 wga 0.750
+[time] training 36s (1796 img/s), evaluation 18s
+[done] runs/controlled_rho0.9_ds2_ts2_erm_resnet50_511f085a
+[run] controlled_rho0.9_ds2_ts2_rwg_resnet50_f5f3c493
+[run] controlled rho=0.9 data_seed=2; device=cuda, amp=True; train=1200, val_bal=400, val_id=400, test=1200
+step     0 | ep   0.0 | train acc 0.376 wga 0.050 | val_bal acc 0.450 wga 0.090 | val_id acc 0.385 wga 0.056
+step    25 | ep   0.7 | loss 0.5596 | train acc 0.917 wga 0.881 | val_bal acc 0.887 wga 0.840 | val_id acc 0.905 wga 0.850
+step    50 | ep   1.3 | loss 0.2771 | train acc 0.948 wga 0.919 | val_bal acc 0.907 wga 0.870 | val_id acc 0.920 wga 0.850
+step    75 | ep   2.0 | loss 0.1429 | train acc 0.955 wga 0.931 | val_bal acc 0.910 wga 0.870 | val_id acc 0.935 wga 0.850
+step   100 | ep   2.7 | loss 0.1012 | train acc 0.969 wga 0.948 | val_bal acc 0.907 wga 0.840 | val_id acc 0.938 wga 0.850
+step   125 | ep   3.3 | loss 0.0911 | train acc 0.980 wga 0.963 | val_bal acc 0.895 wga 0.790 | val_id acc 0.948 wga 0.850
+step   150 | ep   4.0 | loss 0.0459 | train acc 0.984 wga 0.969 | val_bal acc 0.897 wga 0.830 | val_id acc 0.948 wga 0.850
+step   175 | ep   4.7 | loss 0.0345 | train acc 0.983 wga 0.965 | val_bal acc 0.905 wga 0.840 | val_id acc 0.948 wga 0.850
+step   200 | ep   5.3 | loss 0.0352 | train acc 0.988 wga 0.976 | val_bal acc 0.885 wga 0.780 | val_id acc 0.948 wga 0.850
+step   300 | ep   8.0 | loss 0.0197 | train acc 0.998 wga 0.994 | val_bal acc 0.887 wga 0.770 | val_id acc 0.945 wga 0.850
+step   400 | ep  10.7 | loss 0.0113 | train acc 1.000 wga 1.000 | val_bal acc 0.890 wga 0.790 | val_id acc 0.948 wga 0.850
+step   500 | ep  13.3 | loss 0.0055 | train acc 1.000 wga 1.000 | val_bal acc 0.882 wga 0.760 | val_id acc 0.953 wga 0.850
+step   600 | ep  16.0 | loss 0.0041 | train acc 1.000 wga 1.000 | val_bal acc 0.887 wga 0.770 | val_id acc 0.953 wga 0.850
+step   700 | ep  18.7 | loss 0.0031 | train acc 1.000 wga 1.000 | val_bal acc 0.887 wga 0.760 | val_id acc 0.958 wga 0.850
+step   800 | ep  21.3 | loss 0.0022 | train acc 1.000 wga 1.000 | val_bal acc 0.895 wga 0.780 | val_id acc 0.960 wga 0.850
+step   900 | ep  24.0 | loss 0.0019 | train acc 1.000 wga 1.000 | val_bal acc 0.885 wga 0.750 | val_id acc 0.960 wga 0.850
+step  1000 | ep  26.7 | loss 0.0023 | train acc 1.000 wga 1.000 | val_bal acc 0.887 wga 0.770 | val_id acc 0.960 wga 0.850
+step  1100 | ep  29.3 | loss 0.0014 | train acc 1.000 wga 1.000 | val_bal acc 0.885 wga 0.760 | val_id acc 0.965 wga 0.850
+step  1200 | ep  32.0 | loss 0.0014 | train acc 1.000 wga 1.000 | val_bal acc 0.890 wga 0.760 | val_id acc 0.968 wga 0.850
+step  1300 | ep  34.7 | loss 0.0014 | train acc 1.000 wga 1.000 | val_bal acc 0.887 wga 0.740 | val_id acc 0.960 wga 0.850
+step  1400 | ep  37.3 | loss 0.0010 | train acc 1.000 wga 1.000 | val_bal acc 0.890 wga 0.750 | val_id acc 0.965 wga 0.850
+step  1500 | ep  40.0 | loss 0.0009 | train acc 1.000 wga 1.000 | val_bal acc 0.885 wga 0.730 | val_id acc 0.963 wga 0.850
+step  1600 | ep  42.7 | loss 0.0014 | train acc 1.000 wga 1.000 | val_bal acc 0.885 wga 0.740 | val_id acc 0.968 wga 0.850
+step  1700 | ep  45.3 | loss 0.0010 | train acc 1.000 wga 1.000 | val_bal acc 0.887 wga 0.750 | val_id acc 0.965 wga 0.850
+step  1800 | ep  48.0 | loss 0.0007 | train acc 1.000 wga 1.000 | val_bal acc 0.885 wga 0.730 | val_id acc 0.958 wga 0.850
+step  1900 | ep  50.7 | loss 0.0007 | train acc 1.000 wga 1.000 | val_bal acc 0.882 wga 0.750 | val_id acc 0.963 wga 0.850
+step  2000 | ep  53.3 | loss 0.0006 | train acc 1.000 wga 1.000 | val_bal acc 0.887 wga 0.750 | val_id acc 0.963 wga 0.850
+[time] training 37s (1752 img/s), evaluation 18s
+[done] runs/controlled_rho0.9_ds2_ts2_rwg_resnet50_f5f3c493
+[run] controlled_rho0.9_ds2_ts2_jtt_resnet50_5a6ce187
+[run] controlled rho=0.9 data_seed=2; device=cuda, amp=True; train=1200, val_bal=400, val_id=400, test=1200
+[jtt] error set from controlled_rho0.9_ds2_ts2_erm_resnet50_511f085a at step 25: 103 examples, by group [4, 24, 39, 36]; minority precision 0.61, recall 0.53
+step     0 | ep   0.0 | train acc 0.376 wga 0.050 | val_bal acc 0.450 wga 0.090 | val_id acc 0.385 wga 0.056
+step    25 | ep   0.7 | loss 0.6101 | train acc 0.525 wga 0.041 | val_bal acc 0.547 wga 0.070 | val_id acc 0.517 wga 0.039
+step    50 | ep   1.3 | loss 0.4722 | train acc 0.891 wga 0.822 | val_bal acc 0.880 wga 0.830 | val_id acc 0.858 wga 0.778
+step    75 | ep   2.0 | loss 0.2834 | train acc 0.932 wga 0.817 | val_bal acc 0.843 wga 0.620 | val_id acc 0.897 wga 0.650
+step   100 | ep   2.7 | loss 0.1432 | train acc 0.968 wga 0.950 | val_bal acc 0.885 wga 0.760 | val_id acc 0.927 wga 0.800
+step   125 | ep   3.3 | loss 0.0818 | train acc 0.980 wga 0.972 | val_bal acc 0.880 wga 0.790 | val_id acc 0.945 wga 0.850
+step   150 | ep   4.0 | loss 0.0711 | train acc 0.985 wga 0.976 | val_bal acc 0.868 wga 0.740 | val_id acc 0.950 wga 0.850
+step   175 | ep   4.7 | loss 0.0688 | train acc 0.989 wga 0.980 | val_bal acc 0.865 wga 0.740 | val_id acc 0.953 wga 0.850
+step   200 | ep   5.3 | loss 0.0579 | train acc 0.996 wga 0.994 | val_bal acc 0.873 wga 0.770 | val_id acc 0.940 wga 0.800
+step   300 | ep   8.0 | loss 0.0239 | train acc 1.000 wga 1.000 | val_bal acc 0.873 wga 0.750 | val_id acc 0.950 wga 0.750
+step   400 | ep  10.7 | loss 0.0152 | train acc 1.000 wga 1.000 | val_bal acc 0.873 wga 0.740 | val_id acc 0.953 wga 0.750
+step   500 | ep  13.3 | loss 0.0094 | train acc 1.000 wga 1.000 | val_bal acc 0.873 wga 0.720 | val_id acc 0.945 wga 0.800
+step   600 | ep  16.0 | loss 0.0065 | train acc 1.000 wga 1.000 | val_bal acc 0.875 wga 0.740 | val_id acc 0.945 wga 0.800
+step   700 | ep  18.7 | loss 0.0051 | train acc 1.000 wga 1.000 | val_bal acc 0.858 wga 0.700 | val_id acc 0.948 wga 0.750
+step   800 | ep  21.3 | loss 0.0041 | train acc 1.000 wga 1.000 | val_bal acc 0.865 wga 0.710 | val_id acc 0.948 wga 0.800
+step   900 | ep  24.0 | loss 0.0061 | train acc 1.000 wga 1.000 | val_bal acc 0.863 wga 0.720 | val_id acc 0.953 wga 0.800
+step  1000 | ep  26.7 | loss 0.0031 | train acc 1.000 wga 1.000 | val_bal acc 0.868 wga 0.700 | val_id acc 0.953 wga 0.800
+step  1100 | ep  29.3 | loss 0.0021 | train acc 1.000 wga 1.000 | val_bal acc 0.870 wga 0.680 | val_id acc 0.945 wga 0.750
+step  1200 | ep  32.0 | loss 0.0033 | train acc 1.000 wga 1.000 | val_bal acc 0.868 wga 0.700 | val_id acc 0.945 wga 0.750
+step  1300 | ep  34.7 | loss 0.0029 | train acc 1.000 wga 1.000 | val_bal acc 0.868 wga 0.730 | val_id acc 0.955 wga 0.850
+step  1400 | ep  37.3 | loss 0.0021 | train acc 1.000 wga 1.000 | val_bal acc 0.870 wga 0.710 | val_id acc 0.953 wga 0.800
+step  1500 | ep  40.0 | loss 0.0031 | train acc 1.000 wga 1.000 | val_bal acc 0.870 wga 0.720 | val_id acc 0.953 wga 0.850
+step  1600 | ep  42.7 | loss 0.0018 | train acc 1.000 wga 1.000 | val_bal acc 0.863 wga 0.700 | val_id acc 0.953 wga 0.800
+step  1700 | ep  45.3 | loss 0.0013 | train acc 1.000 wga 1.000 | val_bal acc 0.873 wga 0.760 | val_id acc 0.958 wga 0.850
+step  1800 | ep  48.0 | loss 0.0018 | train acc 1.000 wga 1.000 | val_bal acc 0.873 wga 0.740 | val_id acc 0.958 wga 0.850
+step  1900 | ep  50.7 | loss 0.0013 | train acc 1.000 wga 1.000 | val_bal acc 0.870 wga 0.710 | val_id acc 0.955 wga 0.800
+step  2000 | ep  53.3 | loss 0.0023 | train acc 1.000 wga 1.000 | val_bal acc 0.863 wga 0.710 | val_id acc 0.955 wga 0.800
+[time] training 36s (1795 img/s), evaluation 18s
+[done] runs/controlled_rho0.9_ds2_ts2_jtt_resnet50_5a6ce187
+[run] controlled_rho0.8_ds2_ts2_erm_resnet50_54044367
+[run] controlled rho=0.8 data_seed=2; device=cuda, amp=True; train=1200, val_bal=400, val_id=400, test=1200
+step     0 | ep   0.0 | train acc 0.384 wga 0.054 | val_bal acc 0.450 wga 0.090 | val_id acc 0.388 wga 0.062
+step    25 | ep   0.7 | loss 0.5393 | train acc 0.874 wga 0.350 | val_bal acc 0.765 wga 0.320 | val_id acc 0.885 wga 0.525
+step    50 | ep   1.3 | loss 0.2927 | train acc 0.930 wga 0.767 | val_bal acc 0.840 wga 0.710 | val_id acc 0.915 wga 0.700
+step    75 | ep   2.0 | loss 0.2227 | train acc 0.954 wga 0.900 | val_bal acc 0.882 wga 0.770 | val_id acc 0.927 wga 0.725
+step   100 | ep   2.7 | loss 0.1706 | train acc 0.968 wga 0.908 | val_bal acc 0.875 wga 0.770 | val_id acc 0.938 wga 0.750
+step   125 | ep   3.3 | loss 0.1263 | train acc 0.977 wga 0.933 | val_bal acc 0.885 wga 0.790 | val_id acc 0.927 wga 0.750
+step   150 | ep   4.0 | loss 0.0983 | train acc 0.978 wga 0.958 | val_bal acc 0.885 wga 0.750 | val_id acc 0.938 wga 0.725
+step   175 | ep   4.7 | loss 0.0907 | train acc 0.982 wga 0.958 | val_bal acc 0.890 wga 0.750 | val_id acc 0.935 wga 0.725
+step   200 | ep   5.3 | loss 0.0842 | train acc 0.995 wga 0.975 | val_bal acc 0.873 wga 0.760 | val_id acc 0.935 wga 0.750
+step   300 | ep   8.0 | loss 0.0364 | train acc 0.998 wga 0.983 | val_bal acc 0.897 wga 0.830 | val_id acc 0.943 wga 0.800
+step   400 | ep  10.7 | loss 0.0234 | train acc 1.000 wga 1.000 | val_bal acc 0.902 wga 0.830 | val_id acc 0.935 wga 0.750
+step   500 | ep  13.3 | loss 0.0146 | train acc 1.000 wga 1.000 | val_bal acc 0.900 wga 0.810 | val_id acc 0.930 wga 0.750
+step   600 | ep  16.0 | loss 0.0087 | train acc 1.000 wga 1.000 | val_bal acc 0.897 wga 0.810 | val_id acc 0.938 wga 0.775
+step   700 | ep  18.7 | loss 0.0074 | train acc 1.000 wga 1.000 | val_bal acc 0.905 wga 0.840 | val_id acc 0.945 wga 0.775
+step   800 | ep  21.3 | loss 0.0046 | train acc 1.000 wga 1.000 | val_bal acc 0.900 wga 0.810 | val_id acc 0.940 wga 0.775
+step   900 | ep  24.0 | loss 0.0080 | train acc 1.000 wga 1.000 | val_bal acc 0.895 wga 0.800 | val_id acc 0.948 wga 0.775
+step  1000 | ep  26.7 | loss 0.0040 | train acc 1.000 wga 1.000 | val_bal acc 0.907 wga 0.830 | val_id acc 0.938 wga 0.775
+step  1100 | ep  29.3 | loss 0.0048 | train acc 1.000 wga 1.000 | val_bal acc 0.907 wga 0.840 | val_id acc 0.930 wga 0.775
+step  1200 | ep  32.0 | loss 0.0043 | train acc 1.000 wga 1.000 | val_bal acc 0.900 wga 0.810 | val_id acc 0.932 wga 0.825
+step  1300 | ep  34.7 | loss 0.0033 | train acc 1.000 wga 1.000 | val_bal acc 0.897 wga 0.820 | val_id acc 0.955 wga 0.800
+step  1400 | ep  37.3 | loss 0.0042 | train acc 1.000 wga 1.000 | val_bal acc 0.892 wga 0.790 | val_id acc 0.948 wga 0.825
+step  1500 | ep  40.0 | loss 0.0022 | train acc 1.000 wga 1.000 | val_bal acc 0.902 wga 0.830 | val_id acc 0.943 wga 0.775
+step  1600 | ep  42.7 | loss 0.0029 | train acc 1.000 wga 1.000 | val_bal acc 0.897 wga 0.790 | val_id acc 0.948 wga 0.775
+step  1700 | ep  45.3 | loss 0.0029 | train acc 1.000 wga 1.000 | val_bal acc 0.907 wga 0.850 | val_id acc 0.948 wga 0.800
+step  1800 | ep  48.0 | loss 0.0016 | train acc 1.000 wga 1.000 | val_bal acc 0.907 wga 0.830 | val_id acc 0.948 wga 0.775
+step  1900 | ep  50.7 | loss 0.0044 | train acc 1.000 wga 1.000 | val_bal acc 0.907 wga 0.840 | val_id acc 0.945 wga 0.825
+step  2000 | ep  53.3 | loss 0.0027 | train acc 1.000 wga 1.000 | val_bal acc 0.907 wga 0.840 | val_id acc 0.953 wga 0.825
+[time] training 36s (1795 img/s), evaluation 18s
+[done] runs/controlled_rho0.8_ds2_ts2_erm_resnet50_54044367
+[run] controlled_rho0.8_ds2_ts2_rwg_resnet50_b8bda265
+[run] controlled rho=0.8 data_seed=2; device=cuda, amp=True; train=1200, val_bal=400, val_id=400, test=1200
+step     0 | ep   0.0 | train acc 0.384 wga 0.054 | val_bal acc 0.450 wga 0.090 | val_id acc 0.388 wga 0.062
+step    25 | ep   0.7 | loss 0.5671 | train acc 0.924 wga 0.892 | val_bal acc 0.897 wga 0.840 | val_id acc 0.902 wga 0.800
+step    50 | ep   1.3 | loss 0.2898 | train acc 0.940 wga 0.915 | val_bal acc 0.925 wga 0.880 | val_id acc 0.917 wga 0.825
+step    75 | ep   2.0 | loss 0.1804 | train acc 0.953 wga 0.929 | val_bal acc 0.922 wga 0.890 | val_id acc 0.922 wga 0.825
+step   100 | ep   2.7 | loss 0.1158 | train acc 0.963 wga 0.942 | val_bal acc 0.922 wga 0.890 | val_id acc 0.940 wga 0.850
+step   125 | ep   3.3 | loss 0.1116 | train acc 0.978 wga 0.952 | val_bal acc 0.917 wga 0.860 | val_id acc 0.940 wga 0.825
+step   150 | ep   4.0 | loss 0.0650 | train acc 0.984 wga 0.963 | val_bal acc 0.907 wga 0.840 | val_id acc 0.940 wga 0.800
+step   175 | ep   4.7 | loss 0.0633 | train acc 0.988 wga 0.969 | val_bal acc 0.907 wga 0.860 | val_id acc 0.938 wga 0.800
+step   200 | ep   5.3 | loss 0.0388 | train acc 0.986 wga 0.965 | val_bal acc 0.910 wga 0.830 | val_id acc 0.935 wga 0.800
+step   300 | ep   8.0 | loss 0.0227 | train acc 0.997 wga 0.992 | val_bal acc 0.905 wga 0.840 | val_id acc 0.935 wga 0.800
+step   400 | ep  10.7 | loss 0.0100 | train acc 0.998 wga 0.996 | val_bal acc 0.910 wga 0.840 | val_id acc 0.935 wga 0.800
+step   500 | ep  13.3 | loss 0.0072 | train acc 0.999 wga 0.998 | val_bal acc 0.905 wga 0.840 | val_id acc 0.945 wga 0.800
+step   600 | ep  16.0 | loss 0.0048 | train acc 0.999 wga 0.998 | val_bal acc 0.910 wga 0.850 | val_id acc 0.943 wga 0.800
+step   700 | ep  18.7 | loss 0.0035 | train acc 1.000 wga 1.000 | val_bal acc 0.915 wga 0.850 | val_id acc 0.940 wga 0.800
+step   800 | ep  21.3 | loss 0.0029 | train acc 1.000 wga 1.000 | val_bal acc 0.912 wga 0.850 | val_id acc 0.943 wga 0.800
+step   900 | ep  24.0 | loss 0.0023 | train acc 1.000 wga 1.000 | val_bal acc 0.905 wga 0.840 | val_id acc 0.943 wga 0.800
+step  1000 | ep  26.7 | loss 0.0023 | train acc 1.000 wga 1.000 | val_bal acc 0.910 wga 0.850 | val_id acc 0.943 wga 0.800
+step  1100 | ep  29.3 | loss 0.0017 | train acc 1.000 wga 1.000 | val_bal acc 0.912 wga 0.850 | val_id acc 0.943 wga 0.800
+step  1200 | ep  32.0 | loss 0.0013 | train acc 1.000 wga 1.000 | val_bal acc 0.912 wga 0.850 | val_id acc 0.943 wga 0.800
+step  1300 | ep  34.7 | loss 0.0017 | train acc 1.000 wga 1.000 | val_bal acc 0.912 wga 0.850 | val_id acc 0.940 wga 0.800
+step  1400 | ep  37.3 | loss 0.0011 | train acc 1.000 wga 1.000 | val_bal acc 0.912 wga 0.850 | val_id acc 0.938 wga 0.800
+step  1500 | ep  40.0 | loss 0.0010 | train acc 1.000 wga 1.000 | val_bal acc 0.912 wga 0.850 | val_id acc 0.940 wga 0.800
+step  1600 | ep  42.7 | loss 0.0009 | train acc 1.000 wga 1.000 | val_bal acc 0.915 wga 0.850 | val_id acc 0.945 wga 0.800
+step  1700 | ep  45.3 | loss 0.0008 | train acc 1.000 wga 1.000 | val_bal acc 0.915 wga 0.850 | val_id acc 0.940 wga 0.800
+step  1800 | ep  48.0 | loss 0.0012 | train acc 1.000 wga 1.000 | val_bal acc 0.912 wga 0.850 | val_id acc 0.940 wga 0.800
+step  1900 | ep  50.7 | loss 0.0010 | train acc 1.000 wga 1.000 | val_bal acc 0.907 wga 0.840 | val_id acc 0.938 wga 0.800
+step  2000 | ep  53.3 | loss 0.0009 | train acc 1.000 wga 1.000 | val_bal acc 0.912 wga 0.840 | val_id acc 0.938 wga 0.800
+[time] training 36s (1754 img/s), evaluation 18s
+[done] runs/controlled_rho0.8_ds2_ts2_rwg_resnet50_b8bda265
+[run] controlled_rho0.8_ds2_ts2_jtt_resnet50_3855be98
+[run] controlled rho=0.8 data_seed=2; device=cuda, amp=True; train=1200, val_bal=400, val_id=400, test=1200
+[jtt] error set from controlled_rho0.8_ds2_ts2_erm_resnet50_54044367 at step 25: 151 examples, by group [0, 27, 78, 46]; minority precision 0.70, recall 0.44
+step     0 | ep   0.0 | train acc 0.384 wga 0.054 | val_bal acc 0.450 wga 0.090 | val_id acc 0.388 wga 0.062
+step    25 | ep   0.7 | loss 0.6024 | train acc 0.532 wga 0.083 | val_bal acc 0.635 wga 0.100 | val_id acc 0.515 wga 0.056
+step    50 | ep   1.3 | loss 0.4349 | train acc 0.672 wga 0.306 | val_bal acc 0.675 wga 0.300 | val_id acc 0.635 wga 0.244
+step    75 | ep   2.0 | loss 0.3225 | train acc 0.839 wga 0.675 | val_bal acc 0.812 wga 0.620 | val_id acc 0.792 wga 0.613
+step   100 | ep   2.7 | loss 0.2162 | train acc 0.942 wga 0.912 | val_bal acc 0.895 wga 0.810 | val_id acc 0.890 wga 0.850
+step   125 | ep   3.3 | loss 0.1413 | train acc 0.968 wga 0.940 | val_bal acc 0.905 wga 0.850 | val_id acc 0.902 wga 0.825
+step   150 | ep   4.0 | loss 0.0986 | train acc 0.978 wga 0.969 | val_bal acc 0.902 wga 0.830 | val_id acc 0.912 wga 0.875
+step   175 | ep   4.7 | loss 0.0519 | train acc 0.978 wga 0.958 | val_bal acc 0.887 wga 0.770 | val_id acc 0.907 wga 0.825
+step   200 | ep   5.3 | loss 0.0379 | train acc 0.988 wga 0.983 | val_bal acc 0.902 wga 0.820 | val_id acc 0.912 wga 0.825
+step   300 | ep   8.0 | loss 0.0336 | train acc 0.997 wga 0.994 | val_bal acc 0.900 wga 0.830 | val_id acc 0.938 wga 0.850
+step   400 | ep  10.7 | loss 0.0160 | train acc 0.997 wga 0.994 | val_bal acc 0.907 wga 0.850 | val_id acc 0.932 wga 0.775
+step   500 | ep  13.3 | loss 0.0114 | train acc 0.998 wga 0.998 | val_bal acc 0.910 wga 0.850 | val_id acc 0.932 wga 0.800
+step   600 | ep  16.0 | loss 0.0074 | train acc 0.999 wga 0.998 | val_bal acc 0.900 wga 0.790 | val_id acc 0.930 wga 0.825
+step   700 | ep  18.7 | loss 0.0051 | train acc 1.000 wga 1.000 | val_bal acc 0.905 wga 0.840 | val_id acc 0.932 wga 0.775
+step   800 | ep  21.3 | loss 0.0054 | train acc 1.000 wga 1.000 | val_bal acc 0.897 wga 0.810 | val_id acc 0.930 wga 0.775
+step   900 | ep  24.0 | loss 0.0052 | train acc 1.000 wga 1.000 | val_bal acc 0.897 wga 0.830 | val_id acc 0.938 wga 0.775
+step  1000 | ep  26.7 | loss 0.0046 | train acc 1.000 wga 1.000 | val_bal acc 0.885 wga 0.790 | val_id acc 0.932 wga 0.775
+step  1100 | ep  29.3 | loss 0.0080 | train acc 1.000 wga 1.000 | val_bal acc 0.892 wga 0.810 | val_id acc 0.930 wga 0.775
+step  1200 | ep  32.0 | loss 0.0027 | train acc 1.000 wga 1.000 | val_bal acc 0.897 wga 0.830 | val_id acc 0.940 wga 0.775
+step  1300 | ep  34.7 | loss 0.0023 | train acc 0.999 wga 0.998 | val_bal acc 0.887 wga 0.780 | val_id acc 0.940 wga 0.775
+step  1400 | ep  37.3 | loss 0.0022 | train acc 1.000 wga 1.000 | val_bal acc 0.905 wga 0.840 | val_id acc 0.940 wga 0.825
+step  1500 | ep  40.0 | loss 0.0014 | train acc 1.000 wga 1.000 | val_bal acc 0.890 wga 0.770 | val_id acc 0.938 wga 0.775
+step  1600 | ep  42.7 | loss 0.0020 | train acc 1.000 wga 1.000 | val_bal acc 0.900 wga 0.840 | val_id acc 0.945 wga 0.825
+step  1700 | ep  45.3 | loss 0.0019 | train acc 1.000 wga 1.000 | val_bal acc 0.902 wga 0.840 | val_id acc 0.943 wga 0.825
+step  1800 | ep  48.0 | loss 0.0031 | train acc 1.000 wga 1.000 | val_bal acc 0.907 wga 0.850 | val_id acc 0.932 wga 0.825
+step  1900 | ep  50.7 | loss 0.0029 | train acc 1.000 wga 1.000 | val_bal acc 0.890 wga 0.820 | val_id acc 0.938 wga 0.825
+step  2000 | ep  53.3 | loss 0.0018 | train acc 1.000 wga 1.000 | val_bal acc 0.897 wga 0.820 | val_id acc 0.945 wga 0.825
+[time] training 36s (1795 img/s), evaluation 18s
+[done] runs/controlled_rho0.8_ds2_ts2_jtt_resnet50_3855be98
+[run] controlled_rho0.5_ds2_ts2_erm_resnet50_00a035c0
+[run] controlled rho=0.5 data_seed=2; device=cuda, amp=True; train=1200, val_bal=400, val_id=400, test=1200
+step     0 | ep   0.0 | train acc 0.422 wga 0.057 | val_bal acc 0.450 wga 0.090 | val_id acc 0.417 wga 0.050
+step    25 | ep   0.7 | loss 0.5999 | train acc 0.912 wga 0.890 | val_bal acc 0.890 wga 0.860 | val_id acc 0.877 wga 0.820
+step    50 | ep   1.3 | loss 0.3170 | train acc 0.932 wga 0.917 | val_bal acc 0.917 wga 0.900 | val_id acc 0.895 wga 0.850
+step    75 | ep   2.0 | loss 0.2666 | train acc 0.941 wga 0.917 | val_bal acc 0.907 wga 0.850 | val_id acc 0.895 wga 0.830
+step   100 | ep   2.7 | loss 0.1795 | train acc 0.964 wga 0.950 | val_bal acc 0.922 wga 0.880 | val_id acc 0.902 wga 0.860
+step   125 | ep   3.3 | loss 0.1673 | train acc 0.973 wga 0.943 | val_bal acc 0.915 wga 0.850 | val_id acc 0.905 wga 0.850
+step   150 | ep   4.0 | loss 0.1032 | train acc 0.984 wga 0.967 | val_bal acc 0.930 wga 0.910 | val_id acc 0.915 wga 0.870
+step   175 | ep   4.7 | loss 0.0826 | train acc 0.983 wga 0.960 | val_bal acc 0.945 wga 0.930 | val_id acc 0.915 wga 0.870
+step   200 | ep   5.3 | loss 0.0831 | train acc 0.994 wga 0.990 | val_bal acc 0.938 wga 0.890 | val_id acc 0.925 wga 0.900
+step   300 | ep   8.0 | loss 0.0433 | train acc 0.998 wga 0.993 | val_bal acc 0.930 wga 0.870 | val_id acc 0.922 wga 0.890
+step   400 | ep  10.7 | loss 0.0204 | train acc 0.999 wga 0.997 | val_bal acc 0.940 wga 0.890 | val_id acc 0.927 wga 0.910
+step   500 | ep  13.3 | loss 0.0216 | train acc 0.998 wga 0.993 | val_bal acc 0.948 wga 0.920 | val_id acc 0.922 wga 0.880
+step   600 | ep  16.0 | loss 0.0111 | train acc 1.000 wga 1.000 | val_bal acc 0.932 wga 0.860 | val_id acc 0.935 wga 0.900
+step   700 | ep  18.7 | loss 0.0073 | train acc 1.000 wga 1.000 | val_bal acc 0.943 wga 0.900 | val_id acc 0.920 wga 0.890
+step   800 | ep  21.3 | loss 0.0048 | train acc 1.000 wga 1.000 | val_bal acc 0.940 wga 0.890 | val_id acc 0.922 wga 0.890
+step   900 | ep  24.0 | loss 0.0053 | train acc 1.000 wga 1.000 | val_bal acc 0.943 wga 0.890 | val_id acc 0.925 wga 0.880
+step  1000 | ep  26.7 | loss 0.0103 | train acc 0.998 wga 0.993 | val_bal acc 0.925 wga 0.860 | val_id acc 0.915 wga 0.890
+step  1100 | ep  29.3 | loss 0.0081 | train acc 1.000 wga 1.000 | val_bal acc 0.932 wga 0.900 | val_id acc 0.932 wga 0.890
+step  1200 | ep  32.0 | loss 0.0042 | train acc 1.000 wga 1.000 | val_bal acc 0.943 wga 0.890 | val_id acc 0.925 wga 0.910
+step  1300 | ep  34.7 | loss 0.0035 | train acc 1.000 wga 1.000 | val_bal acc 0.943 wga 0.910 | val_id acc 0.927 wga 0.910
+step  1400 | ep  37.3 | loss 0.0077 | train acc 1.000 wga 1.000 | val_bal acc 0.940 wga 0.890 | val_id acc 0.927 wga 0.910
+step  1500 | ep  40.0 | loss 0.0066 | train acc 1.000 wga 1.000 | val_bal acc 0.943 wga 0.900 | val_id acc 0.935 wga 0.910
+step  1600 | ep  42.7 | loss 0.0054 | train acc 1.000 wga 1.000 | val_bal acc 0.945 wga 0.910 | val_id acc 0.930 wga 0.910
+step  1700 | ep  45.3 | loss 0.0025 | train acc 1.000 wga 1.000 | val_bal acc 0.943 wga 0.900 | val_id acc 0.935 wga 0.910
+step  1800 | ep  48.0 | loss 0.0018 | train acc 1.000 wga 1.000 | val_bal acc 0.940 wga 0.890 | val_id acc 0.935 wga 0.920
+step  1900 | ep  50.7 | loss 0.0014 | train acc 1.000 wga 1.000 | val_bal acc 0.938 wga 0.900 | val_id acc 0.938 wga 0.920
+step  2000 | ep  53.3 | loss 0.0023 | train acc 1.000 wga 1.000 | val_bal acc 0.943 wga 0.890 | val_id acc 0.925 wga 0.900
+[time] training 36s (1795 img/s), evaluation 18s
+[done] runs/controlled_rho0.5_ds2_ts2_erm_resnet50_00a035c0
+[run] controlled_rho0.5_ds2_ts2_rwg_resnet50_ed12756d
+[run] controlled rho=0.5 data_seed=2; device=cuda, amp=True; train=1200, val_bal=400, val_id=400, test=1200
+step     0 | ep   0.0 | train acc 0.422 wga 0.057 | val_bal acc 0.450 wga 0.090 | val_id acc 0.417 wga 0.050
+step    25 | ep   0.7 | loss 0.5759 | train acc 0.907 wga 0.890 | val_bal acc 0.897 wga 0.870 | val_id acc 0.877 wga 0.810
+step    50 | ep   1.3 | loss 0.2927 | train acc 0.932 wga 0.907 | val_bal acc 0.907 wga 0.860 | val_id acc 0.890 wga 0.830
+step    75 | ep   2.0 | loss 0.2030 | train acc 0.953 wga 0.933 | val_bal acc 0.927 wga 0.900 | val_id acc 0.907 wga 0.850
+step   100 | ep   2.7 | loss 0.1369 | train acc 0.965 wga 0.940 | val_bal acc 0.915 wga 0.880 | val_id acc 0.912 wga 0.880
+step   125 | ep   3.3 | loss 0.1330 | train acc 0.978 wga 0.967 | val_bal acc 0.920 wga 0.880 | val_id acc 0.910 wga 0.850
+step   150 | ep   4.0 | loss 0.0866 | train acc 0.984 wga 0.973 | val_bal acc 0.917 wga 0.880 | val_id acc 0.910 wga 0.880
+step   175 | ep   4.7 | loss 0.0671 | train acc 0.985 wga 0.970 | val_bal acc 0.920 wga 0.880 | val_id acc 0.912 wga 0.850
+step   200 | ep   5.3 | loss 0.0520 | train acc 0.991 wga 0.987 | val_bal acc 0.917 wga 0.860 | val_id acc 0.917 wga 0.880
+step   300 | ep   8.0 | loss 0.0263 | train acc 0.998 wga 0.997 | val_bal acc 0.935 wga 0.910 | val_id acc 0.917 wga 0.870
+step   400 | ep  10.7 | loss 0.0127 | train acc 1.000 wga 1.000 | val_bal acc 0.935 wga 0.900 | val_id acc 0.912 wga 0.870
+step   500 | ep  13.3 | loss 0.0065 | train acc 1.000 wga 1.000 | val_bal acc 0.935 wga 0.910 | val_id acc 0.927 wga 0.900
+step   600 | ep  16.0 | loss 0.0054 | train acc 1.000 wga 1.000 | val_bal acc 0.930 wga 0.880 | val_id acc 0.925 wga 0.900
+step   700 | ep  18.7 | loss 0.0039 | train acc 1.000 wga 1.000 | val_bal acc 0.938 wga 0.910 | val_id acc 0.922 wga 0.890
+step   800 | ep  21.3 | loss 0.0025 | train acc 1.000 wga 1.000 | val_bal acc 0.930 wga 0.880 | val_id acc 0.927 wga 0.910
+step   900 | ep  24.0 | loss 0.0019 | train acc 1.000 wga 1.000 | val_bal acc 0.935 wga 0.890 | val_id acc 0.927 wga 0.900
+step  1000 | ep  26.7 | loss 0.0013 | train acc 1.000 wga 1.000 | val_bal acc 0.938 wga 0.880 | val_id acc 0.932 wga 0.910
+step  1100 | ep  29.3 | loss 0.0013 | train acc 1.000 wga 1.000 | val_bal acc 0.935 wga 0.870 | val_id acc 0.930 wga 0.910
+step  1200 | ep  32.0 | loss 0.0013 | train acc 1.000 wga 1.000 | val_bal acc 0.935 wga 0.880 | val_id acc 0.932 wga 0.910
+step  1300 | ep  34.7 | loss 0.0016 | train acc 1.000 wga 1.000 | val_bal acc 0.935 wga 0.870 | val_id acc 0.927 wga 0.910
+step  1400 | ep  37.3 | loss 0.0011 | train acc 1.000 wga 1.000 | val_bal acc 0.938 wga 0.880 | val_id acc 0.927 wga 0.910
+step  1500 | ep  40.0 | loss 0.0014 | train acc 1.000 wga 1.000 | val_bal acc 0.940 wga 0.880 | val_id acc 0.930 wga 0.910
+step  1600 | ep  42.7 | loss 0.0009 | train acc 1.000 wga 1.000 | val_bal acc 0.938 wga 0.870 | val_id acc 0.930 wga 0.910
+step  1700 | ep  45.3 | loss 0.0007 | train acc 1.000 wga 1.000 | val_bal acc 0.945 wga 0.900 | val_id acc 0.932 wga 0.910
+step  1800 | ep  48.0 | loss 0.0007 | train acc 1.000 wga 1.000 | val_bal acc 0.935 wga 0.880 | val_id acc 0.930 wga 0.910
+step  1900 | ep  50.7 | loss 0.0007 | train acc 1.000 wga 1.000 | val_bal acc 0.940 wga 0.890 | val_id acc 0.932 wga 0.910
+step  2000 | ep  53.3 | loss 0.0006 | train acc 1.000 wga 1.000 | val_bal acc 0.938 wga 0.900 | val_id acc 0.930 wga 0.910
+[time] training 36s (1754 img/s), evaluation 18s
+[done] runs/controlled_rho0.5_ds2_ts2_rwg_resnet50_ed12756d
+[run] controlled_rho0.5_ds2_ts2_jtt_resnet50_da407bc0
+[run] controlled rho=0.5 data_seed=2; device=cuda, amp=True; train=1200, val_bal=400, val_id=400, test=1200
+[jtt] error set from controlled_rho0.5_ds2_ts2_erm_resnet50_00a035c0 at step 25: 105 examples, by group [24, 33, 23, 25]; minority precision 0.53, recall 0.09
+step     0 | ep   0.0 | train acc 0.422 wga 0.057 | val_bal acc 0.450 wga 0.090 | val_id acc 0.417 wga 0.050
+step    25 | ep   0.7 | loss 0.6732 | train acc 0.532 wga 0.080 | val_bal acc 0.522 wga 0.070 | val_id acc 0.522 wga 0.030
+step    50 | ep   1.3 | loss 0.5094 | train acc 0.766 wga 0.607 | val_bal acc 0.720 wga 0.540 | val_id acc 0.725 wga 0.540
+step    75 | ep   2.0 | loss 0.3168 | train acc 0.900 wga 0.853 | val_bal acc 0.860 wga 0.830 | val_id acc 0.835 wga 0.820
+step   100 | ep   2.7 | loss 0.1909 | train acc 0.940 wga 0.887 | val_bal acc 0.860 wga 0.780 | val_id acc 0.853 wga 0.740
+step   125 | ep   3.3 | loss 0.1060 | train acc 0.961 wga 0.923 | val_bal acc 0.870 wga 0.810 | val_id acc 0.873 wga 0.790
+step   150 | ep   4.0 | loss 0.1043 | train acc 0.981 wga 0.963 | val_bal acc 0.885 wga 0.840 | val_id acc 0.905 wga 0.840
+step   175 | ep   4.7 | loss 0.0608 | train acc 0.988 wga 0.983 | val_bal acc 0.900 wga 0.860 | val_id acc 0.905 wga 0.850
+step   200 | ep   5.3 | loss 0.0699 | train acc 0.988 wga 0.987 | val_bal acc 0.900 wga 0.880 | val_id acc 0.892 wga 0.850
+step   300 | ep   8.0 | loss 0.0348 | train acc 0.998 wga 0.990 | val_bal acc 0.915 wga 0.850 | val_id acc 0.920 wga 0.840
+step   400 | ep  10.7 | loss 0.0144 | train acc 0.998 wga 0.993 | val_bal acc 0.920 wga 0.860 | val_id acc 0.920 wga 0.850
+step   500 | ep  13.3 | loss 0.0118 | train acc 1.000 wga 1.000 | val_bal acc 0.915 wga 0.860 | val_id acc 0.922 wga 0.880
+step   600 | ep  16.0 | loss 0.0102 | train acc 1.000 wga 1.000 | val_bal acc 0.920 wga 0.880 | val_id acc 0.925 wga 0.880
+step   700 | ep  18.7 | loss 0.0096 | train acc 1.000 wga 1.000 | val_bal acc 0.915 wga 0.880 | val_id acc 0.935 wga 0.910
+step   800 | ep  21.3 | loss 0.0066 | train acc 0.999 wga 0.997 | val_bal acc 0.920 wga 0.900 | val_id acc 0.932 wga 0.890
+step   900 | ep  24.0 | loss 0.0050 | train acc 1.000 wga 1.000 | val_bal acc 0.920 wga 0.880 | val_id acc 0.927 wga 0.890
+step  1000 | ep  26.7 | loss 0.0034 | train acc 1.000 wga 1.000 | val_bal acc 0.922 wga 0.880 | val_id acc 0.925 wga 0.870
+step  1100 | ep  29.3 | loss 0.0029 | train acc 1.000 wga 1.000 | val_bal acc 0.920 wga 0.880 | val_id acc 0.930 wga 0.880
+step  1200 | ep  32.0 | loss 0.0027 | train acc 1.000 wga 1.000 | val_bal acc 0.917 wga 0.880 | val_id acc 0.932 wga 0.900
+step  1300 | ep  34.7 | loss 0.0026 | train acc 1.000 wga 1.000 | val_bal acc 0.930 wga 0.900 | val_id acc 0.938 wga 0.880
+step  1400 | ep  37.3 | loss 0.0044 | train acc 1.000 wga 1.000 | val_bal acc 0.932 wga 0.910 | val_id acc 0.935 wga 0.890
+step  1500 | ep  40.0 | loss 0.0029 | train acc 1.000 wga 1.000 | val_bal acc 0.925 wga 0.880 | val_id acc 0.945 wga 0.920
+step  1600 | ep  42.7 | loss 0.0020 | train acc 1.000 wga 1.000 | val_bal acc 0.927 wga 0.900 | val_id acc 0.938 wga 0.890
+step  1700 | ep  45.3 | loss 0.0014 | train acc 1.000 wga 1.000 | val_bal acc 0.930 wga 0.900 | val_id acc 0.927 wga 0.870
+step  1800 | ep  48.0 | loss 0.0024 | train acc 1.000 wga 1.000 | val_bal acc 0.925 wga 0.870 | val_id acc 0.932 wga 0.890
+step  1900 | ep  50.7 | loss 0.0021 | train acc 1.000 wga 1.000 | val_bal acc 0.925 wga 0.870 | val_id acc 0.935 wga 0.890
+step  2000 | ep  53.3 | loss 0.0015 | train acc 1.000 wga 1.000 | val_bal acc 0.927 wga 0.890 | val_id acc 0.943 wga 0.920
+[time] training 36s (1795 img/s), evaluation 18s
+[done] runs/controlled_rho0.5_ds2_ts2_jtt_resnet50_da407bc0
+[run] controlled_rho0.95_ds2_ts2_gdro_resnet50_2349c6b6
+[run] controlled rho=0.95 data_seed=2; device=cuda, amp=True; train=1200, val_bal=400, val_id=400, test=1200
+step     0 | ep   0.0 | train acc 0.376 wga 0.051 | val_bal acc 0.450 wga 0.090 | val_id acc 0.388 wga 0.053
+step    25 | ep   0.7 | loss 0.6358 | train acc 0.547 wga 0.093 | val_bal acc 0.532 wga 0.040 | val_id acc 0.550 wga 0.100
+step    50 | ep   1.3 | loss 1.4632 | train acc 0.937 wga 0.888 | val_bal acc 0.922 wga 0.830 | val_id acc 0.920 wga 0.800
+step    75 | ep   2.0 | loss 0.8169 | train acc 0.882 wga 0.300 | val_bal acc 0.730 wga 0.260 | val_id acc 0.855 wga 0.400
+step   100 | ep   2.7 | loss 1.2959 | train acc 0.850 wga 0.633 | val_bal acc 0.792 wga 0.530 | val_id acc 0.823 wga 0.684
+step   125 | ep   3.3 | loss 0.5523 | train acc 0.931 wga 0.900 | val_bal acc 0.880 wga 0.820 | val_id acc 0.907 wga 0.800
+step   150 | ep   4.0 | loss 0.8210 | train acc 0.776 wga 0.551 | val_bal acc 0.770 wga 0.550 | val_id acc 0.787 wga 0.584
+step   175 | ep   4.7 | loss 0.5246 | train acc 0.860 wga 0.700 | val_bal acc 0.743 wga 0.290 | val_id acc 0.843 wga 0.400
+step   200 | ep   5.3 | loss 0.4411 | train acc 0.933 wga 0.888 | val_bal acc 0.865 wga 0.690 | val_id acc 0.912 wga 0.700
+step   300 | ep   8.0 | loss 0.2303 | train acc 0.974 wga 0.933 | val_bal acc 0.748 wga 0.300 | val_id acc 0.943 wga 0.600
+step   400 | ep  10.7 | loss 0.0779 | train acc 0.993 wga 0.933 | val_bal acc 0.765 wga 0.410 | val_id acc 0.955 wga 0.500
+step   500 | ep  13.3 | loss 0.0297 | train acc 0.999 wga 0.998 | val_bal acc 0.790 wga 0.510 | val_id acc 0.963 wga 0.600
+step   600 | ep  16.0 | loss 0.0117 | train acc 1.000 wga 1.000 | val_bal acc 0.790 wga 0.540 | val_id acc 0.963 wga 0.700
+step   700 | ep  18.7 | loss 0.0062 | train acc 1.000 wga 1.000 | val_bal acc 0.787 wga 0.520 | val_id acc 0.965 wga 0.600
+step   800 | ep  21.3 | loss 0.0043 | train acc 1.000 wga 1.000 | val_bal acc 0.787 wga 0.520 | val_id acc 0.965 wga 0.600
+step   900 | ep  24.0 | loss 0.0032 | train acc 1.000 wga 1.000 | val_bal acc 0.777 wga 0.480 | val_id acc 0.965 wga 0.600
+step  1000 | ep  26.7 | loss 0.0025 | train acc 1.000 wga 1.000 | val_bal acc 0.775 wga 0.460 | val_id acc 0.960 wga 0.500
+step  1100 | ep  29.3 | loss 0.0017 | train acc 1.000 wga 1.000 | val_bal acc 0.775 wga 0.470 | val_id acc 0.958 wga 0.500
+step  1200 | ep  32.0 | loss 0.0014 | train acc 1.000 wga 1.000 | val_bal acc 0.775 wga 0.470 | val_id acc 0.958 wga 0.500
+step  1300 | ep  34.7 | loss 0.0018 | train acc 1.000 wga 1.000 | val_bal acc 0.777 wga 0.480 | val_id acc 0.958 wga 0.500
+step  1400 | ep  37.3 | loss 0.0013 | train acc 1.000 wga 1.000 | val_bal acc 0.777 wga 0.480 | val_id acc 0.960 wga 0.500
+step  1500 | ep  40.0 | loss 0.0012 | train acc 1.000 wga 1.000 | val_bal acc 0.777 wga 0.490 | val_id acc 0.963 wga 0.500
+step  1600 | ep  42.7 | loss 0.0010 | train acc 1.000 wga 1.000 | val_bal acc 0.780 wga 0.480 | val_id acc 0.963 wga 0.500
+step  1700 | ep  45.3 | loss 0.0012 | train acc 1.000 wga 1.000 | val_bal acc 0.777 wga 0.470 | val_id acc 0.963 wga 0.500
+step  1800 | ep  48.0 | loss 0.0008 | train acc 1.000 wga 1.000 | val_bal acc 0.772 wga 0.490 | val_id acc 0.963 wga 0.500
+step  1900 | ep  50.7 | loss 0.0011 | train acc 1.000 wga 1.000 | val_bal acc 0.775 wga 0.490 | val_id acc 0.963 wga 0.500
+step  2000 | ep  53.3 | loss 0.0008 | train acc 1.000 wga 1.000 | val_bal acc 0.782 wga 0.490 | val_id acc 0.963 wga 0.500
+[time] training 37s (1751 img/s), evaluation 18s
+[done] runs/controlled_rho0.95_ds2_ts2_gdro_resnet50_2349c6b6
+[dfr] controlled_rho0.5_ds0_ts0_dfr_resnet50_d74518cd: C=0.07 (half-B WGA 0.900); 48/2048 nonzero weights
+[dfr] controlled_rho0.5_ds1_ts1_dfr_resnet50_93ec1679: C=0.03 (half-B WGA 0.920); 24/2048 nonzero weights
+[dfr] controlled_rho0.5_ds2_ts2_dfr_resnet50_00a035c0: C=0.3 (half-B WGA 0.920); 92/2048 nonzero weights
+[dfr] controlled_rho0.8_ds0_ts0_dfr_resnet50_265f8e77: C=0.1 (half-B WGA 0.920); 54/2048 nonzero weights
+[dfr] controlled_rho0.8_ds1_ts1_dfr_resnet50_a0993447: C=1.0 (half-B WGA 0.860); 155/2048 nonzero weights
+[dfr] controlled_rho0.8_ds2_ts2_dfr_resnet50_54044367: C=0.07 (half-B WGA 0.940); 48/2048 nonzero weights
+[dfr] controlled_rho0.95_ds0_ts0_dfr_resnet50_36de2d23: C=0.03 (half-B WGA 0.860); 18/2048 nonzero weights
+[dfr] controlled_rho0.95_ds1_ts1_dfr_resnet50_2f7ad784: C=0.1 (half-B WGA 0.860); 62/2048 nonzero weights
+[dfr] controlled_rho0.95_ds2_ts2_dfr_resnet50_247afa97: C=0.03 (half-B WGA 0.900); 19/2048 nonzero weights
+[dfr] controlled_rho0.99_ds0_ts0_dfr_resnet50_09120280: C=0.1 (half-B WGA 0.860); 66/2048 nonzero weights
+[dfr] controlled_rho0.99_ds1_ts1_dfr_resnet50_6faf74b2: C=0.07 (half-B WGA 0.900); 47/2048 nonzero weights
+[dfr] controlled_rho0.99_ds2_ts2_dfr_resnet50_19ee387f: C=1.0 (half-B WGA 0.860); 146/2048 nonzero weights
+[dfr] controlled_rho0.9_ds0_ts0_dfr_resnet50_a35f1050: C=0.1 (half-B WGA 0.880); 56/2048 nonzero weights
+[dfr] controlled_rho0.9_ds1_ts1_dfr_resnet50_51998c43: C=0.1 (half-B WGA 0.880); 61/2048 nonzero weights
+[dfr] controlled_rho0.9_ds2_ts2_dfr_resnet50_511f085a: C=0.03 (half-B WGA 0.920); 25/2048 nonzero weights
