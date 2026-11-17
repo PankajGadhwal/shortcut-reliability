@@ -1,0 +1,13 @@
+split,group,observed,expected,match
+train,landbird/land,3498,3498,True
+train,landbird/water,184,184,True
+train,waterbird/land,56,56,True
+train,waterbird/water,1057,1057,True
+val,landbird/land,467,467,True
+val,landbird/water,466,466,True
+val,waterbird/land,133,133,True
+val,waterbird/water,133,133,True
+test,landbird/land,2255,2255,True
+test,landbird/water,2255,2255,True
+test,waterbird/land,642,642,True
+test,waterbird/water,642,642,True
