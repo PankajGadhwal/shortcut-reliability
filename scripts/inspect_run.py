@@ -1,12 +1,3 @@
-"""Inspect one run using training and validation data only (never test).
-
-Saves <run>/curves.png and prints timing plus a projection of what a full
-run and the main grid will cost on this machine.
-
-    python scripts/inspect_run.py runs/<run_name>
-    python scripts/inspect_run.py runs/<run_name> --full_steps 2000 --methods 4 --rhos 5
-"""
-
 import argparse
 import sys
 from pathlib import Path
@@ -34,20 +25,38 @@ def main(argv=None):
     log = pd.read_csv(run / "train_log.csv")
 
     # ---- curves (train and validation columns only) ----
-    fig, ax = plt.subplots(1, 2, figsize=(12, 3.8))
-    for col in log.columns:
-        if col.startswith(("train_", "val")) and col.endswith(("_acc", "_wga")) and "loss" not in col:
-            ax[0].plot(log["step"], log[col], marker=".", label=col)
-    ax[0].set_xlabel("step")
-    ax[0].set_ylim(0, 1.02)
-    ax[0].legend(fontsize=7)
-    ax[0].set_title(f"{run.name}\ntraining and validation (no test)", fontsize=8)
-    ax[1].plot(log["step"], log["train_loss"], marker=".")
-    ax[1].set_yscale("log")
-    ax[1].set_xlabel("step")
-    ax[1].set_title("training loss")
+    # One panel per role, explicit colours/line styles: the default colour cycle
+    # has 10 colours, so a single panel with 12 lines reuses colours.
+    panels = [
+        ("training set (eval mode)", [("train_acc", "accuracy", "C0", "-"),
+                                      ("train_wga", "worst-group acc", "C3", "-")]),
+        ("validation", [("val_bal_acc", "val_bal accuracy (S2)", "C0", "-"),
+                        ("val_bal_wga", "val_bal worst-group (S1)", "C3", "-"),
+                        ("val_bal_worst_class_acc", "val_bal worst-class", "C1", ":"),
+                        ("val_id_acc", "val_id accuracy (S4)", "C2", "--"),
+                        ("val_id_worst_class_acc", "val_id worst-class (S3)", "C4", "--"),
+                        ("val_acc", "val accuracy (S2)", "C0", "-"),
+                        ("val_wga", "val worst-group (S1)", "C3", "-")]),
+    ]
+    fig, ax = plt.subplots(1, 3, figsize=(15, 3.8))
+    for a, (title, series) in zip(ax[:2], panels):
+        for col, label, color, style in series:
+            if col in log.columns:
+                a.plot(log["step"], log[col], style, color=color, marker=".", ms=3, label=label)
+        a.set_xlabel("step")
+        a.set_ylim(0, 1.02)
+        a.grid(alpha=0.3)
+        a.legend(fontsize=7, loc="lower right")
+        a.set_title(title, fontsize=9)
+    ax[2].plot(log["step"], log["train_loss"], marker=".", color="k")
+    ax[2].set_yscale("log")
+    ax[2].set_xlabel("step")
+    ax[2].grid(alpha=0.3)
+    ax[2].set_title("training loss (mean since previous evaluation)", fontsize=9)
+    fig.suptitle(f"{run.name}  (no test data)", fontsize=9)
     fig.tight_layout()
-    fig.savefig(run / "curves.png", dpi=120)
+    fig.savefig(run / "curves.png", dpi=130)
+    plt.close(fig)
     print(f"saved {run / 'curves.png'}")
 
     last = log.iloc[-1]
